@@ -1,0 +1,8 @@
+variant,mean_gap_2025_26,oos_rmse_1990_2019
+"M1 (real-time, headline PCE) — MAIN",-31.57919076577196,9.257310762827156
+Core PCE instead of headline (professor's column),-31.076271532208498,9.934272311704127
+GDP q/q SAAR instead of y/y,-33.10662088941784,9.39102670917495
+Ex-post revised U3/PCE (same lags),-31.483052979736353,9.257310762827156
+LOOK-AHEAD: current-vintage GDP of the SAME quarter (forbidden by brief; shown for contrast),-32.84559722559373,8.778846516166661
+Rolling 60-month window,-13.429811587583641,6.8260887004773965
+Rolling 120-month window,-24.69882920141647,7.4365837672525

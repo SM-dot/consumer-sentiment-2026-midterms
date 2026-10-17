@@ -1,0 +1,10 @@
+# environments / dependencies (rebuild with requirements.txt and npm install)
+.venv/
+presentation/node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+# too large for GitHub (>100 MB); rebuilt by src/06_build_corpus.py from data/raw
+data/processed/corpus.csv
+# backups
+*.bak

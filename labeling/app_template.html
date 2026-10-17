@@ -1,0 +1,209 @@
+<title>Headline Labeling Desk</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single annotation card, one item at a time; question rows below the text, progress strip on top. */
+:root{
+  --bg:#f3f5f4; --panel:#ffffff; --ink:#18201d; --ink2:#4c5a55; --ink3:#7d8a85; --rule:#dbe1de;
+  --accent:#2f6f5e; --accent-ink:#ffffff; --chip:#eef2f0; --sel:#2f6f5e; --neg:#b8453d; --pos:#2f7d4f; --warn:#a86a00;
+  --f-body:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif; --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121715; --panel:#1a211e; --ink:#e8eeeb; --ink2:#b3c0bb; --ink3:#86948f; --rule:#2c3632;
+  --accent:#5fb39b; --accent-ink:#0f1513; --chip:#232c28; --sel:#5fb39b; --neg:#e07a72; --pos:#5cc08a; --warn:#e0a640; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121715; --panel:#1a211e; --ink:#e8eeeb; --ink2:#b3c0bb; --ink3:#86948f; --rule:#2c3632;
+  --accent:#5fb39b; --accent-ink:#0f1513; --chip:#232c28; --sel:#5fb39b; --neg:#e07a72; --pos:#5cc08a; --warn:#e0a640; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.45;margin:0}
+.wrap{max-width:860px;margin:0 auto;padding-block:20px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:14px}
+header{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;justify-content:space-between}
+h1{font-size:22px;margin:0}
+.who{font-size:14px;color:var(--ink2)}
+.panel{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:18px;display:grid;gap:14px;min-width:0}
+.bar{height:8px;background:var(--chip);border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent);width:0%}
+.meta{display:flex;flex-wrap:wrap;gap:6px 14px;font-family:var(--f-mono);font-size:12.5px;color:var(--ink2);align-items:center}
+.save{margin-left:auto}
+.save.err{color:var(--neg)}
+.item-text{font-size:21px;line-height:1.4;overflow-wrap:anywhere}
+.src{font-family:var(--f-mono);font-size:12.5px;color:var(--ink3)}
+.q{display:grid;gap:6px}
+.q .lab{font-weight:700;font-size:14.5px}
+.q .help{font-size:13px;color:var(--ink2)}
+.opts{display:flex;flex-wrap:wrap;gap:6px}
+.opts button{font:inherit;font-size:14px;border:1px solid var(--rule);background:var(--chip);color:var(--ink);padding:7px 12px;border-radius:8px;cursor:pointer;min-height:38px}
+.opts button:hover{border-color:var(--ink3)}
+.opts button[aria-pressed="true"]{background:var(--sel);color:var(--accent-ink);border-color:var(--sel)}
+button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.opts.big{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.opts.big button{font-size:17px;min-height:56px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:8px}
+.opts.big button.negative[aria-pressed="true"]{background:var(--neg);border-color:var(--neg);color:var(--accent-ink)}
+.opts.big button.positive[aria-pressed="true"]{background:var(--pos);border-color:var(--pos);color:var(--accent-ink)}
+.opts.big button.skip{font-weight:400;color:var(--ink2)}
+.opts.big .kbd{font-weight:400}
+.nav{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.btn{font:inherit;font-size:15px;border:1px solid var(--rule);background:var(--panel);color:var(--ink);padding:9px 16px;border-radius:8px;cursor:pointer}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:700}
+.btn:disabled{opacity:.45;cursor:default}
+.spacer{flex:1}
+textarea{font:inherit;font-size:14px;width:100%;min-height:40px;border:1px solid var(--rule);border-radius:8px;background:var(--panel);color:var(--ink);padding:8px}
+details{font-size:14px}
+details summary{cursor:pointer;font-weight:700}
+.guide{display:grid;gap:8px;margin-top:10px;color:var(--ink2)}
+.guide b{color:var(--ink)}
+.pick{display:grid;gap:10px}
+.pick .opts button{font-size:16px;padding:12px 22px}
+.note{font-size:13.5px;color:var(--ink2);margin:0}
+.warn{color:var(--warn)}
+.done{font-size:18px}
+.kbd{font-family:var(--f-mono);font-size:12px;border:1px solid var(--rule);border-radius:4px;padding:0 4px}
+.tabs{display:flex;gap:6px}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Headline Labeling Desk</h1>
+    <div class="who" id="who">Loading…</div>
+  </header>
+  <section id="setup" hidden></section>
+
+  <section class="panel" id="work" hidden>
+    <div class="tabs" role="group" aria-label="Set">
+      <button class="btn" id="setFocus" type="button">Quick 100 (start here)</button>
+      <button class="btn" id="setPractice" type="button">Practice (20)</button>
+      <button class="btn" id="setMain" type="button">All 300 (optional)</button>
+      <button class="btn" id="setRecheck" type="button">Re-check (30)</button>
+    </div>
+    <div class="bar" aria-hidden="true"><i id="barFill"></i></div>
+    <div class="meta"><span id="pos"></span><span id="doneCount"></span><span class="save" id="save"></span></div>
+    <div class="src" id="src"></div>
+    <div class="item-text" id="text"></div>
+    <div class="q"><div class="lab">Is this good or bad news for ordinary US households?</div></div>
+    <div id="questions" style="display:grid;gap:14px"></div>
+    <details><summary class="note">Add a note (optional)</summary><textarea id="notes" aria-label="Notes"></textarea></details>
+    <div class="nav">
+      <button class="btn" id="prev" type="button">← Previous</button>
+      <button class="btn" id="jump" type="button">First unfinished</button>
+      <span class="spacer"></span>
+      <span class="note" id="need"></span>
+      <button class="btn" id="next" type="button">Next →</button>
+    </div>
+    <p class="note">One tap saves and moves to the next item. Keyboard: <span class="kbd">0</span> not US economy · <span class="kbd">1</span> negative · <span class="kbd">2</span> neutral · <span class="kbd">3</span> positive · <span class="kbd">←</span> back to fix a mistake.</p>
+  </section>
+
+  <section class="panel" id="finished" hidden>
+    <div class="done" id="finishedText"></div>
+  </section>
+
+  <section class="panel">
+    <details id="guideBox">
+      <summary>How to label (1 minute)</summary>
+      <div class="guide">
+        <div><b>Ask one question:</b> is this good or bad news for <b>ordinary US households</b>? Judge the text as written; your politics don't matter.</div>
+        <div><b>Positive:</b> “Inflation cools to 2.4%”, “Economy adds 300,000 jobs”, “Gas prices fall”. <b>Negative:</b> “Layoffs surge”, “Grocery prices skyrocket”, “Mortgage rates climb”. <b>Neutral:</b> “Fed holds rates steady”, “What the CPI report means for you”, mixed or unclear.</div>
+        <div><b>Not about the US economy:</b> another country's economy, ads, sports, spam, unrelated topics.</div>
+        <div><b>Order:</b> Quick 100 (about 10 minutes) → optionally, later, the Re-check 30, which repeats some items in a new order to measure consistency. Don't look back at earlier answers.</div>
+      </div>
+    </details>
+  </section>
+</div>
+
+<script>
+const ITEMS = /*__ITEMS__*/null;
+const CHOICES = [["0","Not about the US economy","0"],["negative","Negative","1"],["neutral","Neutral","2"],["positive","Positive","3"]];
+
+let state = {annotator:"A", practice:{}, main:{}, recheck:{}};
+let set = "focus", idx = 0, order = {practice:[], main:[], recheck:[], focus:[]};
+let db=null, ref=null, uid=null, saving=false, dirty=false, local=false;
+const $ = id => document.getElementById(id);
+
+function seeded(seed){let s=seed;return()=>{s=(s*1664525+1013904223)%4294967296;return s/4294967296}}
+function shuffle(arr, seed){const r=seeded(seed);const a=arr.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function makeOrder(){const byId=Object.fromEntries(ITEMS.main.map(x=>[x.id,x]));order.practice=shuffle(ITEMS.practice,101);order.main=shuffle(ITEMS.main,108);
+  order.focus=(ITEMS.focus||[]).map(id=>byId[id]).filter(Boolean);order.recheck=shuffle(order.focus,4242).slice(0,30)}
+function mainDone(){return order.focus.length&&order.focus.every(x=>complete(state.main[x.id]))}
+function complete(lbl){return !!lbl&&(lbl.relevant==="0"||(lbl.relevant==="1"&&!!lbl.tone))}
+function choiceOf(lbl){return !lbl?null:lbl.relevant==="0"?"0":lbl.tone||null}
+function list(){return order[set]}
+function cur(){return list()[idx]}
+function labels(){const k=set==="focus"?"main":set;return state[k]||(state[k]={})}
+
+function render(){
+  $("setup").hidden=true;$("work").hidden=false;
+  $("who").textContent=local?"Saving on this device only":"Answers save automatically";
+  $("setPractice").className="btn"+(set==="practice"?" primary":"");$("setMain").className="btn"+(set==="main"?" primary":"");
+  $("setFocus").className="btn"+(set==="focus"?" primary":"");
+  $("setRecheck").className="btn"+(set==="recheck"?" primary":"");$("setRecheck").disabled=!mainDone();
+  $("setRecheck").title=mainDone()?"":"Unlocks after the Quick 100";
+  const L=list(), it=cur(), lbl=labels()[it.id]||{};
+  const nDone=L.filter(x=>complete(labels()[x.id])).length;
+  $("barFill").style.width=(100*nDone/L.length)+"%";
+  $("pos").textContent=`Item ${idx+1} of ${L.length}`;$("doneCount").textContent=`${nDone} complete`;
+  $("src").textContent=`${it.src} · ${it.date}`;$("text").textContent=it.text;
+  const q=$("questions");q.innerHTML="";
+  const g=document.createElement("div");g.className="opts big";g.setAttribute("role","group");g.setAttribute("aria-label","Your answer");
+  const c=choiceOf(lbl);
+  for(const [v,t,key] of CHOICES){const b=document.createElement("button");b.type="button";b.setAttribute("aria-pressed",String(c===v));
+    b.className=v==="0"?"skip":v;b.innerHTML="";const k=document.createElement("span");k.className="kbd";k.textContent=key;b.append(k," ",t);
+    b.onclick=()=>choose(v);g.appendChild(b)}
+  q.appendChild(g);
+  $("notes").value=lbl.notes||"";
+  const ok=complete(lbl);
+  $("need").textContent=ok?"":"Tap one answer";
+  $("next").disabled=!ok;$("prev").disabled=idx===0;
+  if(nDone===L.length&&set==="recheck"){$("finished").hidden=false;$("finishedText").textContent="Re-check done. Everything is saved — tell Claude “labeling done”."}
+  else if(nDone===L.length&&set==="focus"){$("finished").hidden=false;$("finishedText").textContent="Quick 100 done and saved — thank you! Optional last step: the Re-check (30) tab later (ideally tomorrow), without looking back. Then tell Claude “labeling done”."}
+  else if(nDone===L.length&&set==="main"){$("finished").hidden=false;$("finishedText").textContent=`All ${L.length} main items are saved.`}
+  else if(nDone===L.length&&set==="practice"){$("finished").hidden=false;$("finishedText").textContent="Practice done. Now switch to the Main set (300)."}
+  else $("finished").hidden=true;
+}
+function choose(v){
+  const id=cur().id;const lbl=Object.assign({},labels()[id]||{});
+  if(v==="0"){lbl.relevant="0";delete lbl.tone}else{lbl.relevant="1";lbl.tone=v}
+  lbl.t=new Date().toISOString();labels()[id]=lbl;queueSave();
+  if(idx<list().length-1)idx++;else jumpUnfinished();
+  render();
+}
+$("notes").addEventListener("change",()=>{const id=cur().id;const lbl=Object.assign({},labels()[id]||{});lbl.notes=$("notes").value.slice(0,500);labels()[id]=lbl;queueSave()});
+$("next").onclick=()=>{if(!complete(labels()[cur().id]))return;if(idx<list().length-1)idx++;else jumpUnfinished();render();window.scrollTo({top:0,behavior:"smooth"})};
+$("prev").onclick=()=>{if(idx>0){idx--;render()}};
+$("jump").onclick=()=>{jumpUnfinished();render()};
+$("setPractice").onclick=()=>{set="practice";idx=0;jumpUnfinished();render()};
+$("setMain").onclick=()=>{set="main";idx=0;jumpUnfinished();render()};
+$("setFocus").onclick=()=>{set="focus";idx=0;jumpUnfinished();render()};
+$("setRecheck").onclick=()=>{if(!mainDone())return;set="recheck";idx=0;jumpUnfinished();render()};
+function jumpUnfinished(){const L=list();const i=L.findIndex(x=>!complete(labels()[x.id]));idx=i<0?L.length-1:i}
+document.addEventListener("keydown",e=>{if(e.target.tagName==="TEXTAREA"||$("work").hidden)return;
+  const m={"0":"0","1":"negative","2":"neutral","3":"positive"}[e.key];if(m){choose(m);return}
+  if(e.key==="ArrowRight"&&!$("next").disabled)$("next").click();if(e.key==="ArrowLeft")$("prev").click()});
+
+function saveLocal(){try{localStorage.setItem("labels_backup",JSON.stringify(state))}catch(e){}}
+function queueSave(){dirty=true;saveLocal();$("save").className="save";$("save").textContent="Saving…";if(!saving)flush()}
+async function flush(){
+  if(!ref){$("save").textContent=local?"Saved on this device":"";return}
+  saving=true;
+  while(dirty){dirty=false;
+    try{await ref.set({annotator:"A",practice:state.practice,main:state.main,recheck:state.recheck||{},updated:new Date().toISOString()});$("save").className="save";$("save").textContent="Saved ✓"}
+    catch(e){$("save").className="save err";$("save").textContent=e&&e.code==="invalid_argument"?"Can't save: ask the owner to invite you as an Editor":"Not saved yet — will retry on your next answer";
+      if(e&&e.code==="unavailable"){await new Promise(r=>setTimeout(r,1500+Math.random()*1500));dirty=true}}
+  }
+  saving=false;
+}
+
+(async function boot(){
+  try{const b=JSON.parse(localStorage.getItem("labels_backup")||"null");if(b&&b.main)state=Object.assign({annotator:"A",practice:{},main:{},recheck:{}},b)}catch(e){}
+  const user=await window.claude?.use?.("user").catch(()=>null);
+  db=await window.claude?.use?.("db").catch(()=>null);
+  uid=user?await user.id():null;
+  if(db&&uid){
+    ref=db.doc("labels/"+uid);
+    try{const s=await ref.get();if(s.exists){const d=s.data();state={annotator:"A",practice:Object.assign({},d.practice||{}),main:Object.assign({},d.main||{}),recheck:Object.assign({},d.recheck||{})}}}
+    catch(e){}
+  }else{local=true}
+  makeOrder();jumpUnfinished();render();
+})();
+makeOrder();render();
+</script>

@@ -1,0 +1,5 @@
+test,n,tone_flip_rate,mean_abs_score_change,mean_score_change_D_to_R,mean_score_change_R_to_D,attribution_flip_rate,finbert_flip_rate,mean_signed_score_change
+party/name swap,367,0.07084468664850137,0.08205728977918625,-0.025292130187153816,0.04337797686457634,0.07356948228882834,0.05722070844686648,
+source label 'Fox News:' vs none,400,0.095,0.10476481169462204,,,0.03,0.0575,-0.0429002083837986
+source label 'CNN:' vs none,400,0.06,0.07561390846967697,,,0.0325,0.0575,0.010320144705474377
+Fox vs CNN label (direct),400,0.0625,,,,,,-0.05322035402059555

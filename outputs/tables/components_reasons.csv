@@ -1,0 +1,19 @@
+measure,var,2019,2022 (inflation peak yr),2025–26,change_vs_2019
+Personal finances vs a year ago (relative score),pago_r_all,131.75,85.16666666666667,72.85,-58.900000000000006
+"Expected personal finances, 1 yr",pexp_r_all,132.0,104.0,87.8,-44.2
+"Business conditions, next 12 months",bus12_r_all,114.08333333333333,52.666666666666664,58.55,-55.53333333333333
+"Business conditions, next 5 years",bus5_r_all,101.5,67.58333333333333,66.6,-34.900000000000006
+Buying conditions for large durables,dur_r_all,155.91666666666666,75.66666666666667,74.85,-81.06666666666666
+Buying conditions for vehicles,veh_r_all,130.16666666666666,46.25,49.45,-80.71666666666665
+Buying conditions for houses,hom_r_all,134.58333333333334,51.416666666666664,37.8,-96.78333333333335
+Expected real income (income vs prices),rinc_r_all,91.5,66.91666666666667,46.25,-45.25
+Durables: bad time — prices too high (%),durrn_hp_all,11.25,42.416666666666664,33.35,22.1
+Durables: bad time — interest rates high (%),durrn_hr_all,2.5,4.666666666666667,3.6,1.1
+Homes: bad time — prices too high (%),homrn_hp_all,24.333333333333332,62.5,43.9,19.566666666666666
+Homes: bad time — interest rates high (%),homrn_hr_all,8.333333333333334,37.083333333333336,44.05,35.71666666666666
+Worse off — higher prices (%),pagorn_hp_all,7.333333333333333,39.833333333333336,44.75,37.416666666666664
+Worse off — lower income (%),pagorn_ly_all,16.25,19.333333333333332,20.25,4.0
+"Expected inflation, next 12 months (median %)",px1_med_all,2.608333333333334,5.016666666666667,4.574999999999999,1.9666666666666655
+"Expected inflation, 5–10 yrs (median %)",px5_med_all,2.425,2.9666666666666663,3.5799999999999996,1.1549999999999998
+Government economic policy (relative score),govt_r_all,104.16666666666667,67.08333333333333,52.1,-52.06666666666667
+Heard unfavorable business news (%),news_u_all,68.5,105.33333333333333,105.2,36.7

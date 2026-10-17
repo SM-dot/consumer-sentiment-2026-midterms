@@ -1,0 +1,81 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<TITLE>SDA Classic Interface</TITLE>
+<style type="text/css">
+body {
+color: black; background: white;
+margin-left: 1%; margin-right: 1%;
+font-family: arial, helvetica, verdana, geneva, sans-serif;
+}
+
+A.sdahelp:link {color: blue;}
+A.sdahelp:visited {color: blue;}
+
+p.minimum {margin-top: .5em; margin-bottom: .5em;}
+
+div.optiongroup {
+margin-left: 3%;
+}
+
+div.formheading {
+background-color: #e4ecf6;
+padding: 7px;
+border: none 1px #e4ecf6;
+}
+span.formsectionheading {
+font-size: 125%;
+font-weight: bold;
+}
+</style>
+
+<script src="https://sda.umsurvey.org/helpfiles/jscript/sdautils.js"></script>
+</HEAD>
+<BODY bgcolor= "#FFFFFF">
+<FORM METHOD="POST" ACTION="/sda-public/cgi-bin/hsda2"><INPUT TYPE= "hidden" NAME= "setupfile" VALUE= "harcsda">
+<INPUT TYPE= "hidden" NAME= "datasetname" VALUE= "sca">
+<INPUT TYPE= "hidden" NAME= "userstudypath" VALUE= "">
+<H2>Surveys of Consumers SDA Archive</H2>
+This is a demonstration of SDA (Survey Documentation and Analysis),
+a set of programs developed and maintained by the Computer-assisted
+Survey Methods program at UC Berkeley.
+<strong> Note that you can include HTML formatting tags in the
+HEADER and FOOTER text. </strong>
+<BR>
+<STRONG>Study: Surveys of Consumers</STRONG>
+<INPUT TYPE= "hidden" NAME= "study" VALUE= "0">
+<P>
+<STRONG>Select an action:</STRONG><BR>
+<TABLE BORDER=0 WIDTH=100%%>
+<TR>
+<TD width="45%%" VALIGN=top><INPUT TYPE= "radio" NAME= "action" VALUE= "codebook0" CHECKED> Browse codebook in this window<BR>
+<INPUT TYPE= "radio" NAME= "action" VALUE= "tables"> Frequencies or crosstabulation<BR>
+<INPUT TYPE= "radio" NAME= "action" VALUE= "means"> Comparison of means<BR>
+<INPUT TYPE= "radio" NAME= "action" VALUE= "correl"> Correlation matrix<BR>
+<INPUT TYPE= "radio" NAME= "action" VALUE= "corrtab"> Comparison of correlations<BR>
+<INPUT TYPE= "radio" NAME= "action" VALUE= "regress"> Multiple regression<BR>
+<INPUT TYPE= "radio" NAME= "action" VALUE= "logit"> Logit/Probit regression<BR>
+<INPUT TYPE= "radio" NAME= "action" VALUE= "listcase"> List values of individual cases<BR>
+</TD>
+<TD width="55%%" VALIGN=top><P>
+<INPUT TYPE= "radio" NAME= "action" VALUE= "subset"> Download a customized subset<br>
+</TD>
+</TR>
+</TABLE>
+<P>
+<input type = "submit" value = "Start">
+<P>
+<strong>
+Hint for running analysis programs: </strong>
+<br>
+Click the "Extra Codebook Window" button to open
+an extra window for the codebook.  Then you can
+easily find the names of variables to enter
+into the analysis option screens.
+
+<BR>
+</FORM>
+
+</BODY>
+</HTML>
+

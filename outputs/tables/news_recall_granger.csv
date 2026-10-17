@@ -1,0 +1,2 @@
+lag_BIC,recall->sentiment_F,recall->sentiment_p,sentiment->recall_F,sentiment->recall_p,n
+2,22.793391962278935,2.9770087384445105e-10,10.24167321106134,4.2607839468083236e-05,582

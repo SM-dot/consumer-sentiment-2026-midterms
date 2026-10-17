@@ -1,0 +1,4041 @@
+month,query,tag,hits
+2010-01,inflation,story,3
+2010-01,inflation,comment,71
+2010-01,prices,story,9
+2010-01,prices,comment,281
+2010-01,cost of living,story,1
+2010-01,cost of living,comment,15
+2010-01,layoffs,story,0
+2010-01,layoffs,comment,4
+2010-01,hiring,story,30
+2010-01,hiring,comment,131
+2010-01,recession,story,10
+2010-01,recession,comment,30
+2010-01,economy,story,26
+2010-01,economy,comment,267
+2010-01,tariffs,story,0
+2010-01,tariffs,comment,14
+2010-01,mortgage rates,story,0
+2010-01,mortgage rates,comment,0
+2010-01,jobs report,story,0
+2010-01,jobs report,comment,0
+2010-02,inflation,story,3
+2010-02,inflation,comment,98
+2010-02,prices,story,17
+2010-02,prices,comment,234
+2010-02,cost of living,story,0
+2010-02,cost of living,comment,27
+2010-02,layoffs,story,6
+2010-02,layoffs,comment,21
+2010-02,hiring,story,28
+2010-02,hiring,comment,260
+2010-02,recession,story,10
+2010-02,recession,comment,46
+2010-02,economy,story,30
+2010-02,economy,comment,261
+2010-02,tariffs,story,0
+2010-02,tariffs,comment,5
+2010-02,mortgage rates,story,1
+2010-02,mortgage rates,comment,1
+2010-02,jobs report,story,0
+2010-02,jobs report,comment,0
+2010-03,inflation,story,2
+2010-03,inflation,comment,105
+2010-03,prices,story,15
+2010-03,prices,comment,193
+2010-03,cost of living,story,3
+2010-03,cost of living,comment,34
+2010-03,layoffs,story,2
+2010-03,layoffs,comment,9
+2010-03,hiring,story,32
+2010-03,hiring,comment,279
+2010-03,recession,story,2
+2010-03,recession,comment,59
+2010-03,economy,story,36
+2010-03,economy,comment,281
+2010-03,tariffs,story,0
+2010-03,tariffs,comment,9
+2010-03,mortgage rates,story,0
+2010-03,mortgage rates,comment,0
+2010-03,jobs report,story,0
+2010-03,jobs report,comment,0
+2010-04,inflation,story,3
+2010-04,inflation,comment,104
+2010-04,prices,story,12
+2010-04,prices,comment,284
+2010-04,cost of living,story,0
+2010-04,cost of living,comment,32
+2010-04,layoffs,story,3
+2010-04,layoffs,comment,8
+2010-04,hiring,story,48
+2010-04,hiring,comment,304
+2010-04,recession,story,5
+2010-04,recession,comment,47
+2010-04,economy,story,40
+2010-04,economy,comment,194
+2010-04,tariffs,story,0
+2010-04,tariffs,comment,5
+2010-04,mortgage rates,story,0
+2010-04,mortgage rates,comment,0
+2010-04,jobs report,story,0
+2010-04,jobs report,comment,0
+2010-05,inflation,story,0
+2010-05,inflation,comment,61
+2010-05,prices,story,12
+2010-05,prices,comment,326
+2010-05,cost of living,story,0
+2010-05,cost of living,comment,35
+2010-05,layoffs,story,1
+2010-05,layoffs,comment,10
+2010-05,hiring,story,37
+2010-05,hiring,comment,285
+2010-05,recession,story,4
+2010-05,recession,comment,46
+2010-05,economy,story,31
+2010-05,economy,comment,243
+2010-05,tariffs,story,0
+2010-05,tariffs,comment,6
+2010-05,mortgage rates,story,0
+2010-05,mortgage rates,comment,2
+2010-05,jobs report,story,0
+2010-05,jobs report,comment,0
+2010-06,inflation,story,5
+2010-06,inflation,comment,92
+2010-06,prices,story,10
+2010-06,prices,comment,310
+2010-06,cost of living,story,1
+2010-06,cost of living,comment,34
+2010-06,layoffs,story,1
+2010-06,layoffs,comment,14
+2010-06,hiring,story,42
+2010-06,hiring,comment,379
+2010-06,recession,story,8
+2010-06,recession,comment,33
+2010-06,economy,story,26
+2010-06,economy,comment,294
+2010-06,tariffs,story,2
+2010-06,tariffs,comment,2
+2010-06,mortgage rates,story,0
+2010-06,mortgage rates,comment,0
+2010-06,jobs report,story,0
+2010-06,jobs report,comment,0
+2010-07,inflation,story,4
+2010-07,inflation,comment,97
+2010-07,prices,story,9
+2010-07,prices,comment,272
+2010-07,cost of living,story,0
+2010-07,cost of living,comment,39
+2010-07,layoffs,story,2
+2010-07,layoffs,comment,7
+2010-07,hiring,story,45
+2010-07,hiring,comment,341
+2010-07,recession,story,10
+2010-07,recession,comment,40
+2010-07,economy,story,33
+2010-07,economy,comment,275
+2010-07,tariffs,story,1
+2010-07,tariffs,comment,15
+2010-07,mortgage rates,story,0
+2010-07,mortgage rates,comment,2
+2010-07,jobs report,story,0
+2010-07,jobs report,comment,0
+2010-08,inflation,story,1
+2010-08,inflation,comment,199
+2010-08,prices,story,16
+2010-08,prices,comment,406
+2010-08,cost of living,story,5
+2010-08,cost of living,comment,88
+2010-08,layoffs,story,0
+2010-08,layoffs,comment,16
+2010-08,hiring,story,55
+2010-08,hiring,comment,402
+2010-08,recession,story,8
+2010-08,recession,comment,82
+2010-08,economy,story,29
+2010-08,economy,comment,369
+2010-08,tariffs,story,0
+2010-08,tariffs,comment,6
+2010-08,mortgage rates,story,0
+2010-08,mortgage rates,comment,0
+2010-08,jobs report,story,0
+2010-08,jobs report,comment,0
+2010-09,inflation,story,5
+2010-09,inflation,comment,122
+2010-09,prices,story,20
+2010-09,prices,comment,346
+2010-09,cost of living,story,2
+2010-09,cost of living,comment,39
+2010-09,layoffs,story,2
+2010-09,layoffs,comment,35
+2010-09,hiring,story,42
+2010-09,hiring,comment,385
+2010-09,recession,story,14
+2010-09,recession,comment,71
+2010-09,economy,story,27
+2010-09,economy,comment,353
+2010-09,tariffs,story,0
+2010-09,tariffs,comment,8
+2010-09,mortgage rates,story,0
+2010-09,mortgage rates,comment,0
+2010-09,jobs report,story,0
+2010-09,jobs report,comment,0
+2010-10,inflation,story,7
+2010-10,inflation,comment,173
+2010-10,prices,story,19
+2010-10,prices,comment,429
+2010-10,cost of living,story,2
+2010-10,cost of living,comment,46
+2010-10,layoffs,story,1
+2010-10,layoffs,comment,16
+2010-10,hiring,story,54
+2010-10,hiring,comment,407
+2010-10,recession,story,6
+2010-10,recession,comment,49
+2010-10,economy,story,36
+2010-10,economy,comment,345
+2010-10,tariffs,story,0
+2010-10,tariffs,comment,14
+2010-10,mortgage rates,story,0
+2010-10,mortgage rates,comment,4
+2010-10,jobs report,story,0
+2010-10,jobs report,comment,0
+2010-11,inflation,story,8
+2010-11,inflation,comment,90
+2010-11,prices,story,19
+2010-11,prices,comment,278
+2010-11,cost of living,story,1
+2010-11,cost of living,comment,33
+2010-11,layoffs,story,1
+2010-11,layoffs,comment,14
+2010-11,hiring,story,45
+2010-11,hiring,comment,400
+2010-11,recession,story,7
+2010-11,recession,comment,43
+2010-11,economy,story,33
+2010-11,economy,comment,309
+2010-11,tariffs,story,0
+2010-11,tariffs,comment,7
+2010-11,mortgage rates,story,1
+2010-11,mortgage rates,comment,0
+2010-11,jobs report,story,0
+2010-11,jobs report,comment,0
+2010-12,inflation,story,5
+2010-12,inflation,comment,97
+2010-12,prices,story,12
+2010-12,prices,comment,266
+2010-12,cost of living,story,0
+2010-12,cost of living,comment,27
+2010-12,layoffs,story,6
+2010-12,layoffs,comment,17
+2010-12,hiring,story,60
+2010-12,hiring,comment,342
+2010-12,recession,story,10
+2010-12,recession,comment,36
+2010-12,economy,story,38
+2010-12,economy,comment,260
+2010-12,tariffs,story,0
+2010-12,tariffs,comment,7
+2010-12,mortgage rates,story,0
+2010-12,mortgage rates,comment,0
+2010-12,jobs report,story,1
+2010-12,jobs report,comment,0
+2011-01,inflation,story,9
+2011-01,inflation,comment,145
+2011-01,prices,story,26
+2011-01,prices,comment,387
+2011-01,cost of living,story,4
+2011-01,cost of living,comment,26
+2011-01,layoffs,story,6
+2011-01,layoffs,comment,21
+2011-01,hiring,story,74
+2011-01,hiring,comment,510
+2011-01,recession,story,5
+2011-01,recession,comment,47
+2011-01,economy,story,33
+2011-01,economy,comment,278
+2011-01,tariffs,story,0
+2011-01,tariffs,comment,7
+2011-01,mortgage rates,story,0
+2011-01,mortgage rates,comment,0
+2011-01,jobs report,story,1
+2011-01,jobs report,comment,0
+2011-02,inflation,story,4
+2011-02,inflation,comment,117
+2011-02,prices,story,24
+2011-02,prices,comment,459
+2011-02,cost of living,story,1
+2011-02,cost of living,comment,63
+2011-02,layoffs,story,4
+2011-02,layoffs,comment,18
+2011-02,hiring,story,56
+2011-02,hiring,comment,396
+2011-02,recession,story,1
+2011-02,recession,comment,45
+2011-02,economy,story,37
+2011-02,economy,comment,326
+2011-02,tariffs,story,0
+2011-02,tariffs,comment,2
+2011-02,mortgage rates,story,0
+2011-02,mortgage rates,comment,1
+2011-02,jobs report,story,1
+2011-02,jobs report,comment,0
+2011-03,inflation,story,2
+2011-03,inflation,comment,93
+2011-03,prices,story,32
+2011-03,prices,comment,424
+2011-03,cost of living,story,0
+2011-03,cost of living,comment,26
+2011-03,layoffs,story,5
+2011-03,layoffs,comment,21
+2011-03,hiring,story,79
+2011-03,hiring,comment,555
+2011-03,recession,story,4
+2011-03,recession,comment,42
+2011-03,economy,story,41
+2011-03,economy,comment,331
+2011-03,tariffs,story,0
+2011-03,tariffs,comment,3
+2011-03,mortgage rates,story,0
+2011-03,mortgage rates,comment,1
+2011-03,jobs report,story,1
+2011-03,jobs report,comment,0
+2011-04,inflation,story,10
+2011-04,inflation,comment,139
+2011-04,prices,story,28
+2011-04,prices,comment,363
+2011-04,cost of living,story,3
+2011-04,cost of living,comment,77
+2011-04,layoffs,story,3
+2011-04,layoffs,comment,15
+2011-04,hiring,story,70
+2011-04,hiring,comment,425
+2011-04,recession,story,6
+2011-04,recession,comment,35
+2011-04,economy,story,51
+2011-04,economy,comment,310
+2011-04,tariffs,story,0
+2011-04,tariffs,comment,5
+2011-04,mortgage rates,story,0
+2011-04,mortgage rates,comment,0
+2011-04,jobs report,story,0
+2011-04,jobs report,comment,0
+2011-05,inflation,story,2
+2011-05,inflation,comment,130
+2011-05,prices,story,30
+2011-05,prices,comment,309
+2011-05,cost of living,story,1
+2011-05,cost of living,comment,42
+2011-05,layoffs,story,5
+2011-05,layoffs,comment,8
+2011-05,hiring,story,76
+2011-05,hiring,comment,437
+2011-05,recession,story,7
+2011-05,recession,comment,38
+2011-05,economy,story,51
+2011-05,economy,comment,266
+2011-05,tariffs,story,0
+2011-05,tariffs,comment,7
+2011-05,mortgage rates,story,0
+2011-05,mortgage rates,comment,3
+2011-05,jobs report,story,0
+2011-05,jobs report,comment,0
+2011-06,inflation,story,2
+2011-06,inflation,comment,138
+2011-06,prices,story,32
+2011-06,prices,comment,383
+2011-06,cost of living,story,2
+2011-06,cost of living,comment,41
+2011-06,layoffs,story,4
+2011-06,layoffs,comment,12
+2011-06,hiring,story,51
+2011-06,hiring,comment,376
+2011-06,recession,story,4
+2011-06,recession,comment,35
+2011-06,economy,story,42
+2011-06,economy,comment,381
+2011-06,tariffs,story,0
+2011-06,tariffs,comment,5
+2011-06,mortgage rates,story,0
+2011-06,mortgage rates,comment,1
+2011-06,jobs report,story,0
+2011-06,jobs report,comment,0
+2011-07,inflation,story,7
+2011-07,inflation,comment,95
+2011-07,prices,story,30
+2011-07,prices,comment,343
+2011-07,cost of living,story,2
+2011-07,cost of living,comment,48
+2011-07,layoffs,story,7
+2011-07,layoffs,comment,12
+2011-07,hiring,story,48
+2011-07,hiring,comment,407
+2011-07,recession,story,11
+2011-07,recession,comment,55
+2011-07,economy,story,37
+2011-07,economy,comment,390
+2011-07,tariffs,story,1
+2011-07,tariffs,comment,14
+2011-07,mortgage rates,story,0
+2011-07,mortgage rates,comment,1
+2011-07,jobs report,story,0
+2011-07,jobs report,comment,0
+2011-08,inflation,story,6
+2011-08,inflation,comment,186
+2011-08,prices,story,14
+2011-08,prices,comment,452
+2011-08,cost of living,story,1
+2011-08,cost of living,comment,24
+2011-08,layoffs,story,3
+2011-08,layoffs,comment,14
+2011-08,hiring,story,52
+2011-08,hiring,comment,423
+2011-08,recession,story,26
+2011-08,recession,comment,83
+2011-08,economy,story,86
+2011-08,economy,comment,554
+2011-08,tariffs,story,3
+2011-08,tariffs,comment,6
+2011-08,mortgage rates,story,0
+2011-08,mortgage rates,comment,3
+2011-08,jobs report,story,0
+2011-08,jobs report,comment,0
+2011-09,inflation,story,1
+2011-09,inflation,comment,134
+2011-09,prices,story,22
+2011-09,prices,comment,451
+2011-09,cost of living,story,1
+2011-09,cost of living,comment,52
+2011-09,layoffs,story,5
+2011-09,layoffs,comment,21
+2011-09,hiring,story,63
+2011-09,hiring,comment,408
+2011-09,recession,story,21
+2011-09,recession,comment,64
+2011-09,economy,story,66
+2011-09,economy,comment,428
+2011-09,tariffs,story,0
+2011-09,tariffs,comment,3
+2011-09,mortgage rates,story,0
+2011-09,mortgage rates,comment,0
+2011-09,jobs report,story,1
+2011-09,jobs report,comment,0
+2011-10,inflation,story,4
+2011-10,inflation,comment,121
+2011-10,prices,story,26
+2011-10,prices,comment,433
+2011-10,cost of living,story,1
+2011-10,cost of living,comment,37
+2011-10,layoffs,story,3
+2011-10,layoffs,comment,14
+2011-10,hiring,story,58
+2011-10,hiring,comment,410
+2011-10,recession,story,7
+2011-10,recession,comment,71
+2011-10,economy,story,55
+2011-10,economy,comment,484
+2011-10,tariffs,story,0
+2011-10,tariffs,comment,4
+2011-10,mortgage rates,story,0
+2011-10,mortgage rates,comment,0
+2011-10,jobs report,story,0
+2011-10,jobs report,comment,0
+2011-11,inflation,story,4
+2011-11,inflation,comment,74
+2011-11,prices,story,28
+2011-11,prices,comment,388
+2011-11,cost of living,story,4
+2011-11,cost of living,comment,39
+2011-11,layoffs,story,8
+2011-11,layoffs,comment,16
+2011-11,hiring,story,51
+2011-11,hiring,comment,434
+2011-11,recession,story,6
+2011-11,recession,comment,39
+2011-11,economy,story,45
+2011-11,economy,comment,388
+2011-11,tariffs,story,0
+2011-11,tariffs,comment,3
+2011-11,mortgage rates,story,0
+2011-11,mortgage rates,comment,1
+2011-11,jobs report,story,0
+2011-11,jobs report,comment,0
+2011-12,inflation,story,2
+2011-12,inflation,comment,64
+2011-12,prices,story,19
+2011-12,prices,comment,404
+2011-12,cost of living,story,2
+2011-12,cost of living,comment,60
+2011-12,layoffs,story,0
+2011-12,layoffs,comment,7
+2011-12,hiring,story,61
+2011-12,hiring,comment,497
+2011-12,recession,story,3
+2011-12,recession,comment,41
+2011-12,economy,story,54
+2011-12,economy,comment,319
+2011-12,tariffs,story,0
+2011-12,tariffs,comment,13
+2011-12,mortgage rates,story,0
+2011-12,mortgage rates,comment,3
+2011-12,jobs report,story,1
+2011-12,jobs report,comment,0
+2012-01,inflation,story,0
+2012-01,inflation,comment,77
+2012-01,prices,story,29
+2012-01,prices,comment,455
+2012-01,cost of living,story,6
+2012-01,cost of living,comment,61
+2012-01,layoffs,story,2
+2012-01,layoffs,comment,13
+2012-01,hiring,story,70
+2012-01,hiring,comment,611
+2012-01,recession,story,8
+2012-01,recession,comment,30
+2012-01,economy,story,43
+2012-01,economy,comment,427
+2012-01,tariffs,story,0
+2012-01,tariffs,comment,12
+2012-01,mortgage rates,story,0
+2012-01,mortgage rates,comment,0
+2012-01,jobs report,story,0
+2012-01,jobs report,comment,0
+2012-02,inflation,story,2
+2012-02,inflation,comment,103
+2012-02,prices,story,25
+2012-02,prices,comment,335
+2012-02,cost of living,story,3
+2012-02,cost of living,comment,28
+2012-02,layoffs,story,3
+2012-02,layoffs,comment,13
+2012-02,hiring,story,56
+2012-02,hiring,comment,397
+2012-02,recession,story,3
+2012-02,recession,comment,30
+2012-02,economy,story,49
+2012-02,economy,comment,264
+2012-02,tariffs,story,0
+2012-02,tariffs,comment,7
+2012-02,mortgage rates,story,0
+2012-02,mortgage rates,comment,1
+2012-02,jobs report,story,1
+2012-02,jobs report,comment,0
+2012-03,inflation,story,4
+2012-03,inflation,comment,93
+2012-03,prices,story,26
+2012-03,prices,comment,483
+2012-03,cost of living,story,2
+2012-03,cost of living,comment,32
+2012-03,layoffs,story,8
+2012-03,layoffs,comment,17
+2012-03,hiring,story,79
+2012-03,hiring,comment,497
+2012-03,recession,story,7
+2012-03,recession,comment,20
+2012-03,economy,story,43
+2012-03,economy,comment,360
+2012-03,tariffs,story,0
+2012-03,tariffs,comment,3
+2012-03,mortgage rates,story,0
+2012-03,mortgage rates,comment,2
+2012-03,jobs report,story,0
+2012-03,jobs report,comment,0
+2012-04,inflation,story,2
+2012-04,inflation,comment,100
+2012-04,prices,story,24
+2012-04,prices,comment,469
+2012-04,cost of living,story,1
+2012-04,cost of living,comment,19
+2012-04,layoffs,story,2
+2012-04,layoffs,comment,24
+2012-04,hiring,story,71
+2012-04,hiring,comment,474
+2012-04,recession,story,4
+2012-04,recession,comment,36
+2012-04,economy,story,45
+2012-04,economy,comment,352
+2012-04,tariffs,story,0
+2012-04,tariffs,comment,8
+2012-04,mortgage rates,story,0
+2012-04,mortgage rates,comment,0
+2012-04,jobs report,story,0
+2012-04,jobs report,comment,0
+2012-05,inflation,story,2
+2012-05,inflation,comment,146
+2012-05,prices,story,32
+2012-05,prices,comment,502
+2012-05,cost of living,story,3
+2012-05,cost of living,comment,50
+2012-05,layoffs,story,11
+2012-05,layoffs,comment,30
+2012-05,hiring,story,60
+2012-05,hiring,comment,572
+2012-05,recession,story,9
+2012-05,recession,comment,43
+2012-05,economy,story,49
+2012-05,economy,comment,377
+2012-05,tariffs,story,3
+2012-05,tariffs,comment,13
+2012-05,mortgage rates,story,0
+2012-05,mortgage rates,comment,0
+2012-05,jobs report,story,1
+2012-05,jobs report,comment,0
+2012-06,inflation,story,2
+2012-06,inflation,comment,171
+2012-06,prices,story,25
+2012-06,prices,comment,574
+2012-06,cost of living,story,1
+2012-06,cost of living,comment,32
+2012-06,layoffs,story,4
+2012-06,layoffs,comment,19
+2012-06,hiring,story,47
+2012-06,hiring,comment,393
+2012-06,recession,story,5
+2012-06,recession,comment,38
+2012-06,economy,story,34
+2012-06,economy,comment,426
+2012-06,tariffs,story,0
+2012-06,tariffs,comment,11
+2012-06,mortgage rates,story,0
+2012-06,mortgage rates,comment,7
+2012-06,jobs report,story,0
+2012-06,jobs report,comment,1
+2012-07,inflation,story,4
+2012-07,inflation,comment,108
+2012-07,prices,story,23
+2012-07,prices,comment,524
+2012-07,cost of living,story,2
+2012-07,cost of living,comment,30
+2012-07,layoffs,story,2
+2012-07,layoffs,comment,21
+2012-07,hiring,story,42
+2012-07,hiring,comment,520
+2012-07,recession,story,4
+2012-07,recession,comment,36
+2012-07,economy,story,34
+2012-07,economy,comment,347
+2012-07,tariffs,story,0
+2012-07,tariffs,comment,5
+2012-07,mortgage rates,story,0
+2012-07,mortgage rates,comment,2
+2012-07,jobs report,story,0
+2012-07,jobs report,comment,0
+2012-08,inflation,story,2
+2012-08,inflation,comment,101
+2012-08,prices,story,18
+2012-08,prices,comment,493
+2012-08,cost of living,story,2
+2012-08,cost of living,comment,46
+2012-08,layoffs,story,6
+2012-08,layoffs,comment,12
+2012-08,hiring,story,52
+2012-08,hiring,comment,489
+2012-08,recession,story,2
+2012-08,recession,comment,38
+2012-08,economy,story,50
+2012-08,economy,comment,352
+2012-08,tariffs,story,0
+2012-08,tariffs,comment,7
+2012-08,mortgage rates,story,0
+2012-08,mortgage rates,comment,0
+2012-08,jobs report,story,0
+2012-08,jobs report,comment,0
+2012-09,inflation,story,3
+2012-09,inflation,comment,113
+2012-09,prices,story,19
+2012-09,prices,comment,593
+2012-09,cost of living,story,0
+2012-09,cost of living,comment,46
+2012-09,layoffs,story,1
+2012-09,layoffs,comment,9
+2012-09,hiring,story,53
+2012-09,hiring,comment,451
+2012-09,recession,story,2
+2012-09,recession,comment,38
+2012-09,economy,story,42
+2012-09,economy,comment,356
+2012-09,tariffs,story,0
+2012-09,tariffs,comment,8
+2012-09,mortgage rates,story,1
+2012-09,mortgage rates,comment,5
+2012-09,jobs report,story,0
+2012-09,jobs report,comment,2
+2012-10,inflation,story,2
+2012-10,inflation,comment,89
+2012-10,prices,story,34
+2012-10,prices,comment,444
+2012-10,cost of living,story,1
+2012-10,cost of living,comment,70
+2012-10,layoffs,story,13
+2012-10,layoffs,comment,20
+2012-10,hiring,story,52
+2012-10,hiring,comment,440
+2012-10,recession,story,2
+2012-10,recession,comment,29
+2012-10,economy,story,29
+2012-10,economy,comment,327
+2012-10,tariffs,story,1
+2012-10,tariffs,comment,10
+2012-10,mortgage rates,story,0
+2012-10,mortgage rates,comment,0
+2012-10,jobs report,story,1
+2012-10,jobs report,comment,0
+2012-11,inflation,story,2
+2012-11,inflation,comment,140
+2012-11,prices,story,27
+2012-11,prices,comment,583
+2012-11,cost of living,story,0
+2012-11,cost of living,comment,43
+2012-11,layoffs,story,5
+2012-11,layoffs,comment,12
+2012-11,hiring,story,32
+2012-11,hiring,comment,367
+2012-11,recession,story,1
+2012-11,recession,comment,32
+2012-11,economy,story,39
+2012-11,economy,comment,402
+2012-11,tariffs,story,1
+2012-11,tariffs,comment,3
+2012-11,mortgage rates,story,0
+2012-11,mortgage rates,comment,1
+2012-11,jobs report,story,0
+2012-11,jobs report,comment,2
+2012-12,inflation,story,4
+2012-12,inflation,comment,165
+2012-12,prices,story,24
+2012-12,prices,comment,500
+2012-12,cost of living,story,2
+2012-12,cost of living,comment,79
+2012-12,layoffs,story,0
+2012-12,layoffs,comment,12
+2012-12,hiring,story,43
+2012-12,hiring,comment,400
+2012-12,recession,story,2
+2012-12,recession,comment,51
+2012-12,economy,story,45
+2012-12,economy,comment,471
+2012-12,tariffs,story,0
+2012-12,tariffs,comment,7
+2012-12,mortgage rates,story,0
+2012-12,mortgage rates,comment,1
+2012-12,jobs report,story,0
+2012-12,jobs report,comment,0
+2013-01,inflation,story,2
+2013-01,inflation,comment,169
+2013-01,prices,story,16
+2013-01,prices,comment,554
+2013-01,cost of living,story,2
+2013-01,cost of living,comment,89
+2013-01,layoffs,story,6
+2013-01,layoffs,comment,7
+2013-01,hiring,story,51
+2013-01,hiring,comment,561
+2013-01,recession,story,3
+2013-01,recession,comment,43
+2013-01,economy,story,48
+2013-01,economy,comment,449
+2013-01,tariffs,story,0
+2013-01,tariffs,comment,3
+2013-01,mortgage rates,story,0
+2013-01,mortgage rates,comment,4
+2013-01,jobs report,story,0
+2013-01,jobs report,comment,0
+2013-02,inflation,story,9
+2013-02,inflation,comment,106
+2013-02,prices,story,33
+2013-02,prices,comment,586
+2013-02,cost of living,story,3
+2013-02,cost of living,comment,56
+2013-02,layoffs,story,7
+2013-02,layoffs,comment,37
+2013-02,hiring,story,51
+2013-02,hiring,comment,591
+2013-02,recession,story,0
+2013-02,recession,comment,38
+2013-02,economy,story,40
+2013-02,economy,comment,460
+2013-02,tariffs,story,0
+2013-02,tariffs,comment,19
+2013-02,mortgage rates,story,0
+2013-02,mortgage rates,comment,1
+2013-02,jobs report,story,1
+2013-02,jobs report,comment,1
+2013-03,inflation,story,6
+2013-03,inflation,comment,256
+2013-03,prices,story,26
+2013-03,prices,comment,603
+2013-03,cost of living,story,5
+2013-03,cost of living,comment,64
+2013-03,layoffs,story,0
+2013-03,layoffs,comment,21
+2013-03,hiring,story,54
+2013-03,hiring,comment,595
+2013-03,recession,story,3
+2013-03,recession,comment,56
+2013-03,economy,story,54
+2013-03,economy,comment,598
+2013-03,tariffs,story,0
+2013-03,tariffs,comment,13
+2013-03,mortgage rates,story,0
+2013-03,mortgage rates,comment,4
+2013-03,jobs report,story,0
+2013-03,jobs report,comment,0
+2013-04,inflation,story,6
+2013-04,inflation,comment,468
+2013-04,prices,story,35
+2013-04,prices,comment,842
+2013-04,cost of living,story,3
+2013-04,cost of living,comment,86
+2013-04,layoffs,story,6
+2013-04,layoffs,comment,23
+2013-04,hiring,story,75
+2013-04,hiring,comment,695
+2013-04,recession,story,5
+2013-04,recession,comment,77
+2013-04,economy,story,58
+2013-04,economy,comment,897
+2013-04,tariffs,story,0
+2013-04,tariffs,comment,10
+2013-04,mortgage rates,story,0
+2013-04,mortgage rates,comment,2
+2013-04,jobs report,story,0
+2013-04,jobs report,comment,0
+2013-05,inflation,story,6
+2013-05,inflation,comment,243
+2013-05,prices,story,32
+2013-05,prices,comment,651
+2013-05,cost of living,story,4
+2013-05,cost of living,comment,104
+2013-05,layoffs,story,3
+2013-05,layoffs,comment,20
+2013-05,hiring,story,53
+2013-05,hiring,comment,608
+2013-05,recession,story,1
+2013-05,recession,comment,49
+2013-05,economy,story,51
+2013-05,economy,comment,611
+2013-05,tariffs,story,1
+2013-05,tariffs,comment,17
+2013-05,mortgage rates,story,0
+2013-05,mortgage rates,comment,3
+2013-05,jobs report,story,0
+2013-05,jobs report,comment,0
+2013-06,inflation,story,1
+2013-06,inflation,comment,138
+2013-06,prices,story,24
+2013-06,prices,comment,538
+2013-06,cost of living,story,1
+2013-06,cost of living,comment,87
+2013-06,layoffs,story,10
+2013-06,layoffs,comment,26
+2013-06,hiring,story,71
+2013-06,hiring,comment,511
+2013-06,recession,story,0
+2013-06,recession,comment,33
+2013-06,economy,story,75
+2013-06,economy,comment,475
+2013-06,tariffs,story,0
+2013-06,tariffs,comment,15
+2013-06,mortgage rates,story,1
+2013-06,mortgage rates,comment,1
+2013-06,jobs report,story,0
+2013-06,jobs report,comment,0
+2013-07,inflation,story,1
+2013-07,inflation,comment,175
+2013-07,prices,story,31
+2013-07,prices,comment,854
+2013-07,cost of living,story,2
+2013-07,cost of living,comment,96
+2013-07,layoffs,story,4
+2013-07,layoffs,comment,17
+2013-07,hiring,story,49
+2013-07,hiring,comment,532
+2013-07,recession,story,1
+2013-07,recession,comment,58
+2013-07,economy,story,45
+2013-07,economy,comment,510
+2013-07,tariffs,story,0
+2013-07,tariffs,comment,31
+2013-07,mortgage rates,story,1
+2013-07,mortgage rates,comment,1
+2013-07,jobs report,story,0
+2013-07,jobs report,comment,0
+2013-08,inflation,story,1
+2013-08,inflation,comment,188
+2013-08,prices,story,12
+2013-08,prices,comment,591
+2013-08,cost of living,story,3
+2013-08,cost of living,comment,115
+2013-08,layoffs,story,9
+2013-08,layoffs,comment,41
+2013-08,hiring,story,67
+2013-08,hiring,comment,718
+2013-08,recession,story,2
+2013-08,recession,comment,34
+2013-08,economy,story,48
+2013-08,economy,comment,482
+2013-08,tariffs,story,0
+2013-08,tariffs,comment,9
+2013-08,mortgage rates,story,0
+2013-08,mortgage rates,comment,0
+2013-08,jobs report,story,0
+2013-08,jobs report,comment,0
+2013-09,inflation,story,5
+2013-09,inflation,comment,188
+2013-09,prices,story,24
+2013-09,prices,comment,691
+2013-09,cost of living,story,0
+2013-09,cost of living,comment,62
+2013-09,layoffs,story,5
+2013-09,layoffs,comment,20
+2013-09,hiring,story,53
+2013-09,hiring,comment,653
+2013-09,recession,story,3
+2013-09,recession,comment,42
+2013-09,economy,story,53
+2013-09,economy,comment,606
+2013-09,tariffs,story,0
+2013-09,tariffs,comment,11
+2013-09,mortgage rates,story,0
+2013-09,mortgage rates,comment,5
+2013-09,jobs report,story,0
+2013-09,jobs report,comment,0
+2013-10,inflation,story,2
+2013-10,inflation,comment,388
+2013-10,prices,story,23
+2013-10,prices,comment,813
+2013-10,cost of living,story,3
+2013-10,cost of living,comment,179
+2013-10,layoffs,story,6
+2013-10,layoffs,comment,14
+2013-10,hiring,story,54
+2013-10,hiring,comment,632
+2013-10,recession,story,1
+2013-10,recession,comment,53
+2013-10,economy,story,54
+2013-10,economy,comment,727
+2013-10,tariffs,story,0
+2013-10,tariffs,comment,8
+2013-10,mortgage rates,story,0
+2013-10,mortgage rates,comment,5
+2013-10,jobs report,story,0
+2013-10,jobs report,comment,0
+2013-11,inflation,story,4
+2013-11,inflation,comment,359
+2013-11,prices,story,40
+2013-11,prices,comment,782
+2013-11,cost of living,story,1
+2013-11,cost of living,comment,92
+2013-11,layoffs,story,3
+2013-11,layoffs,comment,27
+2013-11,hiring,story,40
+2013-11,hiring,comment,643
+2013-11,recession,story,2
+2013-11,recession,comment,42
+2013-11,economy,story,44
+2013-11,economy,comment,750
+2013-11,tariffs,story,0
+2013-11,tariffs,comment,19
+2013-11,mortgage rates,story,0
+2013-11,mortgage rates,comment,2
+2013-11,jobs report,story,1
+2013-11,jobs report,comment,0
+2013-12,inflation,story,4
+2013-12,inflation,comment,364
+2013-12,prices,story,37
+2013-12,prices,comment,856
+2013-12,cost of living,story,2
+2013-12,cost of living,comment,74
+2013-12,layoffs,story,4
+2013-12,layoffs,comment,22
+2013-12,hiring,story,46
+2013-12,hiring,comment,599
+2013-12,recession,story,1
+2013-12,recession,comment,54
+2013-12,economy,story,51
+2013-12,economy,comment,767
+2013-12,tariffs,story,0
+2013-12,tariffs,comment,14
+2013-12,mortgage rates,story,0
+2013-12,mortgage rates,comment,0
+2013-12,jobs report,story,0
+2013-12,jobs report,comment,0
+2014-01,inflation,story,1
+2014-01,inflation,comment,237
+2014-01,prices,story,26
+2014-01,prices,comment,717
+2014-01,cost of living,story,3
+2014-01,cost of living,comment,118
+2014-01,layoffs,story,2
+2014-01,layoffs,comment,36
+2014-01,hiring,story,58
+2014-01,hiring,comment,541
+2014-01,recession,story,1
+2014-01,recession,comment,42
+2014-01,economy,story,27
+2014-01,economy,comment,600
+2014-01,tariffs,story,0
+2014-01,tariffs,comment,24
+2014-01,mortgage rates,story,0
+2014-01,mortgage rates,comment,4
+2014-01,jobs report,story,0
+2014-01,jobs report,comment,0
+2014-02,inflation,story,8
+2014-02,inflation,comment,278
+2014-02,prices,story,26
+2014-02,prices,comment,622
+2014-02,cost of living,story,1
+2014-02,cost of living,comment,63
+2014-02,layoffs,story,7
+2014-02,layoffs,comment,28
+2014-02,hiring,story,55
+2014-02,hiring,comment,580
+2014-02,recession,story,1
+2014-02,recession,comment,33
+2014-02,economy,story,39
+2014-02,economy,comment,585
+2014-02,tariffs,story,1
+2014-02,tariffs,comment,6
+2014-02,mortgage rates,story,0
+2014-02,mortgage rates,comment,3
+2014-02,jobs report,story,4
+2014-02,jobs report,comment,1
+2014-03,inflation,story,21
+2014-03,inflation,comment,276
+2014-03,prices,story,45
+2014-03,prices,comment,785
+2014-03,cost of living,story,1
+2014-03,cost of living,comment,93
+2014-03,layoffs,story,1
+2014-03,layoffs,comment,16
+2014-03,hiring,story,70
+2014-03,hiring,comment,833
+2014-03,recession,story,2
+2014-03,recession,comment,40
+2014-03,economy,story,53
+2014-03,economy,comment,661
+2014-03,tariffs,story,0
+2014-03,tariffs,comment,10
+2014-03,mortgage rates,story,0
+2014-03,mortgage rates,comment,1
+2014-03,jobs report,story,0
+2014-03,jobs report,comment,0
+2014-04,inflation,story,5
+2014-04,inflation,comment,141
+2014-04,prices,story,32
+2014-04,prices,comment,686
+2014-04,cost of living,story,4
+2014-04,cost of living,comment,77
+2014-04,layoffs,story,3
+2014-04,layoffs,comment,20
+2014-04,hiring,story,63
+2014-04,hiring,comment,709
+2014-04,recession,story,0
+2014-04,recession,comment,23
+2014-04,economy,story,59
+2014-04,economy,comment,477
+2014-04,tariffs,story,0
+2014-04,tariffs,comment,4
+2014-04,mortgage rates,story,0
+2014-04,mortgage rates,comment,2
+2014-04,jobs report,story,0
+2014-04,jobs report,comment,0
+2014-05,inflation,story,5
+2014-05,inflation,comment,132
+2014-05,prices,story,21
+2014-05,prices,comment,581
+2014-05,cost of living,story,1
+2014-05,cost of living,comment,67
+2014-05,layoffs,story,2
+2014-05,layoffs,comment,14
+2014-05,hiring,story,68
+2014-05,hiring,comment,591
+2014-05,recession,story,2
+2014-05,recession,comment,26
+2014-05,economy,story,47
+2014-05,economy,comment,451
+2014-05,tariffs,story,0
+2014-05,tariffs,comment,6
+2014-05,mortgage rates,story,0
+2014-05,mortgage rates,comment,6
+2014-05,jobs report,story,2
+2014-05,jobs report,comment,0
+2014-06,inflation,story,4
+2014-06,inflation,comment,155
+2014-06,prices,story,15
+2014-06,prices,comment,612
+2014-06,cost of living,story,2
+2014-06,cost of living,comment,86
+2014-06,layoffs,story,0
+2014-06,layoffs,comment,12
+2014-06,hiring,story,49
+2014-06,hiring,comment,466
+2014-06,recession,story,6
+2014-06,recession,comment,71
+2014-06,economy,story,52
+2014-06,economy,comment,533
+2014-06,tariffs,story,1
+2014-06,tariffs,comment,11
+2014-06,mortgage rates,story,0
+2014-06,mortgage rates,comment,3
+2014-06,jobs report,story,1
+2014-06,jobs report,comment,0
+2014-07,inflation,story,3
+2014-07,inflation,comment,126
+2014-07,prices,story,19
+2014-07,prices,comment,653
+2014-07,cost of living,story,7
+2014-07,cost of living,comment,103
+2014-07,layoffs,story,11
+2014-07,layoffs,comment,96
+2014-07,hiring,story,66
+2014-07,hiring,comment,584
+2014-07,recession,story,3
+2014-07,recession,comment,36
+2014-07,economy,story,49
+2014-07,economy,comment,450
+2014-07,tariffs,story,0
+2014-07,tariffs,comment,10
+2014-07,mortgage rates,story,0
+2014-07,mortgage rates,comment,0
+2014-07,jobs report,story,0
+2014-07,jobs report,comment,1
+2014-08,inflation,story,6
+2014-08,inflation,comment,125
+2014-08,prices,story,21
+2014-08,prices,comment,586
+2014-08,cost of living,story,4
+2014-08,cost of living,comment,87
+2014-08,layoffs,story,2
+2014-08,layoffs,comment,22
+2014-08,hiring,story,41
+2014-08,hiring,comment,556
+2014-08,recession,story,3
+2014-08,recession,comment,32
+2014-08,economy,story,46
+2014-08,economy,comment,452
+2014-08,tariffs,story,0
+2014-08,tariffs,comment,17
+2014-08,mortgage rates,story,0
+2014-08,mortgage rates,comment,1
+2014-08,jobs report,story,0
+2014-08,jobs report,comment,0
+2014-09,inflation,story,4
+2014-09,inflation,comment,108
+2014-09,prices,story,15
+2014-09,prices,comment,527
+2014-09,cost of living,story,1
+2014-09,cost of living,comment,74
+2014-09,layoffs,story,6
+2014-09,layoffs,comment,23
+2014-09,hiring,story,45
+2014-09,hiring,comment,449
+2014-09,recession,story,1
+2014-09,recession,comment,29
+2014-09,economy,story,33
+2014-09,economy,comment,485
+2014-09,tariffs,story,0
+2014-09,tariffs,comment,9
+2014-09,mortgage rates,story,0
+2014-09,mortgage rates,comment,1
+2014-09,jobs report,story,0
+2014-09,jobs report,comment,0
+2014-10,inflation,story,3
+2014-10,inflation,comment,153
+2014-10,prices,story,31
+2014-10,prices,comment,606
+2014-10,cost of living,story,1
+2014-10,cost of living,comment,74
+2014-10,layoffs,story,8
+2014-10,layoffs,comment,28
+2014-10,hiring,story,40
+2014-10,hiring,comment,504
+2014-10,recession,story,2
+2014-10,recession,comment,53
+2014-10,economy,story,74
+2014-10,economy,comment,507
+2014-10,tariffs,story,0
+2014-10,tariffs,comment,11
+2014-10,mortgage rates,story,1
+2014-10,mortgage rates,comment,1
+2014-10,jobs report,story,1
+2014-10,jobs report,comment,0
+2014-11,inflation,story,1
+2014-11,inflation,comment,165
+2014-11,prices,story,26
+2014-11,prices,comment,512
+2014-11,cost of living,story,5
+2014-11,cost of living,comment,87
+2014-11,layoffs,story,5
+2014-11,layoffs,comment,11
+2014-11,hiring,story,57
+2014-11,hiring,comment,487
+2014-11,recession,story,4
+2014-11,recession,comment,28
+2014-11,economy,story,43
+2014-11,economy,comment,429
+2014-11,tariffs,story,1
+2014-11,tariffs,comment,8
+2014-11,mortgage rates,story,1
+2014-11,mortgage rates,comment,0
+2014-11,jobs report,story,0
+2014-11,jobs report,comment,0
+2014-12,inflation,story,3
+2014-12,inflation,comment,144
+2014-12,prices,story,31
+2014-12,prices,comment,639
+2014-12,cost of living,story,2
+2014-12,cost of living,comment,72
+2014-12,layoffs,story,7
+2014-12,layoffs,comment,24
+2014-12,hiring,story,71
+2014-12,hiring,comment,667
+2014-12,recession,story,2
+2014-12,recession,comment,70
+2014-12,economy,story,57
+2014-12,economy,comment,626
+2014-12,tariffs,story,1
+2014-12,tariffs,comment,15
+2014-12,mortgage rates,story,0
+2014-12,mortgage rates,comment,5
+2014-12,jobs report,story,0
+2014-12,jobs report,comment,0
+2015-01,inflation,story,5
+2015-01,inflation,comment,174
+2015-01,prices,story,35
+2015-01,prices,comment,603
+2015-01,cost of living,story,0
+2015-01,cost of living,comment,60
+2015-01,layoffs,story,9
+2015-01,layoffs,comment,36
+2015-01,hiring,story,54
+2015-01,hiring,comment,731
+2015-01,recession,story,2
+2015-01,recession,comment,44
+2015-01,economy,story,56
+2015-01,economy,comment,528
+2015-01,tariffs,story,0
+2015-01,tariffs,comment,31
+2015-01,mortgage rates,story,0
+2015-01,mortgage rates,comment,0
+2015-01,jobs report,story,0
+2015-01,jobs report,comment,2
+2015-02,inflation,story,6
+2015-02,inflation,comment,201
+2015-02,prices,story,22
+2015-02,prices,comment,661
+2015-02,cost of living,story,3
+2015-02,cost of living,comment,117
+2015-02,layoffs,story,8
+2015-02,layoffs,comment,44
+2015-02,hiring,story,72
+2015-02,hiring,comment,650
+2015-02,recession,story,4
+2015-02,recession,comment,48
+2015-02,economy,story,56
+2015-02,economy,comment,603
+2015-02,tariffs,story,0
+2015-02,tariffs,comment,23
+2015-02,mortgage rates,story,0
+2015-02,mortgage rates,comment,1
+2015-02,jobs report,story,1
+2015-02,jobs report,comment,1
+2015-03,inflation,story,4
+2015-03,inflation,comment,202
+2015-03,prices,story,26
+2015-03,prices,comment,826
+2015-03,cost of living,story,1
+2015-03,cost of living,comment,126
+2015-03,layoffs,story,2
+2015-03,layoffs,comment,29
+2015-03,hiring,story,73
+2015-03,hiring,comment,877
+2015-03,recession,story,1
+2015-03,recession,comment,43
+2015-03,economy,story,48
+2015-03,economy,comment,627
+2015-03,tariffs,story,0
+2015-03,tariffs,comment,10
+2015-03,mortgage rates,story,0
+2015-03,mortgage rates,comment,7
+2015-03,jobs report,story,2
+2015-03,jobs report,comment,1
+2015-04,inflation,story,6
+2015-04,inflation,comment,153
+2015-04,prices,story,31
+2015-04,prices,comment,601
+2015-04,cost of living,story,1
+2015-04,cost of living,comment,73
+2015-04,layoffs,story,4
+2015-04,layoffs,comment,21
+2015-04,hiring,story,77
+2015-04,hiring,comment,817
+2015-04,recession,story,1
+2015-04,recession,comment,43
+2015-04,economy,story,52
+2015-04,economy,comment,576
+2015-04,tariffs,story,1
+2015-04,tariffs,comment,13
+2015-04,mortgage rates,story,0
+2015-04,mortgage rates,comment,1
+2015-04,jobs report,story,0
+2015-04,jobs report,comment,0
+2015-05,inflation,story,8
+2015-05,inflation,comment,288
+2015-05,prices,story,26
+2015-05,prices,comment,782
+2015-05,cost of living,story,3
+2015-05,cost of living,comment,119
+2015-05,layoffs,story,2
+2015-05,layoffs,comment,29
+2015-05,hiring,story,66
+2015-05,hiring,comment,866
+2015-05,recession,story,4
+2015-05,recession,comment,42
+2015-05,economy,story,68
+2015-05,economy,comment,627
+2015-05,tariffs,story,0
+2015-05,tariffs,comment,21
+2015-05,mortgage rates,story,0
+2015-05,mortgage rates,comment,2
+2015-05,jobs report,story,0
+2015-05,jobs report,comment,0
+2015-06,inflation,story,3
+2015-06,inflation,comment,194
+2015-06,prices,story,32
+2015-06,prices,comment,718
+2015-06,cost of living,story,1
+2015-06,cost of living,comment,82
+2015-06,layoffs,story,6
+2015-06,layoffs,comment,34
+2015-06,hiring,story,84
+2015-06,hiring,comment,1092
+2015-06,recession,story,2
+2015-06,recession,comment,61
+2015-06,economy,story,63
+2015-06,economy,comment,736
+2015-06,tariffs,story,1
+2015-06,tariffs,comment,22
+2015-06,mortgage rates,story,0
+2015-06,mortgage rates,comment,9
+2015-06,jobs report,story,0
+2015-06,jobs report,comment,0
+2015-07,inflation,story,1
+2015-07,inflation,comment,242
+2015-07,prices,story,33
+2015-07,prices,comment,765
+2015-07,cost of living,story,2
+2015-07,cost of living,comment,82
+2015-07,layoffs,story,9
+2015-07,layoffs,comment,62
+2015-07,hiring,story,71
+2015-07,hiring,comment,846
+2015-07,recession,story,4
+2015-07,recession,comment,86
+2015-07,economy,story,87
+2015-07,economy,comment,929
+2015-07,tariffs,story,2
+2015-07,tariffs,comment,14
+2015-07,mortgage rates,story,0
+2015-07,mortgage rates,comment,2
+2015-07,jobs report,story,0
+2015-07,jobs report,comment,0
+2015-08,inflation,story,6
+2015-08,inflation,comment,200
+2015-08,prices,story,21
+2015-08,prices,comment,835
+2015-08,cost of living,story,3
+2015-08,cost of living,comment,113
+2015-08,layoffs,story,16
+2015-08,layoffs,comment,34
+2015-08,hiring,story,57
+2015-08,hiring,comment,707
+2015-08,recession,story,2
+2015-08,recession,comment,55
+2015-08,economy,story,56
+2015-08,economy,comment,765
+2015-08,tariffs,story,0
+2015-08,tariffs,comment,21
+2015-08,mortgage rates,story,0
+2015-08,mortgage rates,comment,6
+2015-08,jobs report,story,0
+2015-08,jobs report,comment,0
+2015-09,inflation,story,0
+2015-09,inflation,comment,212
+2015-09,prices,story,33
+2015-09,prices,comment,806
+2015-09,cost of living,story,0
+2015-09,cost of living,comment,88
+2015-09,layoffs,story,3
+2015-09,layoffs,comment,39
+2015-09,hiring,story,55
+2015-09,hiring,comment,615
+2015-09,recession,story,7
+2015-09,recession,comment,51
+2015-09,economy,story,70
+2015-09,economy,comment,722
+2015-09,tariffs,story,0
+2015-09,tariffs,comment,9
+2015-09,mortgage rates,story,0
+2015-09,mortgage rates,comment,0
+2015-09,jobs report,story,0
+2015-09,jobs report,comment,0
+2015-10,inflation,story,3
+2015-10,inflation,comment,235
+2015-10,prices,story,25
+2015-10,prices,comment,859
+2015-10,cost of living,story,2
+2015-10,cost of living,comment,90
+2015-10,layoffs,story,21
+2015-10,layoffs,comment,70
+2015-10,hiring,story,42
+2015-10,hiring,comment,689
+2015-10,recession,story,6
+2015-10,recession,comment,63
+2015-10,economy,story,87
+2015-10,economy,comment,777
+2015-10,tariffs,story,0
+2015-10,tariffs,comment,34
+2015-10,mortgage rates,story,0
+2015-10,mortgage rates,comment,3
+2015-10,jobs report,story,0
+2015-10,jobs report,comment,0
+2015-11,inflation,story,2
+2015-11,inflation,comment,181
+2015-11,prices,story,22
+2015-11,prices,comment,790
+2015-11,cost of living,story,1
+2015-11,cost of living,comment,119
+2015-11,layoffs,story,10
+2015-11,layoffs,comment,47
+2015-11,hiring,story,51
+2015-11,hiring,comment,660
+2015-11,recession,story,7
+2015-11,recession,comment,70
+2015-11,economy,story,73
+2015-11,economy,comment,838
+2015-11,tariffs,story,0
+2015-11,tariffs,comment,26
+2015-11,mortgage rates,story,1
+2015-11,mortgage rates,comment,1
+2015-11,jobs report,story,2
+2015-11,jobs report,comment,0
+2015-12,inflation,story,7
+2015-12,inflation,comment,181
+2015-12,prices,story,20
+2015-12,prices,comment,735
+2015-12,cost of living,story,2
+2015-12,cost of living,comment,112
+2015-12,layoffs,story,5
+2015-12,layoffs,comment,33
+2015-12,hiring,story,47
+2015-12,hiring,comment,598
+2015-12,recession,story,4
+2015-12,recession,comment,66
+2015-12,economy,story,66
+2015-12,economy,comment,643
+2015-12,tariffs,story,0
+2015-12,tariffs,comment,8
+2015-12,mortgage rates,story,0
+2015-12,mortgage rates,comment,2
+2015-12,jobs report,story,0
+2015-12,jobs report,comment,0
+2016-01,inflation,story,6
+2016-01,inflation,comment,300
+2016-01,prices,story,34
+2016-01,prices,comment,1076
+2016-01,cost of living,story,4
+2016-01,cost of living,comment,139
+2016-01,layoffs,story,17
+2016-01,layoffs,comment,56
+2016-01,hiring,story,59
+2016-01,hiring,comment,714
+2016-01,recession,story,5
+2016-01,recession,comment,96
+2016-01,economy,story,118
+2016-01,economy,comment,1113
+2016-01,tariffs,story,0
+2016-01,tariffs,comment,23
+2016-01,mortgage rates,story,0
+2016-01,mortgage rates,comment,3
+2016-01,jobs report,story,1
+2016-01,jobs report,comment,1
+2016-02,inflation,story,2
+2016-02,inflation,comment,283
+2016-02,prices,story,28
+2016-02,prices,comment,1057
+2016-02,cost of living,story,0
+2016-02,cost of living,comment,154
+2016-02,layoffs,story,18
+2016-02,layoffs,comment,73
+2016-02,hiring,story,62
+2016-02,hiring,comment,832
+2016-02,recession,story,5
+2016-02,recession,comment,90
+2016-02,economy,story,70
+2016-02,economy,comment,900
+2016-02,tariffs,story,0
+2016-02,tariffs,comment,24
+2016-02,mortgage rates,story,0
+2016-02,mortgage rates,comment,3
+2016-02,jobs report,story,0
+2016-02,jobs report,comment,4
+2016-03,inflation,story,5
+2016-03,inflation,comment,269
+2016-03,prices,story,32
+2016-03,prices,comment,951
+2016-03,cost of living,story,5
+2016-03,cost of living,comment,205
+2016-03,layoffs,story,24
+2016-03,layoffs,comment,88
+2016-03,hiring,story,55
+2016-03,hiring,comment,982
+2016-03,recession,story,4
+2016-03,recession,comment,48
+2016-03,economy,story,80
+2016-03,economy,comment,886
+2016-03,tariffs,story,0
+2016-03,tariffs,comment,17
+2016-03,mortgage rates,story,0
+2016-03,mortgage rates,comment,0
+2016-03,jobs report,story,0
+2016-03,jobs report,comment,0
+2016-04,inflation,story,9
+2016-04,inflation,comment,305
+2016-04,prices,story,35
+2016-04,prices,comment,1137
+2016-04,cost of living,story,7
+2016-04,cost of living,comment,169
+2016-04,layoffs,story,9
+2016-04,layoffs,comment,40
+2016-04,hiring,story,73
+2016-04,hiring,comment,900
+2016-04,recession,story,6
+2016-04,recession,comment,66
+2016-04,economy,story,86
+2016-04,economy,comment,1055
+2016-04,tariffs,story,0
+2016-04,tariffs,comment,32
+2016-04,mortgage rates,story,0
+2016-04,mortgage rates,comment,10
+2016-04,jobs report,story,1
+2016-04,jobs report,comment,1
+2016-05,inflation,story,4
+2016-05,inflation,comment,343
+2016-05,prices,story,52
+2016-05,prices,comment,1041
+2016-05,cost of living,story,5
+2016-05,cost of living,comment,140
+2016-05,layoffs,story,6
+2016-05,layoffs,comment,49
+2016-05,hiring,story,76
+2016-05,hiring,comment,811
+2016-05,recession,story,5
+2016-05,recession,comment,91
+2016-05,economy,story,97
+2016-05,economy,comment,885
+2016-05,tariffs,story,0
+2016-05,tariffs,comment,39
+2016-05,mortgage rates,story,0
+2016-05,mortgage rates,comment,6
+2016-05,jobs report,story,2
+2016-05,jobs report,comment,0
+2016-06,inflation,story,2
+2016-06,inflation,comment,266
+2016-06,prices,story,28
+2016-06,prices,comment,906
+2016-06,cost of living,story,3
+2016-06,cost of living,comment,165
+2016-06,layoffs,story,4
+2016-06,layoffs,comment,44
+2016-06,hiring,story,51
+2016-06,hiring,comment,873
+2016-06,recession,story,2
+2016-06,recession,comment,113
+2016-06,economy,story,68
+2016-06,economy,comment,1065
+2016-06,tariffs,story,0
+2016-06,tariffs,comment,82
+2016-06,mortgage rates,story,0
+2016-06,mortgage rates,comment,6
+2016-06,jobs report,story,3
+2016-06,jobs report,comment,4
+2016-07,inflation,story,2
+2016-07,inflation,comment,184
+2016-07,prices,story,25
+2016-07,prices,comment,849
+2016-07,cost of living,story,8
+2016-07,cost of living,comment,153
+2016-07,layoffs,story,10
+2016-07,layoffs,comment,35
+2016-07,hiring,story,37
+2016-07,hiring,comment,870
+2016-07,recession,story,3
+2016-07,recession,comment,59
+2016-07,economy,story,73
+2016-07,economy,comment,853
+2016-07,tariffs,story,0
+2016-07,tariffs,comment,50
+2016-07,mortgage rates,story,0
+2016-07,mortgage rates,comment,3
+2016-07,jobs report,story,0
+2016-07,jobs report,comment,1
+2016-08,inflation,story,2
+2016-08,inflation,comment,223
+2016-08,prices,story,31
+2016-08,prices,comment,1110
+2016-08,cost of living,story,5
+2016-08,cost of living,comment,170
+2016-08,layoffs,story,9
+2016-08,layoffs,comment,66
+2016-08,hiring,story,49
+2016-08,hiring,comment,874
+2016-08,recession,story,2
+2016-08,recession,comment,59
+2016-08,economy,story,75
+2016-08,economy,comment,886
+2016-08,tariffs,story,0
+2016-08,tariffs,comment,46
+2016-08,mortgage rates,story,0
+2016-08,mortgage rates,comment,7
+2016-08,jobs report,story,1
+2016-08,jobs report,comment,0
+2016-09,inflation,story,4
+2016-09,inflation,comment,324
+2016-09,prices,story,24
+2016-09,prices,comment,1014
+2016-09,cost of living,story,3
+2016-09,cost of living,comment,149
+2016-09,layoffs,story,4
+2016-09,layoffs,comment,36
+2016-09,hiring,story,60
+2016-09,hiring,comment,821
+2016-09,recession,story,3
+2016-09,recession,comment,60
+2016-09,economy,story,80
+2016-09,economy,comment,908
+2016-09,tariffs,story,1
+2016-09,tariffs,comment,33
+2016-09,mortgage rates,story,0
+2016-09,mortgage rates,comment,3
+2016-09,jobs report,story,0
+2016-09,jobs report,comment,1
+2016-10,inflation,story,5
+2016-10,inflation,comment,241
+2016-10,prices,story,41
+2016-10,prices,comment,1015
+2016-10,cost of living,story,3
+2016-10,cost of living,comment,97
+2016-10,layoffs,story,10
+2016-10,layoffs,comment,58
+2016-10,hiring,story,62
+2016-10,hiring,comment,1025
+2016-10,recession,story,2
+2016-10,recession,comment,52
+2016-10,economy,story,75
+2016-10,economy,comment,803
+2016-10,tariffs,story,0
+2016-10,tariffs,comment,20
+2016-10,mortgage rates,story,0
+2016-10,mortgage rates,comment,3
+2016-10,jobs report,story,1
+2016-10,jobs report,comment,0
+2016-11,inflation,story,4
+2016-11,inflation,comment,264
+2016-11,prices,story,24
+2016-11,prices,comment,1089
+2016-11,cost of living,story,1
+2016-11,cost of living,comment,140
+2016-11,layoffs,story,10
+2016-11,layoffs,comment,57
+2016-11,hiring,story,55
+2016-11,hiring,comment,1029
+2016-11,recession,story,0
+2016-11,recession,comment,76
+2016-11,economy,story,80
+2016-11,economy,comment,1227
+2016-11,tariffs,story,1
+2016-11,tariffs,comment,109
+2016-11,mortgage rates,story,0
+2016-11,mortgage rates,comment,6
+2016-11,jobs report,story,0
+2016-11,jobs report,comment,0
+2016-12,inflation,story,6
+2016-12,inflation,comment,281
+2016-12,prices,story,25
+2016-12,prices,comment,1028
+2016-12,cost of living,story,2
+2016-12,cost of living,comment,146
+2016-12,layoffs,story,10
+2016-12,layoffs,comment,45
+2016-12,hiring,story,66
+2016-12,hiring,comment,858
+2016-12,recession,story,2
+2016-12,recession,comment,48
+2016-12,economy,story,86
+2016-12,economy,comment,891
+2016-12,tariffs,story,1
+2016-12,tariffs,comment,28
+2016-12,mortgage rates,story,0
+2016-12,mortgage rates,comment,3
+2016-12,jobs report,story,0
+2016-12,jobs report,comment,0
+2017-01,inflation,story,2
+2017-01,inflation,comment,311
+2017-01,prices,story,37
+2017-01,prices,comment,1236
+2017-01,cost of living,story,4
+2017-01,cost of living,comment,211
+2017-01,layoffs,story,17
+2017-01,layoffs,comment,48
+2017-01,hiring,story,55
+2017-01,hiring,comment,992
+2017-01,recession,story,3
+2017-01,recession,comment,62
+2017-01,economy,story,62
+2017-01,economy,comment,1142
+2017-01,tariffs,story,1
+2017-01,tariffs,comment,52
+2017-01,mortgage rates,story,0
+2017-01,mortgage rates,comment,3
+2017-01,jobs report,story,0
+2017-01,jobs report,comment,0
+2017-02,inflation,story,7
+2017-02,inflation,comment,241
+2017-02,prices,story,41
+2017-02,prices,comment,1059
+2017-02,cost of living,story,4
+2017-02,cost of living,comment,189
+2017-02,layoffs,story,9
+2017-02,layoffs,comment,52
+2017-02,hiring,story,51
+2017-02,hiring,comment,1227
+2017-02,recession,story,0
+2017-02,recession,comment,51
+2017-02,economy,story,57
+2017-02,economy,comment,851
+2017-02,tariffs,story,1
+2017-02,tariffs,comment,35
+2017-02,mortgage rates,story,0
+2017-02,mortgage rates,comment,1
+2017-02,jobs report,story,0
+2017-02,jobs report,comment,1
+2017-03,inflation,story,7
+2017-03,inflation,comment,299
+2017-03,prices,story,35
+2017-03,prices,comment,1352
+2017-03,cost of living,story,5
+2017-03,cost of living,comment,198
+2017-03,layoffs,story,6
+2017-03,layoffs,comment,30
+2017-03,hiring,story,64
+2017-03,hiring,comment,1108
+2017-03,recession,story,5
+2017-03,recession,comment,105
+2017-03,economy,story,58
+2017-03,economy,comment,1068
+2017-03,tariffs,story,0
+2017-03,tariffs,comment,38
+2017-03,mortgage rates,story,0
+2017-03,mortgage rates,comment,4
+2017-03,jobs report,story,0
+2017-03,jobs report,comment,1
+2017-04,inflation,story,3
+2017-04,inflation,comment,194
+2017-04,prices,story,24
+2017-04,prices,comment,991
+2017-04,cost of living,story,4
+2017-04,cost of living,comment,166
+2017-04,layoffs,story,8
+2017-04,layoffs,comment,41
+2017-04,hiring,story,70
+2017-04,hiring,comment,970
+2017-04,recession,story,0
+2017-04,recession,comment,66
+2017-04,economy,story,77
+2017-04,economy,comment,986
+2017-04,tariffs,story,0
+2017-04,tariffs,comment,32
+2017-04,mortgage rates,story,0
+2017-04,mortgage rates,comment,1
+2017-04,jobs report,story,0
+2017-04,jobs report,comment,1
+2017-05,inflation,story,8
+2017-05,inflation,comment,309
+2017-05,prices,story,33
+2017-05,prices,comment,1158
+2017-05,cost of living,story,1
+2017-05,cost of living,comment,146
+2017-05,layoffs,story,7
+2017-05,layoffs,comment,56
+2017-05,hiring,story,47
+2017-05,hiring,comment,931
+2017-05,recession,story,3
+2017-05,recession,comment,77
+2017-05,economy,story,75
+2017-05,economy,comment,1096
+2017-05,tariffs,story,3
+2017-05,tariffs,comment,53
+2017-05,mortgage rates,story,0
+2017-05,mortgage rates,comment,5
+2017-05,jobs report,story,1
+2017-05,jobs report,comment,0
+2017-06,inflation,story,8
+2017-06,inflation,comment,294
+2017-06,prices,story,26
+2017-06,prices,comment,1288
+2017-06,cost of living,story,0
+2017-06,cost of living,comment,139
+2017-06,layoffs,story,7
+2017-06,layoffs,comment,32
+2017-06,hiring,story,55
+2017-06,hiring,comment,855
+2017-06,recession,story,2
+2017-06,recession,comment,56
+2017-06,economy,story,64
+2017-06,economy,comment,1004
+2017-06,tariffs,story,0
+2017-06,tariffs,comment,38
+2017-06,mortgage rates,story,0
+2017-06,mortgage rates,comment,2
+2017-06,jobs report,story,0
+2017-06,jobs report,comment,0
+2017-07,inflation,story,1
+2017-07,inflation,comment,307
+2017-07,prices,story,32
+2017-07,prices,comment,1138
+2017-07,cost of living,story,0
+2017-07,cost of living,comment,181
+2017-07,layoffs,story,22
+2017-07,layoffs,comment,54
+2017-07,hiring,story,65
+2017-07,hiring,comment,1058
+2017-07,recession,story,2
+2017-07,recession,comment,66
+2017-07,economy,story,85
+2017-07,economy,comment,1010
+2017-07,tariffs,story,0
+2017-07,tariffs,comment,25
+2017-07,mortgage rates,story,0
+2017-07,mortgage rates,comment,4
+2017-07,jobs report,story,1
+2017-07,jobs report,comment,0
+2017-08,inflation,story,2
+2017-08,inflation,comment,293
+2017-08,prices,story,37
+2017-08,prices,comment,1091
+2017-08,cost of living,story,3
+2017-08,cost of living,comment,159
+2017-08,layoffs,story,6
+2017-08,layoffs,comment,28
+2017-08,hiring,story,62
+2017-08,hiring,comment,1659
+2017-08,recession,story,3
+2017-08,recession,comment,94
+2017-08,economy,story,78
+2017-08,economy,comment,1004
+2017-08,tariffs,story,3
+2017-08,tariffs,comment,26
+2017-08,mortgage rates,story,0
+2017-08,mortgage rates,comment,1
+2017-08,jobs report,story,0
+2017-08,jobs report,comment,0
+2017-09,inflation,story,6
+2017-09,inflation,comment,409
+2017-09,prices,story,26
+2017-09,prices,comment,1243
+2017-09,cost of living,story,1
+2017-09,cost of living,comment,178
+2017-09,layoffs,story,8
+2017-09,layoffs,comment,38
+2017-09,hiring,story,61
+2017-09,hiring,comment,863
+2017-09,recession,story,1
+2017-09,recession,comment,91
+2017-09,economy,story,67
+2017-09,economy,comment,1353
+2017-09,tariffs,story,1
+2017-09,tariffs,comment,46
+2017-09,mortgage rates,story,0
+2017-09,mortgage rates,comment,7
+2017-09,jobs report,story,0
+2017-09,jobs report,comment,0
+2017-10,inflation,story,6
+2017-10,inflation,comment,317
+2017-10,prices,story,34
+2017-10,prices,comment,1164
+2017-10,cost of living,story,5
+2017-10,cost of living,comment,119
+2017-10,layoffs,story,10
+2017-10,layoffs,comment,54
+2017-10,hiring,story,43
+2017-10,hiring,comment,981
+2017-10,recession,story,2
+2017-10,recession,comment,66
+2017-10,economy,story,63
+2017-10,economy,comment,964
+2017-10,tariffs,story,2
+2017-10,tariffs,comment,63
+2017-10,mortgage rates,story,0
+2017-10,mortgage rates,comment,0
+2017-10,jobs report,story,1
+2017-10,jobs report,comment,3
+2017-11,inflation,story,3
+2017-11,inflation,comment,468
+2017-11,prices,story,36
+2017-11,prices,comment,1272
+2017-11,cost of living,story,0
+2017-11,cost of living,comment,160
+2017-11,layoffs,story,6
+2017-11,layoffs,comment,45
+2017-11,hiring,story,36
+2017-11,hiring,comment,870
+2017-11,recession,story,3
+2017-11,recession,comment,137
+2017-11,economy,story,81
+2017-11,economy,comment,1229
+2017-11,tariffs,story,3
+2017-11,tariffs,comment,30
+2017-11,mortgage rates,story,0
+2017-11,mortgage rates,comment,1
+2017-11,jobs report,story,0
+2017-11,jobs report,comment,0
+2017-12,inflation,story,5
+2017-12,inflation,comment,460
+2017-12,prices,story,42
+2017-12,prices,comment,1482
+2017-12,cost of living,story,4
+2017-12,cost of living,comment,180
+2017-12,layoffs,story,7
+2017-12,layoffs,comment,28
+2017-12,hiring,story,51
+2017-12,hiring,comment,859
+2017-12,recession,story,4
+2017-12,recession,comment,85
+2017-12,economy,story,75
+2017-12,economy,comment,1229
+2017-12,tariffs,story,1
+2017-12,tariffs,comment,37
+2017-12,mortgage rates,story,0
+2017-12,mortgage rates,comment,1
+2017-12,jobs report,story,2
+2017-12,jobs report,comment,0
+2018-01,inflation,story,5
+2018-01,inflation,comment,281
+2018-01,prices,story,39
+2018-01,prices,comment,1350
+2018-01,cost of living,story,2
+2018-01,cost of living,comment,141
+2018-01,layoffs,story,9
+2018-01,layoffs,comment,32
+2018-01,hiring,story,48
+2018-01,hiring,comment,886
+2018-01,recession,story,4
+2018-01,recession,comment,67
+2018-01,economy,story,72
+2018-01,economy,comment,1100
+2018-01,tariffs,story,10
+2018-01,tariffs,comment,74
+2018-01,mortgage rates,story,0
+2018-01,mortgage rates,comment,0
+2018-01,jobs report,story,1
+2018-01,jobs report,comment,0
+2018-02,inflation,story,10
+2018-02,inflation,comment,439
+2018-02,prices,story,37
+2018-02,prices,comment,1210
+2018-02,cost of living,story,4
+2018-02,cost of living,comment,137
+2018-02,layoffs,story,4
+2018-02,layoffs,comment,44
+2018-02,hiring,story,51
+2018-02,hiring,comment,1025
+2018-02,recession,story,5
+2018-02,recession,comment,127
+2018-02,economy,story,79
+2018-02,economy,comment,915
+2018-02,tariffs,story,3
+2018-02,tariffs,comment,23
+2018-02,mortgage rates,story,0
+2018-02,mortgage rates,comment,3
+2018-02,jobs report,story,0
+2018-02,jobs report,comment,1
+2018-03,inflation,story,5
+2018-03,inflation,comment,346
+2018-03,prices,story,26
+2018-03,prices,comment,1018
+2018-03,cost of living,story,0
+2018-03,cost of living,comment,120
+2018-03,layoffs,story,11
+2018-03,layoffs,comment,37
+2018-03,hiring,story,50
+2018-03,hiring,comment,1050
+2018-03,recession,story,10
+2018-03,recession,comment,86
+2018-03,economy,story,56
+2018-03,economy,comment,920
+2018-03,tariffs,story,25
+2018-03,tariffs,comment,166
+2018-03,mortgage rates,story,0
+2018-03,mortgage rates,comment,2
+2018-03,jobs report,story,1
+2018-03,jobs report,comment,0
+2018-04,inflation,story,10
+2018-04,inflation,comment,352
+2018-04,prices,story,40
+2018-04,prices,comment,1194
+2018-04,cost of living,story,0
+2018-04,cost of living,comment,163
+2018-04,layoffs,story,4
+2018-04,layoffs,comment,59
+2018-04,hiring,story,47
+2018-04,hiring,comment,1031
+2018-04,recession,story,6
+2018-04,recession,comment,84
+2018-04,economy,story,66
+2018-04,economy,comment,903
+2018-04,tariffs,story,17
+2018-04,tariffs,comment,105
+2018-04,mortgage rates,story,1
+2018-04,mortgage rates,comment,6
+2018-04,jobs report,story,1
+2018-04,jobs report,comment,0
+2018-05,inflation,story,14
+2018-05,inflation,comment,359
+2018-05,prices,story,45
+2018-05,prices,comment,1284
+2018-05,cost of living,story,5
+2018-05,cost of living,comment,225
+2018-05,layoffs,story,4
+2018-05,layoffs,comment,28
+2018-05,hiring,story,70
+2018-05,hiring,comment,1007
+2018-05,recession,story,4
+2018-05,recession,comment,58
+2018-05,economy,story,99
+2018-05,economy,comment,914
+2018-05,tariffs,story,6
+2018-05,tariffs,comment,26
+2018-05,mortgage rates,story,1
+2018-05,mortgage rates,comment,14
+2018-05,jobs report,story,2
+2018-05,jobs report,comment,1
+2018-06,inflation,story,12
+2018-06,inflation,comment,424
+2018-06,prices,story,28
+2018-06,prices,comment,1166
+2018-06,cost of living,story,4
+2018-06,cost of living,comment,205
+2018-06,layoffs,story,5
+2018-06,layoffs,comment,63
+2018-06,hiring,story,49
+2018-06,hiring,comment,905
+2018-06,recession,story,9
+2018-06,recession,comment,168
+2018-06,economy,story,84
+2018-06,economy,comment,1090
+2018-06,tariffs,story,22
+2018-06,tariffs,comment,338
+2018-06,mortgage rates,story,0
+2018-06,mortgage rates,comment,3
+2018-06,jobs report,story,2
+2018-06,jobs report,comment,0
+2018-07,inflation,story,7
+2018-07,inflation,comment,434
+2018-07,prices,story,32
+2018-07,prices,comment,1111
+2018-07,cost of living,story,2
+2018-07,cost of living,comment,163
+2018-07,layoffs,story,4
+2018-07,layoffs,comment,44
+2018-07,hiring,story,44
+2018-07,hiring,comment,841
+2018-07,recession,story,8
+2018-07,recession,comment,138
+2018-07,economy,story,71
+2018-07,economy,comment,1110
+2018-07,tariffs,story,25
+2018-07,tariffs,comment,124
+2018-07,mortgage rates,story,0
+2018-07,mortgage rates,comment,3
+2018-07,jobs report,story,0
+2018-07,jobs report,comment,1
+2018-08,inflation,story,8
+2018-08,inflation,comment,317
+2018-08,prices,story,41
+2018-08,prices,comment,1123
+2018-08,cost of living,story,3
+2018-08,cost of living,comment,176
+2018-08,layoffs,story,3
+2018-08,layoffs,comment,33
+2018-08,hiring,story,64
+2018-08,hiring,comment,1011
+2018-08,recession,story,6
+2018-08,recession,comment,115
+2018-08,economy,story,74
+2018-08,economy,comment,1263
+2018-08,tariffs,story,8
+2018-08,tariffs,comment,124
+2018-08,mortgage rates,story,0
+2018-08,mortgage rates,comment,4
+2018-08,jobs report,story,1
+2018-08,jobs report,comment,1
+2018-09,inflation,story,0
+2018-09,inflation,comment,376
+2018-09,prices,story,32
+2018-09,prices,comment,1092
+2018-09,cost of living,story,4
+2018-09,cost of living,comment,169
+2018-09,layoffs,story,9
+2018-09,layoffs,comment,45
+2018-09,hiring,story,48
+2018-09,hiring,comment,862
+2018-09,recession,story,13
+2018-09,recession,comment,92
+2018-09,economy,story,66
+2018-09,economy,comment,1038
+2018-09,tariffs,story,17
+2018-09,tariffs,comment,143
+2018-09,mortgage rates,story,0
+2018-09,mortgage rates,comment,3
+2018-09,jobs report,story,2
+2018-09,jobs report,comment,1
+2018-10,inflation,story,4
+2018-10,inflation,comment,428
+2018-10,prices,story,38
+2018-10,prices,comment,1259
+2018-10,cost of living,story,5
+2018-10,cost of living,comment,248
+2018-10,layoffs,story,6
+2018-10,layoffs,comment,36
+2018-10,hiring,story,44
+2018-10,hiring,comment,968
+2018-10,recession,story,7
+2018-10,recession,comment,124
+2018-10,economy,story,70
+2018-10,economy,comment,1099
+2018-10,tariffs,story,6
+2018-10,tariffs,comment,57
+2018-10,mortgage rates,story,0
+2018-10,mortgage rates,comment,6
+2018-10,jobs report,story,0
+2018-10,jobs report,comment,3
+2018-11,inflation,story,2
+2018-11,inflation,comment,322
+2018-11,prices,story,40
+2018-11,prices,comment,1458
+2018-11,cost of living,story,1
+2018-11,cost of living,comment,185
+2018-11,layoffs,story,6
+2018-11,layoffs,comment,26
+2018-11,hiring,story,47
+2018-11,hiring,comment,1063
+2018-11,recession,story,8
+2018-11,recession,comment,92
+2018-11,economy,story,66
+2018-11,economy,comment,1066
+2018-11,tariffs,story,9
+2018-11,tariffs,comment,83
+2018-11,mortgage rates,story,1
+2018-11,mortgage rates,comment,11
+2018-11,jobs report,story,1
+2018-11,jobs report,comment,2
+2018-12,inflation,story,2
+2018-12,inflation,comment,313
+2018-12,prices,story,27
+2018-12,prices,comment,1122
+2018-12,cost of living,story,2
+2018-12,cost of living,comment,130
+2018-12,layoffs,story,9
+2018-12,layoffs,comment,54
+2018-12,hiring,story,36
+2018-12,hiring,comment,919
+2018-12,recession,story,8
+2018-12,recession,comment,210
+2018-12,economy,story,81
+2018-12,economy,comment,1007
+2018-12,tariffs,story,4
+2018-12,tariffs,comment,89
+2018-12,mortgage rates,story,0
+2018-12,mortgage rates,comment,1
+2018-12,jobs report,story,1
+2018-12,jobs report,comment,0
+2019-01,inflation,story,7
+2019-01,inflation,comment,399
+2019-01,prices,story,43
+2019-01,prices,comment,1432
+2019-01,cost of living,story,2
+2019-01,cost of living,comment,193
+2019-01,layoffs,story,32
+2019-01,layoffs,comment,156
+2019-01,hiring,story,73
+2019-01,hiring,comment,1103
+2019-01,recession,story,6
+2019-01,recession,comment,138
+2019-01,economy,story,80
+2019-01,economy,comment,1303
+2019-01,tariffs,story,0
+2019-01,tariffs,comment,91
+2019-01,mortgage rates,story,1
+2019-01,mortgage rates,comment,5
+2019-01,jobs report,story,0
+2019-01,jobs report,comment,1
+2019-02,inflation,story,12
+2019-02,inflation,comment,380
+2019-02,prices,story,38
+2019-02,prices,comment,1084
+2019-02,cost of living,story,0
+2019-02,cost of living,comment,139
+2019-02,layoffs,story,20
+2019-02,layoffs,comment,94
+2019-02,hiring,story,46
+2019-02,hiring,comment,892
+2019-02,recession,story,6
+2019-02,recession,comment,134
+2019-02,economy,story,70
+2019-02,economy,comment,1048
+2019-02,tariffs,story,3
+2019-02,tariffs,comment,69
+2019-02,mortgage rates,story,0
+2019-02,mortgage rates,comment,1
+2019-02,jobs report,story,0
+2019-02,jobs report,comment,0
+2019-03,inflation,story,3
+2019-03,inflation,comment,405
+2019-03,prices,story,49
+2019-03,prices,comment,1489
+2019-03,cost of living,story,2
+2019-03,cost of living,comment,188
+2019-03,layoffs,story,16
+2019-03,layoffs,comment,75
+2019-03,hiring,story,54
+2019-03,hiring,comment,1029
+2019-03,recession,story,9
+2019-03,recession,comment,179
+2019-03,economy,story,91
+2019-03,economy,comment,1247
+2019-03,tariffs,story,1
+2019-03,tariffs,comment,63
+2019-03,mortgage rates,story,0
+2019-03,mortgage rates,comment,11
+2019-03,jobs report,story,0
+2019-03,jobs report,comment,0
+2019-04,inflation,story,8
+2019-04,inflation,comment,352
+2019-04,prices,story,40
+2019-04,prices,comment,1350
+2019-04,cost of living,story,1
+2019-04,cost of living,comment,165
+2019-04,layoffs,story,12
+2019-04,layoffs,comment,64
+2019-04,hiring,story,45
+2019-04,hiring,comment,946
+2019-04,recession,story,5
+2019-04,recession,comment,149
+2019-04,economy,story,71
+2019-04,economy,comment,1080
+2019-04,tariffs,story,4
+2019-04,tariffs,comment,69
+2019-04,mortgage rates,story,0
+2019-04,mortgage rates,comment,3
+2019-04,jobs report,story,1
+2019-04,jobs report,comment,1
+2019-05,inflation,story,4
+2019-05,inflation,comment,491
+2019-05,prices,story,40
+2019-05,prices,comment,1645
+2019-05,cost of living,story,5
+2019-05,cost of living,comment,136
+2019-05,layoffs,story,11
+2019-05,layoffs,comment,32
+2019-05,hiring,story,57
+2019-05,hiring,comment,938
+2019-05,recession,story,7
+2019-05,recession,comment,142
+2019-05,economy,story,93
+2019-05,economy,comment,1343
+2019-05,tariffs,story,26
+2019-05,tariffs,comment,201
+2019-05,mortgage rates,story,0
+2019-05,mortgage rates,comment,2
+2019-05,jobs report,story,1
+2019-05,jobs report,comment,1
+2019-06,inflation,story,4
+2019-06,inflation,comment,374
+2019-06,prices,story,42
+2019-06,prices,comment,1349
+2019-06,cost of living,story,1
+2019-06,cost of living,comment,179
+2019-06,layoffs,story,10
+2019-06,layoffs,comment,33
+2019-06,hiring,story,46
+2019-06,hiring,comment,743
+2019-06,recession,story,9
+2019-06,recession,comment,150
+2019-06,economy,story,83
+2019-06,economy,comment,1212
+2019-06,tariffs,story,20
+2019-06,tariffs,comment,148
+2019-06,mortgage rates,story,1
+2019-06,mortgage rates,comment,5
+2019-06,jobs report,story,0
+2019-06,jobs report,comment,0
+2019-07,inflation,story,4
+2019-07,inflation,comment,399
+2019-07,prices,story,22
+2019-07,prices,comment,1550
+2019-07,cost of living,story,0
+2019-07,cost of living,comment,175
+2019-07,layoffs,story,10
+2019-07,layoffs,comment,49
+2019-07,hiring,story,62
+2019-07,hiring,comment,852
+2019-07,recession,story,15
+2019-07,recession,comment,152
+2019-07,economy,story,61
+2019-07,economy,comment,1289
+2019-07,tariffs,story,6
+2019-07,tariffs,comment,103
+2019-07,mortgage rates,story,0
+2019-07,mortgage rates,comment,8
+2019-07,jobs report,story,2
+2019-07,jobs report,comment,1
+2019-08,inflation,story,2
+2019-08,inflation,comment,505
+2019-08,prices,story,40
+2019-08,prices,comment,1656
+2019-08,cost of living,story,0
+2019-08,cost of living,comment,138
+2019-08,layoffs,story,8
+2019-08,layoffs,comment,28
+2019-08,hiring,story,71
+2019-08,hiring,comment,1062
+2019-08,recession,story,54
+2019-08,recession,comment,500
+2019-08,economy,story,87
+2019-08,economy,comment,1506
+2019-08,tariffs,story,17
+2019-08,tariffs,comment,235
+2019-08,mortgage rates,story,0
+2019-08,mortgage rates,comment,3
+2019-08,jobs report,story,0
+2019-08,jobs report,comment,2
+2019-09,inflation,story,12
+2019-09,inflation,comment,491
+2019-09,prices,story,39
+2019-09,prices,comment,1714
+2019-09,cost of living,story,6
+2019-09,cost of living,comment,153
+2019-09,layoffs,story,6
+2019-09,layoffs,comment,53
+2019-09,hiring,story,47
+2019-09,hiring,comment,1023
+2019-09,recession,story,31
+2019-09,recession,comment,292
+2019-09,economy,story,92
+2019-09,economy,comment,1352
+2019-09,tariffs,story,7
+2019-09,tariffs,comment,121
+2019-09,mortgage rates,story,0
+2019-09,mortgage rates,comment,5
+2019-09,jobs report,story,0
+2019-09,jobs report,comment,2
+2019-10,inflation,story,10
+2019-10,inflation,comment,319
+2019-10,prices,story,45
+2019-10,prices,comment,1292
+2019-10,cost of living,story,2
+2019-10,cost of living,comment,150
+2019-10,layoffs,story,27
+2019-10,layoffs,comment,125
+2019-10,hiring,story,68
+2019-10,hiring,comment,1155
+2019-10,recession,story,24
+2019-10,recession,comment,162
+2019-10,economy,story,80
+2019-10,economy,comment,1345
+2019-10,tariffs,story,9
+2019-10,tariffs,comment,157
+2019-10,mortgage rates,story,1
+2019-10,mortgage rates,comment,6
+2019-10,jobs report,story,0
+2019-10,jobs report,comment,0
+2019-11,inflation,story,3
+2019-11,inflation,comment,508
+2019-11,prices,story,33
+2019-11,prices,comment,1441
+2019-11,cost of living,story,5
+2019-11,cost of living,comment,137
+2019-11,layoffs,story,20
+2019-11,layoffs,comment,33
+2019-11,hiring,story,52
+2019-11,hiring,comment,795
+2019-11,recession,story,6
+2019-11,recession,comment,148
+2019-11,economy,story,63
+2019-11,economy,comment,1130
+2019-11,tariffs,story,2
+2019-11,tariffs,comment,72
+2019-11,mortgage rates,story,0
+2019-11,mortgage rates,comment,7
+2019-11,jobs report,story,1
+2019-11,jobs report,comment,0
+2019-12,inflation,story,5
+2019-12,inflation,comment,395
+2019-12,prices,story,29
+2019-12,prices,comment,1152
+2019-12,cost of living,story,2
+2019-12,cost of living,comment,150
+2019-12,layoffs,story,7
+2019-12,layoffs,comment,35
+2019-12,hiring,story,50
+2019-12,hiring,comment,1020
+2019-12,recession,story,6
+2019-12,recession,comment,117
+2019-12,economy,story,62
+2019-12,economy,comment,1139
+2019-12,tariffs,story,13
+2019-12,tariffs,comment,83
+2019-12,mortgage rates,story,0
+2019-12,mortgage rates,comment,4
+2019-12,jobs report,story,1
+2019-12,jobs report,comment,0
+2020-01,inflation,story,7
+2020-01,inflation,comment,417
+2020-01,prices,story,39
+2020-01,prices,comment,1518
+2020-01,cost of living,story,1
+2020-01,cost of living,comment,203
+2020-01,layoffs,story,41
+2020-01,layoffs,comment,93
+2020-01,hiring,story,72
+2020-01,hiring,comment,884
+2020-01,recession,story,5
+2020-01,recession,comment,246
+2020-01,economy,story,81
+2020-01,economy,comment,1193
+2020-01,tariffs,story,9
+2020-01,tariffs,comment,62
+2020-01,mortgage rates,story,1
+2020-01,mortgage rates,comment,9
+2020-01,jobs report,story,2
+2020-01,jobs report,comment,1
+2020-02,inflation,story,5
+2020-02,inflation,comment,353
+2020-02,prices,story,36
+2020-02,prices,comment,1083
+2020-02,cost of living,story,4
+2020-02,cost of living,comment,148
+2020-02,layoffs,story,12
+2020-02,layoffs,comment,56
+2020-02,hiring,story,57
+2020-02,hiring,comment,1050
+2020-02,recession,story,19
+2020-02,recession,comment,149
+2020-02,economy,story,85
+2020-02,economy,comment,1067
+2020-02,tariffs,story,0
+2020-02,tariffs,comment,41
+2020-02,mortgage rates,story,0
+2020-02,mortgage rates,comment,7
+2020-02,jobs report,story,1
+2020-02,jobs report,comment,1
+2020-03,inflation,story,5
+2020-03,inflation,comment,627
+2020-03,prices,story,39
+2020-03,prices,comment,1762
+2020-03,cost of living,story,0
+2020-03,cost of living,comment,107
+2020-03,layoffs,story,48
+2020-03,layoffs,comment,180
+2020-03,hiring,story,87
+2020-03,hiring,comment,1061
+2020-03,recession,story,85
+2020-03,recession,comment,607
+2020-03,economy,story,165
+2020-03,economy,comment,3043
+2020-03,tariffs,story,4
+2020-03,tariffs,comment,73
+2020-03,mortgage rates,story,5
+2020-03,mortgage rates,comment,21
+2020-03,jobs report,story,1
+2020-03,jobs report,comment,2
+2020-04,inflation,story,10
+2020-04,inflation,comment,557
+2020-04,prices,story,51
+2020-04,prices,comment,1592
+2020-04,cost of living,story,0
+2020-04,cost of living,comment,118
+2020-04,layoffs,story,74
+2020-04,layoffs,comment,334
+2020-04,hiring,story,70
+2020-04,hiring,comment,1088
+2020-04,recession,story,42
+2020-04,recession,comment,477
+2020-04,economy,story,159
+2020-04,economy,comment,2656
+2020-04,tariffs,story,0
+2020-04,tariffs,comment,38
+2020-04,mortgage rates,story,0
+2020-04,mortgage rates,comment,5
+2020-04,jobs report,story,1
+2020-04,jobs report,comment,1
+2020-05,inflation,story,21
+2020-05,inflation,comment,539
+2020-05,prices,story,36
+2020-05,prices,comment,1906
+2020-05,cost of living,story,2
+2020-05,cost of living,comment,399
+2020-05,layoffs,story,70
+2020-05,layoffs,comment,250
+2020-05,hiring,story,66
+2020-05,hiring,comment,1207
+2020-05,recession,story,36
+2020-05,recession,comment,241
+2020-05,economy,story,127
+2020-05,economy,comment,1947
+2020-05,tariffs,story,1
+2020-05,tariffs,comment,61
+2020-05,mortgage rates,story,0
+2020-05,mortgage rates,comment,1
+2020-05,jobs report,story,6
+2020-05,jobs report,comment,3
+2020-06,inflation,story,5
+2020-06,inflation,comment,340
+2020-06,prices,story,24
+2020-06,prices,comment,1171
+2020-06,cost of living,story,2
+2020-06,cost of living,comment,139
+2020-06,layoffs,story,22
+2020-06,layoffs,comment,102
+2020-06,hiring,story,72
+2020-06,hiring,comment,990
+2020-06,recession,story,11
+2020-06,recession,comment,124
+2020-06,economy,story,93
+2020-06,economy,comment,1380
+2020-06,tariffs,story,0
+2020-06,tariffs,comment,40
+2020-06,mortgage rates,story,0
+2020-06,mortgage rates,comment,3
+2020-06,jobs report,story,2
+2020-06,jobs report,comment,3
+2020-07,inflation,story,2
+2020-07,inflation,comment,643
+2020-07,prices,story,27
+2020-07,prices,comment,1712
+2020-07,cost of living,story,6
+2020-07,cost of living,comment,250
+2020-07,layoffs,story,23
+2020-07,layoffs,comment,87
+2020-07,hiring,story,72
+2020-07,hiring,comment,1274
+2020-07,recession,story,11
+2020-07,recession,comment,112
+2020-07,economy,story,101
+2020-07,economy,comment,1810
+2020-07,tariffs,story,0
+2020-07,tariffs,comment,92
+2020-07,mortgage rates,story,0
+2020-07,mortgage rates,comment,5
+2020-07,jobs report,story,4
+2020-07,jobs report,comment,3
+2020-08,inflation,story,14
+2020-08,inflation,comment,644
+2020-08,prices,story,24
+2020-08,prices,comment,1854
+2020-08,cost of living,story,2
+2020-08,cost of living,comment,166
+2020-08,layoffs,story,26
+2020-08,layoffs,comment,184
+2020-08,hiring,story,56
+2020-08,hiring,comment,941
+2020-08,recession,story,19
+2020-08,recession,comment,167
+2020-08,economy,story,102
+2020-08,economy,comment,1730
+2020-08,tariffs,story,1
+2020-08,tariffs,comment,94
+2020-08,mortgage rates,story,0
+2020-08,mortgage rates,comment,9
+2020-08,jobs report,story,2
+2020-08,jobs report,comment,1
+2020-09,inflation,story,9
+2020-09,inflation,comment,417
+2020-09,prices,story,31
+2020-09,prices,comment,1316
+2020-09,cost of living,story,4
+2020-09,cost of living,comment,174
+2020-09,layoffs,story,11
+2020-09,layoffs,comment,68
+2020-09,hiring,story,57
+2020-09,hiring,comment,985
+2020-09,recession,story,11
+2020-09,recession,comment,88
+2020-09,economy,story,79
+2020-09,economy,comment,1246
+2020-09,tariffs,story,8
+2020-09,tariffs,comment,75
+2020-09,mortgage rates,story,1
+2020-09,mortgage rates,comment,19
+2020-09,jobs report,story,1
+2020-09,jobs report,comment,2
+2020-10,inflation,story,9
+2020-10,inflation,comment,455
+2020-10,prices,story,29
+2020-10,prices,comment,1437
+2020-10,cost of living,story,3
+2020-10,cost of living,comment,236
+2020-10,layoffs,story,6
+2020-10,layoffs,comment,53
+2020-10,hiring,story,53
+2020-10,hiring,comment,1135
+2020-10,recession,story,3
+2020-10,recession,comment,69
+2020-10,economy,story,82
+2020-10,economy,comment,1359
+2020-10,tariffs,story,1
+2020-10,tariffs,comment,65
+2020-10,mortgage rates,story,1
+2020-10,mortgage rates,comment,7
+2020-10,jobs report,story,2
+2020-10,jobs report,comment,1
+2020-11,inflation,story,11
+2020-11,inflation,comment,407
+2020-11,prices,story,30
+2020-11,prices,comment,1325
+2020-11,cost of living,story,4
+2020-11,cost of living,comment,187
+2020-11,layoffs,story,1
+2020-11,layoffs,comment,41
+2020-11,hiring,story,49
+2020-11,hiring,comment,847
+2020-11,recession,story,3
+2020-11,recession,comment,76
+2020-11,economy,story,78
+2020-11,economy,comment,1347
+2020-11,tariffs,story,2
+2020-11,tariffs,comment,77
+2020-11,mortgage rates,story,0
+2020-11,mortgage rates,comment,7
+2020-11,jobs report,story,1
+2020-11,jobs report,comment,1
+2020-12,inflation,story,13
+2020-12,inflation,comment,687
+2020-12,prices,story,40
+2020-12,prices,comment,1675
+2020-12,cost of living,story,3
+2020-12,cost of living,comment,207
+2020-12,layoffs,story,2
+2020-12,layoffs,comment,56
+2020-12,hiring,story,47
+2020-12,hiring,comment,1170
+2020-12,recession,story,3
+2020-12,recession,comment,62
+2020-12,economy,story,81
+2020-12,economy,comment,1456
+2020-12,tariffs,story,2
+2020-12,tariffs,comment,97
+2020-12,mortgage rates,story,0
+2020-12,mortgage rates,comment,4
+2020-12,jobs report,story,0
+2020-12,jobs report,comment,0
+2021-01,inflation,story,14
+2021-01,inflation,comment,898
+2021-01,prices,story,34
+2021-01,prices,comment,1902
+2021-01,cost of living,story,5
+2021-01,cost of living,comment,161
+2021-01,layoffs,story,10
+2021-01,layoffs,comment,70
+2021-01,hiring,story,53
+2021-01,hiring,comment,994
+2021-01,recession,story,0
+2021-01,recession,comment,87
+2021-01,economy,story,70
+2021-01,economy,comment,1631
+2021-01,tariffs,story,3
+2021-01,tariffs,comment,122
+2021-01,mortgage rates,story,0
+2021-01,mortgage rates,comment,13
+2021-01,jobs report,story,1
+2021-01,jobs report,comment,0
+2021-02,inflation,story,18
+2021-02,inflation,comment,1361
+2021-02,prices,story,36
+2021-02,prices,comment,2138
+2021-02,cost of living,story,0
+2021-02,cost of living,comment,193
+2021-02,layoffs,story,5
+2021-02,layoffs,comment,34
+2021-02,hiring,story,54
+2021-02,hiring,comment,1128
+2021-02,recession,story,3
+2021-02,recession,comment,101
+2021-02,economy,story,76
+2021-02,economy,comment,1535
+2021-02,tariffs,story,1
+2021-02,tariffs,comment,80
+2021-02,mortgage rates,story,0
+2021-02,mortgage rates,comment,13
+2021-02,jobs report,story,0
+2021-02,jobs report,comment,0
+2021-03,inflation,story,21
+2021-03,inflation,comment,1170
+2021-03,prices,story,52
+2021-03,prices,comment,2023
+2021-03,cost of living,story,1
+2021-03,cost of living,comment,180
+2021-03,layoffs,story,7
+2021-03,layoffs,comment,37
+2021-03,hiring,story,56
+2021-03,hiring,comment,1287
+2021-03,recession,story,0
+2021-03,recession,comment,87
+2021-03,economy,story,85
+2021-03,economy,comment,1663
+2021-03,tariffs,story,2
+2021-03,tariffs,comment,81
+2021-03,mortgage rates,story,0
+2021-03,mortgage rates,comment,14
+2021-03,jobs report,story,1
+2021-03,jobs report,comment,1
+2021-04,inflation,story,21
+2021-04,inflation,comment,1024
+2021-04,prices,story,60
+2021-04,prices,comment,2017
+2021-04,cost of living,story,2
+2021-04,cost of living,comment,165
+2021-04,layoffs,story,5
+2021-04,layoffs,comment,39
+2021-04,hiring,story,47
+2021-04,hiring,comment,1299
+2021-04,recession,story,2
+2021-04,recession,comment,72
+2021-04,economy,story,91
+2021-04,economy,comment,1596
+2021-04,tariffs,story,1
+2021-04,tariffs,comment,75
+2021-04,mortgage rates,story,0
+2021-04,mortgage rates,comment,19
+2021-04,jobs report,story,0
+2021-04,jobs report,comment,0
+2021-05,inflation,story,58
+2021-05,inflation,comment,1407
+2021-05,prices,story,67
+2021-05,prices,comment,1995
+2021-05,cost of living,story,1
+2021-05,cost of living,comment,232
+2021-05,layoffs,story,0
+2021-05,layoffs,comment,40
+2021-05,hiring,story,64
+2021-05,hiring,comment,1261
+2021-05,recession,story,3
+2021-05,recession,comment,76
+2021-05,economy,story,82
+2021-05,economy,comment,1617
+2021-05,tariffs,story,3
+2021-05,tariffs,comment,87
+2021-05,mortgage rates,story,0
+2021-05,mortgage rates,comment,9
+2021-05,jobs report,story,7
+2021-05,jobs report,comment,4
+2021-06,inflation,story,50
+2021-06,inflation,comment,1214
+2021-06,prices,story,62
+2021-06,prices,comment,1874
+2021-06,cost of living,story,3
+2021-06,cost of living,comment,207
+2021-06,layoffs,story,1
+2021-06,layoffs,comment,46
+2021-06,hiring,story,56
+2021-06,hiring,comment,1495
+2021-06,recession,story,5
+2021-06,recession,comment,79
+2021-06,economy,story,81
+2021-06,economy,comment,1756
+2021-06,tariffs,story,2
+2021-06,tariffs,comment,72
+2021-06,mortgage rates,story,0
+2021-06,mortgage rates,comment,12
+2021-06,jobs report,story,0
+2021-06,jobs report,comment,0
+2021-07,inflation,story,28
+2021-07,inflation,comment,741
+2021-07,prices,story,47
+2021-07,prices,comment,1925
+2021-07,cost of living,story,8
+2021-07,cost of living,comment,175
+2021-07,layoffs,story,2
+2021-07,layoffs,comment,32
+2021-07,hiring,story,50
+2021-07,hiring,comment,1261
+2021-07,recession,story,5
+2021-07,recession,comment,60
+2021-07,economy,story,58
+2021-07,economy,comment,1272
+2021-07,tariffs,story,0
+2021-07,tariffs,comment,76
+2021-07,mortgage rates,story,0
+2021-07,mortgage rates,comment,12
+2021-07,jobs report,story,3
+2021-07,jobs report,comment,1
+2021-08,inflation,story,33
+2021-08,inflation,comment,990
+2021-08,prices,story,59
+2021-08,prices,comment,1979
+2021-08,cost of living,story,5
+2021-08,cost of living,comment,240
+2021-08,layoffs,story,4
+2021-08,layoffs,comment,73
+2021-08,hiring,story,58
+2021-08,hiring,comment,1322
+2021-08,recession,story,0
+2021-08,recession,comment,88
+2021-08,economy,story,70
+2021-08,economy,comment,1625
+2021-08,tariffs,story,0
+2021-08,tariffs,comment,79
+2021-08,mortgage rates,story,0
+2021-08,mortgage rates,comment,15
+2021-08,jobs report,story,1
+2021-08,jobs report,comment,0
+2021-09,inflation,story,16
+2021-09,inflation,comment,875
+2021-09,prices,story,55
+2021-09,prices,comment,2216
+2021-09,cost of living,story,2
+2021-09,cost of living,comment,133
+2021-09,layoffs,story,4
+2021-09,layoffs,comment,50
+2021-09,hiring,story,64
+2021-09,hiring,comment,1198
+2021-09,recession,story,2
+2021-09,recession,comment,94
+2021-09,economy,story,69
+2021-09,economy,comment,1494
+2021-09,tariffs,story,1
+2021-09,tariffs,comment,52
+2021-09,mortgage rates,story,0
+2021-09,mortgage rates,comment,13
+2021-09,jobs report,story,4
+2021-09,jobs report,comment,0
+2021-10,inflation,story,45
+2021-10,inflation,comment,1302
+2021-10,prices,story,61
+2021-10,prices,comment,2016
+2021-10,cost of living,story,5
+2021-10,cost of living,comment,160
+2021-10,layoffs,story,5
+2021-10,layoffs,comment,56
+2021-10,hiring,story,53
+2021-10,hiring,comment,1239
+2021-10,recession,story,4
+2021-10,recession,comment,119
+2021-10,economy,story,78
+2021-10,economy,comment,1812
+2021-10,tariffs,story,0
+2021-10,tariffs,comment,62
+2021-10,mortgage rates,story,0
+2021-10,mortgage rates,comment,10
+2021-10,jobs report,story,3
+2021-10,jobs report,comment,2
+2021-11,inflation,story,67
+2021-11,inflation,comment,1592
+2021-11,prices,story,65
+2021-11,prices,comment,2492
+2021-11,cost of living,story,6
+2021-11,cost of living,comment,159
+2021-11,layoffs,story,4
+2021-11,layoffs,comment,41
+2021-11,hiring,story,61
+2021-11,hiring,comment,1418
+2021-11,recession,story,3
+2021-11,recession,comment,135
+2021-11,economy,story,73
+2021-11,economy,comment,1431
+2021-11,tariffs,story,0
+2021-11,tariffs,comment,64
+2021-11,mortgage rates,story,0
+2021-11,mortgage rates,comment,26
+2021-11,jobs report,story,1
+2021-11,jobs report,comment,1
+2021-12,inflation,story,60
+2021-12,inflation,comment,1336
+2021-12,prices,story,60
+2021-12,prices,comment,1772
+2021-12,cost of living,story,4
+2021-12,cost of living,comment,175
+2021-12,layoffs,story,5
+2021-12,layoffs,comment,72
+2021-12,hiring,story,50
+2021-12,hiring,comment,1239
+2021-12,recession,story,3
+2021-12,recession,comment,87
+2021-12,economy,story,85
+2021-12,economy,comment,1481
+2021-12,tariffs,story,4
+2021-12,tariffs,comment,44
+2021-12,mortgage rates,story,0
+2021-12,mortgage rates,comment,13
+2021-12,jobs report,story,0
+2021-12,jobs report,comment,0
+2022-01,inflation,story,62
+2022-01,inflation,comment,1536
+2022-01,prices,story,71
+2022-01,prices,comment,2378
+2022-01,cost of living,story,5
+2022-01,cost of living,comment,231
+2022-01,layoffs,story,5
+2022-01,layoffs,comment,65
+2022-01,hiring,story,72
+2022-01,hiring,comment,1667
+2022-01,recession,story,4
+2022-01,recession,comment,89
+2022-01,economy,story,76
+2022-01,economy,comment,1592
+2022-01,tariffs,story,0
+2022-01,tariffs,comment,50
+2022-01,mortgage rates,story,0
+2022-01,mortgage rates,comment,17
+2022-01,jobs report,story,2
+2022-01,jobs report,comment,1
+2022-02,inflation,story,57
+2022-02,inflation,comment,1235
+2022-02,prices,story,44
+2022-02,prices,comment,1887
+2022-02,cost of living,story,4
+2022-02,cost of living,comment,204
+2022-02,layoffs,story,9
+2022-02,layoffs,comment,33
+2022-02,hiring,story,71
+2022-02,hiring,comment,1234
+2022-02,recession,story,7
+2022-02,recession,comment,100
+2022-02,economy,story,76
+2022-02,economy,comment,1679
+2022-02,tariffs,story,1
+2022-02,tariffs,comment,37
+2022-02,mortgage rates,story,0
+2022-02,mortgage rates,comment,18
+2022-02,jobs report,story,3
+2022-02,jobs report,comment,1
+2022-03,inflation,story,52
+2022-03,inflation,comment,1357
+2022-03,prices,story,98
+2022-03,prices,comment,2200
+2022-03,cost of living,story,3
+2022-03,cost of living,comment,190
+2022-03,layoffs,story,9
+2022-03,layoffs,comment,79
+2022-03,hiring,story,71
+2022-03,hiring,comment,1370
+2022-03,recession,story,13
+2022-03,recession,comment,185
+2022-03,economy,story,73
+2022-03,economy,comment,1888
+2022-03,tariffs,story,3
+2022-03,tariffs,comment,60
+2022-03,mortgage rates,story,2
+2022-03,mortgage rates,comment,19
+2022-03,jobs report,story,0
+2022-03,jobs report,comment,0
+2022-04,inflation,story,85
+2022-04,inflation,comment,1509
+2022-04,prices,story,68
+2022-04,prices,comment,2308
+2022-04,cost of living,story,6
+2022-04,cost of living,comment,195
+2022-04,layoffs,story,19
+2022-04,layoffs,comment,71
+2022-04,hiring,story,65
+2022-04,hiring,comment,1520
+2022-04,recession,story,12
+2022-04,recession,comment,199
+2022-04,economy,story,67
+2022-04,economy,comment,1460
+2022-04,tariffs,story,0
+2022-04,tariffs,comment,36
+2022-04,mortgage rates,story,8
+2022-04,mortgage rates,comment,37
+2022-04,jobs report,story,1
+2022-04,jobs report,comment,0
+2022-05,inflation,story,78
+2022-05,inflation,comment,1773
+2022-05,prices,story,82
+2022-05,prices,comment,2412
+2022-05,cost of living,story,4
+2022-05,cost of living,comment,227
+2022-05,layoffs,story,46
+2022-05,layoffs,comment,255
+2022-05,hiring,story,115
+2022-05,hiring,comment,1739
+2022-05,recession,story,53
+2022-05,recession,comment,522
+2022-05,economy,story,107
+2022-05,economy,comment,1877
+2022-05,tariffs,story,3
+2022-05,tariffs,comment,50
+2022-05,mortgage rates,story,3
+2022-05,mortgage rates,comment,36
+2022-05,jobs report,story,0
+2022-05,jobs report,comment,0
+2022-06,inflation,story,149
+2022-06,inflation,comment,2070
+2022-06,prices,story,99
+2022-06,prices,comment,2566
+2022-06,cost of living,story,6
+2022-06,cost of living,comment,228
+2022-06,layoffs,story,98
+2022-06,layoffs,comment,330
+2022-06,hiring,story,86
+2022-06,hiring,comment,1810
+2022-06,recession,story,60
+2022-06,recession,comment,506
+2022-06,economy,story,101
+2022-06,economy,comment,1954
+2022-06,tariffs,story,4
+2022-06,tariffs,comment,53
+2022-06,mortgage rates,story,8
+2022-06,mortgage rates,comment,35
+2022-06,jobs report,story,1
+2022-06,jobs report,comment,2
+2022-07,inflation,story,100
+2022-07,inflation,comment,1633
+2022-07,prices,story,67
+2022-07,prices,comment,2509
+2022-07,cost of living,story,9
+2022-07,cost of living,comment,241
+2022-07,layoffs,story,50
+2022-07,layoffs,comment,351
+2022-07,hiring,story,75
+2022-07,hiring,comment,1272
+2022-07,recession,story,77
+2022-07,recession,comment,600
+2022-07,economy,story,113
+2022-07,economy,comment,1847
+2022-07,tariffs,story,2
+2022-07,tariffs,comment,75
+2022-07,mortgage rates,story,3
+2022-07,mortgage rates,comment,22
+2022-07,jobs report,story,1
+2022-07,jobs report,comment,2
+2022-08,inflation,story,68
+2022-08,inflation,comment,1289
+2022-08,prices,story,72
+2022-08,prices,comment,2538
+2022-08,cost of living,story,6
+2022-08,cost of living,comment,196
+2022-08,layoffs,story,45
+2022-08,layoffs,comment,202
+2022-08,hiring,story,55
+2022-08,hiring,comment,1475
+2022-08,recession,story,27
+2022-08,recession,comment,454
+2022-08,economy,story,89
+2022-08,economy,comment,1718
+2022-08,tariffs,story,1
+2022-08,tariffs,comment,45
+2022-08,mortgage rates,story,0
+2022-08,mortgage rates,comment,19
+2022-08,jobs report,story,7
+2022-08,jobs report,comment,2
+2022-09,inflation,story,57
+2022-09,inflation,comment,1403
+2022-09,prices,story,87
+2022-09,prices,comment,2483
+2022-09,cost of living,story,7
+2022-09,cost of living,comment,223
+2022-09,layoffs,story,40
+2022-09,layoffs,comment,340
+2022-09,hiring,story,61
+2022-09,hiring,comment,1465
+2022-09,recession,story,26
+2022-09,recession,comment,313
+2022-09,economy,story,71
+2022-09,economy,comment,1723
+2022-09,tariffs,story,0
+2022-09,tariffs,comment,55
+2022-09,mortgage rates,story,9
+2022-09,mortgage rates,comment,39
+2022-09,jobs report,story,0
+2022-09,jobs report,comment,1
+2022-10,inflation,story,81
+2022-10,inflation,comment,1527
+2022-10,prices,story,64
+2022-10,prices,comment,2258
+2022-10,cost of living,story,6
+2022-10,cost of living,comment,164
+2022-10,layoffs,story,66
+2022-10,layoffs,comment,340
+2022-10,hiring,story,87
+2022-10,hiring,comment,1604
+2022-10,recession,story,29
+2022-10,recession,comment,538
+2022-10,economy,story,105
+2022-10,economy,comment,1764
+2022-10,tariffs,story,2
+2022-10,tariffs,comment,52
+2022-10,mortgage rates,story,4
+2022-10,mortgage rates,comment,28
+2022-10,jobs report,story,1
+2022-10,jobs report,comment,1
+2022-11,inflation,story,65
+2022-11,inflation,comment,1474
+2022-11,prices,story,73
+2022-11,prices,comment,2359
+2022-11,cost of living,story,3
+2022-11,cost of living,comment,187
+2022-11,layoffs,story,227
+2022-11,layoffs,comment,1298
+2022-11,hiring,story,97
+2022-11,hiring,comment,1611
+2022-11,recession,story,40
+2022-11,recession,comment,582
+2022-11,economy,story,75
+2022-11,economy,comment,1929
+2022-11,tariffs,story,0
+2022-11,tariffs,comment,52
+2022-11,mortgage rates,story,4
+2022-11,mortgage rates,comment,28
+2022-11,jobs report,story,0
+2022-11,jobs report,comment,4
+2022-12,inflation,story,63
+2022-12,inflation,comment,1019
+2022-12,prices,story,45
+2022-12,prices,comment,1887
+2022-12,cost of living,story,6
+2022-12,cost of living,comment,144
+2022-12,layoffs,story,65
+2022-12,layoffs,comment,413
+2022-12,hiring,story,50
+2022-12,hiring,comment,1177
+2022-12,recession,story,26
+2022-12,recession,comment,296
+2022-12,economy,story,79
+2022-12,economy,comment,1495
+2022-12,tariffs,story,5
+2022-12,tariffs,comment,33
+2022-12,mortgage rates,story,0
+2022-12,mortgage rates,comment,13
+2022-12,jobs report,story,4
+2022-12,jobs report,comment,2
+2023-01,inflation,story,50
+2023-01,inflation,comment,1186
+2023-01,prices,story,72
+2023-01,prices,comment,2249
+2023-01,cost of living,story,3
+2023-01,cost of living,comment,206
+2023-01,layoffs,story,242
+2023-01,layoffs,comment,1598
+2023-01,hiring,story,87
+2023-01,hiring,comment,1908
+2023-01,recession,story,40
+2023-01,recession,comment,589
+2023-01,economy,story,102
+2023-01,economy,comment,1732
+2023-01,tariffs,story,0
+2023-01,tariffs,comment,41
+2023-01,mortgage rates,story,1
+2023-01,mortgage rates,comment,11
+2023-01,jobs report,story,1
+2023-01,jobs report,comment,2
+2023-02,inflation,story,38
+2023-02,inflation,comment,1184
+2023-02,prices,story,43
+2023-02,prices,comment,1981
+2023-02,cost of living,story,3
+2023-02,cost of living,comment,205
+2023-02,layoffs,story,148
+2023-02,layoffs,comment,1526
+2023-02,hiring,story,72
+2023-02,hiring,comment,1851
+2023-02,recession,story,18
+2023-02,recession,comment,256
+2023-02,economy,story,81
+2023-02,economy,comment,1578
+2023-02,tariffs,story,1
+2023-02,tariffs,comment,34
+2023-02,mortgage rates,story,1
+2023-02,mortgage rates,comment,11
+2023-02,jobs report,story,7
+2023-02,jobs report,comment,13
+2023-03,inflation,story,57
+2023-03,inflation,comment,2169
+2023-03,prices,story,90
+2023-03,prices,comment,2561
+2023-03,cost of living,story,5
+2023-03,cost of living,comment,194
+2023-03,layoffs,story,156
+2023-03,layoffs,comment,825
+2023-03,hiring,story,59
+2023-03,hiring,comment,1514
+2023-03,recession,story,16
+2023-03,recession,comment,284
+2023-03,economy,story,122
+2023-03,economy,comment,2360
+2023-03,tariffs,story,0
+2023-03,tariffs,comment,44
+2023-03,mortgage rates,story,3
+2023-03,mortgage rates,comment,25
+2023-03,jobs report,story,2
+2023-03,jobs report,comment,2
+2023-04,inflation,story,39
+2023-04,inflation,comment,839
+2023-04,prices,story,65
+2023-04,prices,comment,1914
+2023-04,cost of living,story,1
+2023-04,cost of living,comment,165
+2023-04,layoffs,story,93
+2023-04,layoffs,comment,492
+2023-04,hiring,story,63
+2023-04,hiring,comment,1202
+2023-04,recession,story,12
+2023-04,recession,comment,132
+2023-04,economy,story,63
+2023-04,economy,comment,1414
+2023-04,tariffs,story,0
+2023-04,tariffs,comment,60
+2023-04,mortgage rates,story,2
+2023-04,mortgage rates,comment,8
+2023-04,jobs report,story,0
+2023-04,jobs report,comment,1
+2023-05,inflation,story,55
+2023-05,inflation,comment,1128
+2023-05,prices,story,48
+2023-05,prices,comment,1991
+2023-05,cost of living,story,8
+2023-05,cost of living,comment,245
+2023-05,layoffs,story,72
+2023-05,layoffs,comment,492
+2023-05,hiring,story,57
+2023-05,hiring,comment,983
+2023-05,recession,story,16
+2023-05,recession,comment,181
+2023-05,economy,story,89
+2023-05,economy,comment,1625
+2023-05,tariffs,story,1
+2023-05,tariffs,comment,49
+2023-05,mortgage rates,story,5
+2023-05,mortgage rates,comment,17
+2023-05,jobs report,story,6
+2023-05,jobs report,comment,5
+2023-06,inflation,story,48
+2023-06,inflation,comment,1086
+2023-06,prices,story,64
+2023-06,prices,comment,2252
+2023-06,cost of living,story,6
+2023-06,cost of living,comment,195
+2023-06,layoffs,story,32
+2023-06,layoffs,comment,272
+2023-06,hiring,story,60
+2023-06,hiring,comment,1074
+2023-06,recession,story,17
+2023-06,recession,comment,123
+2023-06,economy,story,92
+2023-06,economy,comment,1430
+2023-06,tariffs,story,1
+2023-06,tariffs,comment,40
+2023-06,mortgage rates,story,0
+2023-06,mortgage rates,comment,24
+2023-06,jobs report,story,1
+2023-06,jobs report,comment,1
+2023-07,inflation,story,38
+2023-07,inflation,comment,958
+2023-07,prices,story,48
+2023-07,prices,comment,1922
+2023-07,cost of living,story,5
+2023-07,cost of living,comment,165
+2023-07,layoffs,story,36
+2023-07,layoffs,comment,239
+2023-07,hiring,story,61
+2023-07,hiring,comment,1134
+2023-07,recession,story,19
+2023-07,recession,comment,161
+2023-07,economy,story,94
+2023-07,economy,comment,1585
+2023-07,tariffs,story,0
+2023-07,tariffs,comment,47
+2023-07,mortgage rates,story,3
+2023-07,mortgage rates,comment,22
+2023-07,jobs report,story,0
+2023-07,jobs report,comment,2
+2023-08,inflation,story,40
+2023-08,inflation,comment,776
+2023-08,prices,story,62
+2023-08,prices,comment,2028
+2023-08,cost of living,story,3
+2023-08,cost of living,comment,198
+2023-08,layoffs,story,30
+2023-08,layoffs,comment,233
+2023-08,hiring,story,54
+2023-08,hiring,comment,1215
+2023-08,recession,story,19
+2023-08,recession,comment,147
+2023-08,economy,story,153
+2023-08,economy,comment,1665
+2023-08,tariffs,story,0
+2023-08,tariffs,comment,56
+2023-08,mortgage rates,story,12
+2023-08,mortgage rates,comment,11
+2023-08,jobs report,story,1
+2023-08,jobs report,comment,0
+2023-09,inflation,story,27
+2023-09,inflation,comment,930
+2023-09,prices,story,56
+2023-09,prices,comment,2300
+2023-09,cost of living,story,3
+2023-09,cost of living,comment,166
+2023-09,layoffs,story,44
+2023-09,layoffs,comment,300
+2023-09,hiring,story,72
+2023-09,hiring,comment,885
+2023-09,recession,story,9
+2023-09,recession,comment,103
+2023-09,economy,story,113
+2023-09,economy,comment,1504
+2023-09,tariffs,story,4
+2023-09,tariffs,comment,53
+2023-09,mortgage rates,story,4
+2023-09,mortgage rates,comment,17
+2023-09,jobs report,story,2
+2023-09,jobs report,comment,1
+2023-10,inflation,story,33
+2023-10,inflation,comment,1111
+2023-10,prices,story,56
+2023-10,prices,comment,2278
+2023-10,cost of living,story,1
+2023-10,cost of living,comment,178
+2023-10,layoffs,story,55
+2023-10,layoffs,comment,381
+2023-10,hiring,story,55
+2023-10,hiring,comment,1160
+2023-10,recession,story,14
+2023-10,recession,comment,129
+2023-10,economy,story,112
+2023-10,economy,comment,1595
+2023-10,tariffs,story,0
+2023-10,tariffs,comment,37
+2023-10,mortgage rates,story,8
+2023-10,mortgage rates,comment,29
+2023-10,jobs report,story,1
+2023-10,jobs report,comment,1
+2023-11,inflation,story,25
+2023-11,inflation,comment,838
+2023-11,prices,story,56
+2023-11,prices,comment,2059
+2023-11,cost of living,story,5
+2023-11,cost of living,comment,136
+2023-11,layoffs,story,40
+2023-11,layoffs,comment,292
+2023-11,hiring,story,71
+2023-11,hiring,comment,1039
+2023-11,recession,story,3
+2023-11,recession,comment,84
+2023-11,economy,story,103
+2023-11,economy,comment,1541
+2023-11,tariffs,story,0
+2023-11,tariffs,comment,36
+2023-11,mortgage rates,story,4
+2023-11,mortgage rates,comment,20
+2023-11,jobs report,story,4
+2023-11,jobs report,comment,0
+2023-12,inflation,story,37
+2023-12,inflation,comment,851
+2023-12,prices,story,45
+2023-12,prices,comment,1903
+2023-12,cost of living,story,5
+2023-12,cost of living,comment,151
+2023-12,layoffs,story,63
+2023-12,layoffs,comment,363
+2023-12,hiring,story,55
+2023-12,hiring,comment,894
+2023-12,recession,story,5
+2023-12,recession,comment,100
+2023-12,economy,story,92
+2023-12,economy,comment,1240
+2023-12,tariffs,story,3
+2023-12,tariffs,comment,52
+2023-12,mortgage rates,story,2
+2023-12,mortgage rates,comment,13
+2023-12,jobs report,story,3
+2023-12,jobs report,comment,1
+2024-01,inflation,story,18
+2024-01,inflation,comment,774
+2024-01,prices,story,55
+2024-01,prices,comment,1835
+2024-01,cost of living,story,2
+2024-01,cost of living,comment,147
+2024-01,layoffs,story,169
+2024-01,layoffs,comment,970
+2024-01,hiring,story,72
+2024-01,hiring,comment,1403
+2024-01,recession,story,13
+2024-01,recession,comment,177
+2024-01,economy,story,116
+2024-01,economy,comment,1576
+2024-01,tariffs,story,2
+2024-01,tariffs,comment,65
+2024-01,mortgage rates,story,0
+2024-01,mortgage rates,comment,16
+2024-01,jobs report,story,5
+2024-01,jobs report,comment,2
+2024-02,inflation,story,24
+2024-02,inflation,comment,847
+2024-02,prices,story,62
+2024-02,prices,comment,1977
+2024-02,cost of living,story,2
+2024-02,cost of living,comment,159
+2024-02,layoffs,story,112
+2024-02,layoffs,comment,433
+2024-02,hiring,story,52
+2024-02,hiring,comment,1084
+2024-02,recession,story,11
+2024-02,recession,comment,103
+2024-02,economy,story,120
+2024-02,economy,comment,1462
+2024-02,tariffs,story,1
+2024-02,tariffs,comment,61
+2024-02,mortgage rates,story,0
+2024-02,mortgage rates,comment,8
+2024-02,jobs report,story,4
+2024-02,jobs report,comment,9
+2024-03,inflation,story,28
+2024-03,inflation,comment,856
+2024-03,prices,story,62
+2024-03,prices,comment,1739
+2024-03,cost of living,story,3
+2024-03,cost of living,comment,122
+2024-03,layoffs,story,56
+2024-03,layoffs,comment,207
+2024-03,hiring,story,50
+2024-03,hiring,comment,992
+2024-03,recession,story,8
+2024-03,recession,comment,81
+2024-03,economy,story,96
+2024-03,economy,comment,1329
+2024-03,tariffs,story,3
+2024-03,tariffs,comment,74
+2024-03,mortgage rates,story,2
+2024-03,mortgage rates,comment,7
+2024-03,jobs report,story,2
+2024-03,jobs report,comment,1
+2024-04,inflation,story,27
+2024-04,inflation,comment,728
+2024-04,prices,story,61
+2024-04,prices,comment,1730
+2024-04,cost of living,story,4
+2024-04,cost of living,comment,158
+2024-04,layoffs,story,54
+2024-04,layoffs,comment,231
+2024-04,hiring,story,53
+2024-04,hiring,comment,770
+2024-04,recession,story,8
+2024-04,recession,comment,66
+2024-04,economy,story,100
+2024-04,economy,comment,1185
+2024-04,tariffs,story,2
+2024-04,tariffs,comment,89
+2024-04,mortgage rates,story,1
+2024-04,mortgage rates,comment,18
+2024-04,jobs report,story,2
+2024-04,jobs report,comment,2
+2024-05,inflation,story,30
+2024-05,inflation,comment,715
+2024-05,prices,story,61
+2024-05,prices,comment,1815
+2024-05,cost of living,story,3
+2024-05,cost of living,comment,128
+2024-05,layoffs,story,57
+2024-05,layoffs,comment,238
+2024-05,hiring,story,55
+2024-05,hiring,comment,935
+2024-05,recession,story,8
+2024-05,recession,comment,84
+2024-05,economy,story,68
+2024-05,economy,comment,1107
+2024-05,tariffs,story,24
+2024-05,tariffs,comment,112
+2024-05,mortgage rates,story,2
+2024-05,mortgage rates,comment,17
+2024-05,jobs report,story,1
+2024-05,jobs report,comment,1
+2024-06,inflation,story,19
+2024-06,inflation,comment,474
+2024-06,prices,story,67
+2024-06,prices,comment,1674
+2024-06,cost of living,story,2
+2024-06,cost of living,comment,88
+2024-06,layoffs,story,35
+2024-06,layoffs,comment,168
+2024-06,hiring,story,64
+2024-06,hiring,comment,862
+2024-06,recession,story,8
+2024-06,recession,comment,61
+2024-06,economy,story,70
+2024-06,economy,comment,1092
+2024-06,tariffs,story,20
+2024-06,tariffs,comment,110
+2024-06,mortgage rates,story,3
+2024-06,mortgage rates,comment,3
+2024-06,jobs report,story,2
+2024-06,jobs report,comment,0
+2024-07,inflation,story,11
+2024-07,inflation,comment,546
+2024-07,prices,story,37
+2024-07,prices,comment,1253
+2024-07,cost of living,story,4
+2024-07,cost of living,comment,114
+2024-07,layoffs,story,28
+2024-07,layoffs,comment,157
+2024-07,hiring,story,43
+2024-07,hiring,comment,1042
+2024-07,recession,story,5
+2024-07,recession,comment,55
+2024-07,economy,story,87
+2024-07,economy,comment,1184
+2024-07,tariffs,story,5
+2024-07,tariffs,comment,77
+2024-07,mortgage rates,story,0
+2024-07,mortgage rates,comment,5
+2024-07,jobs report,story,3
+2024-07,jobs report,comment,3
+2024-08,inflation,story,20
+2024-08,inflation,comment,480
+2024-08,prices,story,58
+2024-08,prices,comment,1440
+2024-08,cost of living,story,6
+2024-08,cost of living,comment,96
+2024-08,layoffs,story,40
+2024-08,layoffs,comment,209
+2024-08,hiring,story,46
+2024-08,hiring,comment,801
+2024-08,recession,story,18
+2024-08,recession,comment,115
+2024-08,economy,story,64
+2024-08,economy,comment,1019
+2024-08,tariffs,story,4
+2024-08,tariffs,comment,76
+2024-08,mortgage rates,story,1
+2024-08,mortgage rates,comment,3
+2024-08,jobs report,story,2
+2024-08,jobs report,comment,12
+2024-09,inflation,story,19
+2024-09,inflation,comment,388
+2024-09,prices,story,47
+2024-09,prices,comment,1371
+2024-09,cost of living,story,3
+2024-09,cost of living,comment,88
+2024-09,layoffs,story,20
+2024-09,layoffs,comment,203
+2024-09,hiring,story,48
+2024-09,hiring,comment,795
+2024-09,recession,story,4
+2024-09,recession,comment,58
+2024-09,economy,story,63
+2024-09,economy,comment,1018
+2024-09,tariffs,story,4
+2024-09,tariffs,comment,132
+2024-09,mortgage rates,story,0
+2024-09,mortgage rates,comment,4
+2024-09,jobs report,story,0
+2024-09,jobs report,comment,0
+2024-10,inflation,story,10
+2024-10,inflation,comment,420
+2024-10,prices,story,58
+2024-10,prices,comment,1242
+2024-10,cost of living,story,5
+2024-10,cost of living,comment,83
+2024-10,layoffs,story,30
+2024-10,layoffs,comment,211
+2024-10,hiring,story,50
+2024-10,hiring,comment,801
+2024-10,recession,story,2
+2024-10,recession,comment,58
+2024-10,economy,story,67
+2024-10,economy,comment,1005
+2024-10,tariffs,story,15
+2024-10,tariffs,comment,151
+2024-10,mortgage rates,story,0
+2024-10,mortgage rates,comment,4
+2024-10,jobs report,story,3
+2024-10,jobs report,comment,0
+2024-11,inflation,story,26
+2024-11,inflation,comment,991
+2024-11,prices,story,51
+2024-11,prices,comment,1391
+2024-11,cost of living,story,1
+2024-11,cost of living,comment,118
+2024-11,layoffs,story,32
+2024-11,layoffs,comment,190
+2024-11,hiring,story,46
+2024-11,hiring,comment,803
+2024-11,recession,story,7
+2024-11,recession,comment,95
+2024-11,economy,story,56
+2024-11,economy,comment,1464
+2024-11,tariffs,story,31
+2024-11,tariffs,comment,496
+2024-11,mortgage rates,story,2
+2024-11,mortgage rates,comment,8
+2024-11,jobs report,story,1
+2024-11,jobs report,comment,7
+2024-12,inflation,story,18
+2024-12,inflation,comment,542
+2024-12,prices,story,62
+2024-12,prices,comment,1334
+2024-12,cost of living,story,6
+2024-12,cost of living,comment,112
+2024-12,layoffs,story,16
+2024-12,layoffs,comment,155
+2024-12,hiring,story,55
+2024-12,hiring,comment,900
+2024-12,recession,story,4
+2024-12,recession,comment,61
+2024-12,economy,story,78
+2024-12,economy,comment,1251
+2024-12,tariffs,story,10
+2024-12,tariffs,comment,128
+2024-12,mortgage rates,story,0
+2024-12,mortgage rates,comment,6
+2024-12,jobs report,story,2
+2024-12,jobs report,comment,0
+2025-01,inflation,story,14
+2025-01,inflation,comment,714
+2025-01,prices,story,54
+2025-01,prices,comment,1545
+2025-01,cost of living,story,3
+2025-01,cost of living,comment,144
+2025-01,layoffs,story,27
+2025-01,layoffs,comment,284
+2025-01,hiring,story,63
+2025-01,hiring,comment,1259
+2025-01,recession,story,5
+2025-01,recession,comment,82
+2025-01,economy,story,54
+2025-01,economy,comment,1412
+2025-01,tariffs,story,33
+2025-01,tariffs,comment,259
+2025-01,mortgage rates,story,1
+2025-01,mortgage rates,comment,9
+2025-01,jobs report,story,6
+2025-01,jobs report,comment,4
+2025-02,inflation,story,15
+2025-02,inflation,comment,655
+2025-02,prices,story,57
+2025-02,prices,comment,1370
+2025-02,cost of living,story,4
+2025-02,cost of living,comment,146
+2025-02,layoffs,story,71
+2025-02,layoffs,comment,311
+2025-02,hiring,story,71
+2025-02,hiring,comment,1338
+2025-02,recession,story,4
+2025-02,recession,comment,110
+2025-02,economy,story,79
+2025-02,economy,comment,1538
+2025-02,tariffs,story,83
+2025-02,tariffs,comment,856
+2025-02,mortgage rates,story,2
+2025-02,mortgage rates,comment,5
+2025-02,jobs report,story,3
+2025-02,jobs report,comment,3
+2025-03,inflation,story,18
+2025-03,inflation,comment,599
+2025-03,prices,story,40
+2025-03,prices,comment,1509
+2025-03,cost of living,story,2
+2025-03,cost of living,comment,110
+2025-03,layoffs,story,36
+2025-03,layoffs,comment,351
+2025-03,hiring,story,63
+2025-03,hiring,comment,834
+2025-03,recession,story,16
+2025-03,recession,comment,190
+2025-03,economy,story,63
+2025-03,economy,comment,1842
+2025-03,tariffs,story,90
+2025-03,tariffs,comment,889
+2025-03,mortgage rates,story,0
+2025-03,mortgage rates,comment,4
+2025-03,jobs report,story,4
+2025-03,jobs report,comment,3
+2025-04,inflation,story,13
+2025-04,inflation,comment,704
+2025-04,prices,story,65
+2025-04,prices,comment,1736
+2025-04,cost of living,story,2
+2025-04,cost of living,comment,111
+2025-04,layoffs,story,36
+2025-04,layoffs,comment,272
+2025-04,hiring,story,52
+2025-04,hiring,comment,946
+2025-04,recession,story,17
+2025-04,recession,comment,275
+2025-04,economy,story,99
+2025-04,economy,comment,2232
+2025-04,tariffs,story,443
+2025-04,tariffs,comment,3498
+2025-04,mortgage rates,story,1
+2025-04,mortgage rates,comment,12
+2025-04,jobs report,story,1
+2025-04,jobs report,comment,3
+2025-05,inflation,story,11
+2025-05,inflation,comment,481
+2025-05,prices,story,48
+2025-05,prices,comment,1151
+2025-05,cost of living,story,3
+2025-05,cost of living,comment,108
+2025-05,layoffs,story,37
+2025-05,layoffs,comment,215
+2025-05,hiring,story,65
+2025-05,hiring,comment,1012
+2025-05,recession,story,4
+2025-05,recession,comment,82
+2025-05,economy,story,70
+2025-05,economy,comment,1220
+2025-05,tariffs,story,123
+2025-05,tariffs,comment,818
+2025-05,mortgage rates,story,0
+2025-05,mortgage rates,comment,1
+2025-05,jobs report,story,1
+2025-05,jobs report,comment,2
+2025-06,inflation,story,10
+2025-06,inflation,comment,431
+2025-06,prices,story,48
+2025-06,prices,comment,1088
+2025-06,cost of living,story,0
+2025-06,cost of living,comment,69
+2025-06,layoffs,story,28
+2025-06,layoffs,comment,221
+2025-06,hiring,story,62
+2025-06,hiring,comment,735
+2025-06,recession,story,5
+2025-06,recession,comment,52
+2025-06,economy,story,65
+2025-06,economy,comment,949
+2025-06,tariffs,story,29
+2025-06,tariffs,comment,195
+2025-06,mortgage rates,story,1
+2025-06,mortgage rates,comment,1
+2025-06,jobs report,story,0
+2025-06,jobs report,comment,2
+2025-07,inflation,story,12
+2025-07,inflation,comment,558
+2025-07,prices,story,56
+2025-07,prices,comment,1569
+2025-07,cost of living,story,0
+2025-07,cost of living,comment,135
+2025-07,layoffs,story,55
+2025-07,layoffs,comment,304
+2025-07,hiring,story,83
+2025-07,hiring,comment,944
+2025-07,recession,story,2
+2025-07,recession,comment,66
+2025-07,economy,story,81
+2025-07,economy,comment,1392
+2025-07,tariffs,story,39
+2025-07,tariffs,comment,354
+2025-07,mortgage rates,story,0
+2025-07,mortgage rates,comment,10
+2025-07,jobs report,story,5
+2025-07,jobs report,comment,6
+2025-08,inflation,story,26
+2025-08,inflation,comment,833
+2025-08,prices,story,66
+2025-08,prices,comment,1840
+2025-08,cost of living,story,4
+2025-08,cost of living,comment,137
+2025-08,layoffs,story,23
+2025-08,layoffs,comment,220
+2025-08,hiring,story,75
+2025-08,hiring,comment,1211
+2025-08,recession,story,4
+2025-08,recession,comment,101
+2025-08,economy,story,105
+2025-08,economy,comment,1723
+2025-08,tariffs,story,78
+2025-08,tariffs,comment,963
+2025-08,mortgage rates,story,0
+2025-08,mortgage rates,comment,13
+2025-08,jobs report,story,14
+2025-08,jobs report,comment,11
+2025-09,inflation,story,17
+2025-09,inflation,comment,622
+2025-09,prices,story,54
+2025-09,prices,comment,1496
+2025-09,cost of living,story,2
+2025-09,cost of living,comment,104
+2025-09,layoffs,story,26
+2025-09,layoffs,comment,291
+2025-09,hiring,story,63
+2025-09,hiring,comment,1292
+2025-09,recession,story,7
+2025-09,recession,comment,119
+2025-09,economy,story,83
+2025-09,economy,comment,1514
+2025-09,tariffs,story,44
+2025-09,tariffs,comment,479
+2025-09,mortgage rates,story,0
+2025-09,mortgage rates,comment,5
+2025-09,jobs report,story,5
+2025-09,jobs report,comment,11
+2025-10,inflation,story,17
+2025-10,inflation,comment,603
+2025-10,prices,story,61
+2025-10,prices,comment,1752
+2025-10,cost of living,story,4
+2025-10,cost of living,comment,95
+2025-10,layoffs,story,54
+2025-10,layoffs,comment,288
+2025-10,hiring,story,51
+2025-10,hiring,comment,795
+2025-10,recession,story,7
+2025-10,recession,comment,121
+2025-10,economy,story,105
+2025-10,economy,comment,1739
+2025-10,tariffs,story,42
+2025-10,tariffs,comment,472
+2025-10,mortgage rates,story,0
+2025-10,mortgage rates,comment,9
+2025-10,jobs report,story,3
+2025-10,jobs report,comment,4
+2025-11,inflation,story,17
+2025-11,inflation,comment,514
+2025-11,prices,story,62
+2025-11,prices,comment,1662
+2025-11,cost of living,story,3
+2025-11,cost of living,comment,136
+2025-11,layoffs,story,31
+2025-11,layoffs,comment,196
+2025-11,hiring,story,69
+2025-11,hiring,comment,855
+2025-11,recession,story,5
+2025-11,recession,comment,88
+2025-11,economy,story,108
+2025-11,economy,comment,1420
+2025-11,tariffs,story,23
+2025-11,tariffs,comment,319
+2025-11,mortgage rates,story,0
+2025-11,mortgage rates,comment,4
+2025-11,jobs report,story,4
+2025-11,jobs report,comment,2
+2025-12,inflation,story,14
+2025-12,inflation,comment,579
+2025-12,prices,story,86
+2025-12,prices,comment,1990
+2025-12,cost of living,story,5
+2025-12,cost of living,comment,111
+2025-12,layoffs,story,17
+2025-12,layoffs,comment,206
+2025-12,hiring,story,61
+2025-12,hiring,comment,944
+2025-12,recession,story,6
+2025-12,recession,comment,91
+2025-12,economy,story,98
+2025-12,economy,comment,1572
+2025-12,tariffs,story,14
+2025-12,tariffs,comment,307
+2025-12,mortgage rates,story,1
+2025-12,mortgage rates,comment,4
+2025-12,jobs report,story,2
+2025-12,jobs report,comment,2
+2026-01,inflation,story,14
+2026-01,inflation,comment,655
+2026-01,prices,story,79
+2026-01,prices,comment,2063
+2026-01,cost of living,story,2
+2026-01,cost of living,comment,120
+2026-01,layoffs,story,47
+2026-01,layoffs,comment,303
+2026-01,hiring,story,72
+2026-01,hiring,comment,895
+2026-01,recession,story,4
+2026-01,recession,comment,84
+2026-01,economy,story,90
+2026-01,economy,comment,1999
+2026-01,tariffs,story,52
+2026-01,tariffs,comment,877
+2026-01,mortgage rates,story,2
+2026-01,mortgage rates,comment,9
+2026-01,jobs report,story,1
+2026-01,jobs report,comment,2
+2026-02,inflation,story,16
+2026-02,inflation,comment,395
+2026-02,prices,story,80
+2026-02,prices,comment,1724
+2026-02,cost of living,story,2
+2026-02,cost of living,comment,98
+2026-02,layoffs,story,53
+2026-02,layoffs,comment,251
+2026-02,hiring,story,98
+2026-02,hiring,comment,846
+2026-02,recession,story,9
+2026-02,recession,comment,92
+2026-02,economy,story,111
+2026-02,economy,comment,1631
+2026-02,tariffs,story,48
+2026-02,tariffs,comment,627
+2026-02,mortgage rates,story,0
+2026-02,mortgage rates,comment,2
+2026-02,jobs report,story,6
+2026-02,jobs report,comment,9
+2026-03,inflation,story,23
+2026-03,inflation,comment,555
+2026-03,prices,story,123
+2026-03,prices,comment,2333
+2026-03,cost of living,story,3
+2026-03,cost of living,comment,115
+2026-03,layoffs,story,64
+2026-03,layoffs,comment,356
+2026-03,hiring,story,79
+2026-03,hiring,comment,1026
+2026-03,recession,story,8
+2026-03,recession,comment,117
+2026-03,economy,story,107
+2026-03,economy,comment,1580
+2026-03,tariffs,story,19
+2026-03,tariffs,comment,506
+2026-03,mortgage rates,story,1
+2026-03,mortgage rates,comment,3
+2026-03,jobs report,story,2
+2026-03,jobs report,comment,6
+2026-04,inflation,story,21
+2026-04,inflation,comment,605
+2026-04,prices,story,99
+2026-04,prices,comment,2185
+2026-04,cost of living,story,2
+2026-04,cost of living,comment,109
+2026-04,layoffs,story,45
+2026-04,layoffs,comment,343
+2026-04,hiring,story,47
+2026-04,hiring,comment,760
+2026-04,recession,story,8
+2026-04,recession,comment,103
+2026-04,economy,story,108
+2026-04,economy,comment,1558
+2026-04,tariffs,story,8
+2026-04,tariffs,comment,228
+2026-04,mortgage rates,story,0
+2026-04,mortgage rates,comment,5
+2026-04,jobs report,story,0
+2026-04,jobs report,comment,0
+2026-05,inflation,story,23
+2026-05,inflation,comment,547
+2026-05,prices,story,69
+2026-05,prices,comment,2086
+2026-05,cost of living,story,0
+2026-05,cost of living,comment,104
+2026-05,layoffs,story,93
+2026-05,layoffs,comment,546
+2026-05,hiring,story,45
+2026-05,hiring,comment,1063
+2026-05,recession,story,5
+2026-05,recession,comment,108
+2026-05,economy,story,91
+2026-05,economy,comment,1872
+2026-05,tariffs,story,4
+2026-05,tariffs,comment,210
+2026-05,mortgage rates,story,1
+2026-05,mortgage rates,comment,10
+2026-05,jobs report,story,0
+2026-05,jobs report,comment,1
+2026-06,inflation,story,21
+2026-06,inflation,comment,759
+2026-06,prices,story,96
+2026-06,prices,comment,2805
+2026-06,cost of living,story,3
+2026-06,cost of living,comment,147
+2026-06,layoffs,story,56
+2026-06,layoffs,comment,309
+2026-06,hiring,story,66
+2026-06,hiring,comment,1093
+2026-06,recession,story,4
+2026-06,recession,comment,98
+2026-06,economy,story,113
+2026-06,economy,comment,1998
+2026-06,tariffs,story,3
+2026-06,tariffs,comment,201
+2026-06,mortgage rates,story,0
+2026-06,mortgage rates,comment,2
+2026-06,jobs report,story,2
+2026-06,jobs report,comment,16
+2026-07,inflation,story,19
+2026-07,inflation,comment,487
+2026-07,prices,story,85
+2026-07,prices,comment,2065
+2026-07,cost of living,story,4
+2026-07,cost of living,comment,87
+2026-07,layoffs,story,40
+2026-07,layoffs,comment,225
+2026-07,hiring,story,71
+2026-07,hiring,comment,708
+2026-07,recession,story,5
+2026-07,recession,comment,60
+2026-07,economy,story,111
+2026-07,economy,comment,1575
+2026-07,tariffs,story,16
+2026-07,tariffs,comment,198
+2026-07,mortgage rates,story,2
+2026-07,mortgage rates,comment,6
+2026-07,jobs report,story,0
+2026-07,jobs report,comment,1
+2026-08,inflation,story,21
+2026-08,inflation,comment,670
+2026-08,prices,story,75
+2026-08,prices,comment,2328
+2026-08,cost of living,story,1
+2026-08,cost of living,comment,94
+2026-08,layoffs,story,23
+2026-08,layoffs,comment,172
+2026-08,hiring,story,55
+2026-08,hiring,comment,763
+2026-08,recession,story,5
+2026-08,recession,comment,83
+2026-08,economy,story,112
+2026-08,economy,comment,1681
+2026-08,tariffs,story,29
+2026-08,tariffs,comment,528
+2026-08,mortgage rates,story,0
+2026-08,mortgage rates,comment,5
+2026-08,jobs report,story,5
+2026-08,jobs report,comment,4
+2026-09,inflation,story,23
+2026-09,inflation,comment,561
+2026-09,prices,story,84
+2026-09,prices,comment,2126
+2026-09,cost of living,story,0
+2026-09,cost of living,comment,107
+2026-09,layoffs,story,16
+2026-09,layoffs,comment,176
+2026-09,hiring,story,40
+2026-09,hiring,comment,750
+2026-09,recession,story,5
+2026-09,recession,comment,88
+2026-09,economy,story,84
+2026-09,economy,comment,1815
+2026-09,tariffs,story,8
+2026-09,tariffs,comment,291
+2026-09,mortgage rates,story,0
+2026-09,mortgage rates,comment,17
+2026-09,jobs report,story,3
+2026-09,jobs report,comment,2
+2026-10,inflation,story,8
+2026-10,inflation,comment,309
+2026-10,prices,story,54
+2026-10,prices,comment,1095
+2026-10,cost of living,story,1
+2026-10,cost of living,comment,64
+2026-10,layoffs,story,21
+2026-10,layoffs,comment,101
+2026-10,hiring,story,24
+2026-10,hiring,comment,510
+2026-10,recession,story,1
+2026-10,recession,comment,31
+2026-10,economy,story,35
+2026-10,economy,comment,810
+2026-10,tariffs,story,3
+2026-10,tariffs,comment,83
+2026-10,mortgage rates,story,0
+2026-10,mortgage rates,comment,7
+2026-10,jobs report,story,0
+2026-10,jobs report,comment,2

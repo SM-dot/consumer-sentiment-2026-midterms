@@ -1,0 +1,7 @@
+check,n_overlap,max_abs_diff
+ICS: professor vs UMich official,586,0.0
+U-3: professor vs BLS API LNS14000000,320,0.0
+PCE YoY: professor vs BEA DPCERG HEADLINE (computed),584,2.2533111274816253
+PCE YoY: professor vs BEA DPCCRG CORE (computed) -> professor column is CORE,584,1.3507135310675267e-05
+GDP q/q SAAR: professor vs BEA A191RL (current vintage),194,1.1
+GDP q/q SAAR: professor vs FIRST release (Philly Fed),194,9.095653056698545

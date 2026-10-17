@@ -1,0 +1,17 @@
+{
+  "nli": {
+    "name": "MoritzLaurer/deberta-v3-base-zeroshot-v2.0",
+    "revision": "8e7e5af5983a0ddb1a5b45a38b129ab69e2258e8"
+  },
+  "finbert": {
+    "name": "ProsusAI/finbert",
+    "revision": "0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031"
+  },
+  "emotion": {
+    "name": "j-hartmann/emotion-english-distilroberta-base",
+    "revision": "0e1cd914e3d46199ed785853e12b57304e04178b"
+  },
+  "torch": "2.14.1",
+  "device": "mps",
+  "codebook": "v1.0"
+}

@@ -1,0 +1,15 @@
+W1016 14:55:05.524000 7859 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+/Users/syonamehra/sentiment_project/.venv/lib/python3.13/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 11116.42it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 9599.26it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|██████████| 105/105 [00:00<00:00, 54633.66it/s]
+to code: 8751 device mps
+coded 2000/8751 in 349s
+coded 4000/8751 in 549s
+coded 6000/8751 in 825s
+coded 8000/8751 in 863s
+coded 8751/8751 in 315s
+ 1 leaked semaphore objects to clean up at shutdown: {'/loky-7804-r50j0kmc'}
+  warnings.warn(
