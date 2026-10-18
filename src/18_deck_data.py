@@ -98,6 +98,28 @@ def main():
     a = T("decline_by_age.csv")
     if len(a):
         data["levels"]["age_weight"] = (100 * a.implied_weight_CLS).round(0).tolist()
+    # ---- headline economy (latest official values) for the opening slide
+    raw = pd.read_csv(PROC / "raw_period_dated_series.csv", index_col=0)
+    data["econ_now"] = {"u3": float(raw.loc["2026-09", "u3"]), "u3_avg": round(float(raw.loc["1978-01":"2019-12", "u3"].mean()), 1),
+                        "pce": round(float(raw.loc["2026-08", "pce_yoy"]), 1), "pce_2022_peak": round(float(raw.loc["2022-01":"2022-12", "pce_yoy"].max()), 1),
+                        "gdp": round(float(P.loc["2026-10", "rt_gdp_qoq_saar"]), 1)}
+    # ---- respondents' own reasons (Michigan)
+    cr = T("components_reasons.csv")
+    if len(cr):
+        c = cr.set_index("var")
+        data["reasons"] = {k: {"y2019": round(float(c.loc[k, "2019"]), 1), "now": round(float(c.loc[k, "2025–26"]), 1), "y2022": round(float(c.loc[k, "2022 (inflation peak yr)"]), 1)}
+                           for k in ["pagorn_hp_all", "homrn_hr_all", "durrn_hp_all", "px1_med_all", "hom_r_all", "dur_r_all", "govt_r_all"] if k in c.index}
+    data["icc_ice_gap_2026"] = {"icc": round(float(gs.loc["2026 (to Oct, pre-midterm)", "icc_gap"]), 1), "ice": round(float(gs.loc["2026 (to Oct, pre-midterm)", "ice_gap"]), 1)}
+    # ---- ranked causes from the household-pressure model (M1H2) + measurement + partisanship
+    if len(dh):
+        cc = dh["contribution"]
+        prices = cc[["rt_cum3y_infl", "rt_food_yoy", "rt_gas_real_yoy", "rt_pce_yoy"]].sum()
+        policy = cc["rt_epu"]
+        jobs_income = cc[["rt_u6", "rt_u3", "rt_rdpi_pc_yoy", "rt_gdp_yoy", "rt_d12_mort30"]].sum()
+        resid_ = act - prices - policy - jobs_income - (-6.6) - pc
+        data["ranked"] = [["High prices & cost of living", round(float(prices), 1)], ["Survey moved online", -6.6],
+                          ["Policy uncertainty (tariffs, shutdown)", round(float(policy), 1)], ["Partisan mix of who answers", round(pc, 1)],
+                          ["Jobs, income, growth & mortgage rates", round(float(jobs_income), 1)], ["Not explained by any measure", round(float(resid_), 1)]]
     def clean(o):
         if isinstance(o, dict): return {k: clean(v) for k, v in o.items()}
         if isinstance(o, list): return [clean(v) for v in o]

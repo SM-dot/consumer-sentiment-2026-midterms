@@ -536,5 +536,79 @@
    34.0,
    44.0
   ]
- }
+ },
+ "econ_now": {
+  "u3": 4.2,
+  "u3_avg": 6.2,
+  "pce": 3.4,
+  "pce_2022_peak": 7.2,
+  "gdp": 2.2
+ },
+ "reasons": {
+  "pagorn_hp_all": {
+   "y2019": 7.3,
+   "now": 44.8,
+   "y2022": 39.8
+  },
+  "homrn_hr_all": {
+   "y2019": 8.3,
+   "now": 44.0,
+   "y2022": 37.1
+  },
+  "durrn_hp_all": {
+   "y2019": 11.2,
+   "now": 33.4,
+   "y2022": 42.4
+  },
+  "px1_med_all": {
+   "y2019": 2.6,
+   "now": 4.6,
+   "y2022": 5.0
+  },
+  "hom_r_all": {
+   "y2019": 134.6,
+   "now": 37.8,
+   "y2022": 51.4
+  },
+  "dur_r_all": {
+   "y2019": 155.9,
+   "now": 74.8,
+   "y2022": 75.7
+  },
+  "govt_r_all": {
+   "y2019": 104.2,
+   "now": 52.1,
+   "y2022": 67.1
+  }
+ },
+ "icc_ice_gap_2026": {
+  "icc": -43.7,
+  "ice": -25.8
+ },
+ "ranked": [
+  [
+   "High prices & cost of living",
+   -11.4
+  ],
+  [
+   "Survey moved online",
+   -6.6
+  ],
+  [
+   "Policy uncertainty (tariffs, shutdown)",
+   -6.1
+  ],
+  [
+   "Partisan mix of who answers",
+   -2.4
+  ],
+  [
+   "Jobs, income, growth & mortgage rates",
+   -2.5
+  ],
+  [
+   "Not explained by any measure",
+   -12.4
+  ]
+ ]
 }

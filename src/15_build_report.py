@@ -61,7 +61,20 @@ def build():
          f"{100*(resid - party.loc[party.R_share_drop_pp==5,'implied_ICS_change'].iloc[0])/act:.0f}%", "Residual"],
         ["Actual change, 2019 → 2025–26", f"{act:.1f}", "100%", ""]], columns=["Component of the 2019→2025–26 change in ICS", "Points", "Share", "Status"])
     table(d, tbl, widths=[3.9, 0.6, 0.6, 1.6], size=8.5)
-    bullets(d, S["exec_bullets"], size=10)
+    cc = dh["contribution"]
+    rk = {"cost of living (cumulative price level, food, gasoline, inflation)": cc[["rt_cum3y_infl", "rt_food_yoy", "rt_gas_real_yoy", "rt_pce_yoy"]].sum(),
+          "policy uncertainty (tariffs, shutdown)": cc["rt_epu"],
+          "jobs, income, growth and mortgage rates": cc[["rt_u6", "rt_u3", "rt_rdpi_pc_yoy", "rt_gdp_yoy", "rt_d12_mort30"]].sum()}
+    pc5 = party.loc[party.R_share_drop_pp == 5, "implied_ICS_change"].iloc[0]
+    rk.update({"survey-mode change": -6.6, "partisan composition": pc5})
+    rk_txt = "; ".join(f"{k} {v:.1f}" for k, v in sorted(rk.items(), key=lambda kv: kv[1]))
+    eb = [b for b in S["exec_bullets"] if not b.startswith("**RQ3.**")]
+    eb.insert(2, f"**RQ3 — what causes the mismatch, ranked.** U-3, inflation and GDP alone explain ~13% of the fall. Regrouping the household-pressure model by cause "
+                 f"(points of the {act:.1f}): {rk_txt}; unexplained {act - sum(rk.values()):.1f}. Respondents say the same in their own words: 'worse off because of higher prices' "
+                 f"rose from {comp.loc['pagorn_hp_all','2019']:.0f}% (2019) to {comp.loc['pagorn_hp_all','2025–26']:.0f}% — above the 2022 peak ({comp.loc['pagorn_hp_all','2022 (inflation peak yr)']:.0f}%) — and "
+                 f"'bad time to buy a home: interest rates' from {comp.loc['homrn_hr_all','2019']:.0f}% to {comp.loc['homrn_hr_all','2025–26']:.0f}%. The 2026 gap is larger for current conditions "
+                 f"({g26.icc_gap:.1f}) than expectations ({g26.ice_gap:.1f}): the grievance is about the present cost of living, not fear of recession.")
+    bullets(d, eb, size=10)
 
     # ------------------------------------------------------------------ 1 intro
     d.add_heading("1. Question, competing explanations, and approach", 1)

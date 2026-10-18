@@ -67,3 +67,47 @@ done topic gas
   backoff 720s (tl_housing_timelinevolraw_all.csv)
   backoff 840s (tl_housing_timelinevolraw_all.csv)
   backoff 960s (tl_housing_timelinevolraw_all.csv)
+  FAILED tl_housing_timelinevolraw_all.csv
+  backoff 120s (tl_housing_timelinetone_all.csv)
+  backoff 240s (tl_housing_timelinetone_all.csv)
+  backoff 360s (tl_housing_timelinetone_all.csv)
+  backoff 480s (tl_housing_timelinetone_all.csv)
+  error HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=90)
+  backoff 600s (tl_housing_timelinetone_all.csv)
+  backoff 720s (tl_housing_timelinetone_all.csv)
+  error HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=90)
+  backoff 840s (tl_housing_timelinetone_all.csv)
+  backoff 960s (tl_housing_timelinetone_all.csv)
+  FAILED tl_housing_timelinetone_all.csv
+done topic housing
+done topic econ_all
+  backoff 120s (out_foxnews_com_timelinetone_all.csv)
+  backoff 240s (out_foxnews_com_timelinetone_all.csv)
+  backoff 360s (out_foxnews_com_timelinetone_all.csv)
+  backoff 480s (out_foxnews_com_timelinetone_all.csv)
+done outlet foxnews.com
+done outlet foxbusiness.com
+  backoff 120s (out_breitbart_com_timelinetone_all.csv)
+  error HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=90)
+  backoff 240s (out_breitbart_com_timelinetone_all.csv)
+  backoff 360s (out_breitbart_com_timelinetone_all.csv)
+done outlet breitbart.com
+  backoff 120s (out_nypost_com_timelinetone_all.csv)
+  backoff 240s (out_nypost_com_timelinetone_all.csv)
+  backoff 360s (out_nypost_com_timelinetone_all.csv)
+  backoff 480s (out_nypost_com_timelinetone_all.csv)
+  backoff 600s (out_nypost_com_timelinetone_all.csv)
+done outlet nypost.com
+done outlet cnn.com
+done outlet msnbc.com
+done outlet nytimes.com
+  backoff 120s (out_washingtonpost_com_timelinetone_all.csv)
+done outlet washingtonpost.com
+done outlet wsj.com
+done outlet apnews.com
+  backoff 120s (out_reuters_com_timelinetone_all.csv)
+  backoff 240s (out_reuters_com_timelinetone_all.csv)
+  backoff 360s (out_reuters_com_timelinetone_all.csv)
+  backoff 480s (out_reuters_com_timelinetone_all.csv)
+  backoff 600s (out_reuters_com_timelinetone_all.csv)
+  backoff 720s (out_reuters_com_timelinetone_all.csv)

@@ -62,19 +62,27 @@ s.addNotes("(20 s) Three weeks before the midterms, Americans feel worse about t
 
 // ================================================================ 2. THE PUZZLE
 s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Question" });
-s.addText("The economy looks OK. People feel terrible.", { placeholder: "title" });
+s.addText("On paper the economy is fine. People feel terrible.", { placeholder: "title" });
+const E = D.econ_now;
+[[`${E.u3}%`, "Unemployment", `Low — the 1978–2019 average was ${E.u3_avg}%`],
+ [`+${E.gdp}%`, "Economic growth (GDP, yearly pace)", "Normal, healthy growth — no recession"],
+ [`${E.pce}%`, "Inflation (PCE, latest)", `Above the 2% goal, but far below the ${E.pce_2022_peak}% peak of 2022`]].forEach(([big, lab, sub], i) => {
+  const x = 0.6 + i * 4.1; card(s, x, 1.35, 3.85, 1.25, "EAF2FC");
+  txt(s, big, { x: x + 0.25, y: 1.42, w: 1.6, h: 0.65, fontSize: 30, bold: true, color: HEX.accent2, fontFace: THEME.headFontFace });
+  txt(s, lab, { x: x + 1.85, y: 1.48, w: 1.9, h: 0.55, fontSize: 13, bold: true });
+  txt(s, sub, { x: x + 0.25, y: 2.08, w: 3.4, h: 0.45, fontSize: 11.5, color: HEX.dk2 });
+});
 s.addChart(pres.charts.LINE, [
   { name: "How people actually feel", labels: D.chart_gap.labels, values: D.chart_gap.actual },
   { name: "How they 'should' feel, given jobs, inflation and growth", labels: D.chart_gap.labels, values: D.chart_gap.pred },
-], { x: 0.6, y: 1.35, w: 8.2, h: 4.75, chartColors: [HEX.dk1, HEX.accent2], lineSize: 2.5, lineDataSymbol: "none", ...legendOn(),
-     catAxisLabelColor: "7A8392", valAxisLabelColor: "7A8392", catAxisLabelFontSize: 10, valAxisLabelFontSize: 10, catAxisLabelFontFace: "+mn-lt",
+], { x: 0.6, y: 2.75, w: 8.2, h: 3.4, chartColors: [HEX.dk1, HEX.accent2], lineSize: 2.5, lineDataSymbol: "none", ...legendOn(),
+     catAxisLabelColor: "7A8392", valAxisLabelColor: "7A8392", catAxisLabelFontSize: 9, valAxisLabelFontSize: 9, catAxisLabelFontFace: "+mn-lt",
      valAxisLabelFontFace: "+mn-lt", catAxisLabelFrequency: 4, valAxisMinVal: 30, valAxisMaxVal: 110, valGridLine: { color: "E6E9EE", size: 0.5 },
-     catGridLine: { style: "none" }, ...chartTitle("Consumer sentiment score, 2015–2026 (100 = how people felt in 1966; 50s = very gloomy)") });
-stat(s, 9.2, 1.45, 3.5, `${Math.round(D.latest.pred)} vs ${D.latest.actual}`, "'Should be' vs actual, October 2026", HEX.accent1);
-stat(s, 9.2, 2.95, 3.5, "2×", "the gap is twice as big as in the 2008 financial crisis", HEX.dk1);
-stat(s, 9.2, 4.45, 3.5, "44.8", "May 2026: lowest reading since the survey began in 1952", HEX.dk2);
-means(s, "Official numbers say people should feel fine (~83). They feel near the worst ever (~46).");
-s.addNotes("(45 s) How to read this: the survey score is 100 when people feel like they did in 1966; in the 50s people are very gloomy. The blue line is how people 'should' feel based on unemployment, inflation and growth — using only data available at each moment. The black line is how they actually feel. Today they should be around 83; they're at 46. That gap is twice as big as in the 2008 financial crisis, and May 2026 was the lowest reading ever recorded. That's the puzzle.");
+     catGridLine: { style: "none" }, ...chartTitle("Sentiment score, 2015–2026 (100 = how people felt in 1966; 50s = very gloomy)") });
+stat(s, 9.2, 2.8, 3.5, `${Math.round(D.latest.pred)} vs ${D.latest.actual}`, "'Should feel' vs actually feel, October 2026", HEX.accent1);
+stat(s, 9.2, 4.35, 3.5, "2×", "the gap is twice as big as in the 2008 crisis; May 2026 (44.8) was the lowest ever", HEX.dk1);
+means(s, "These numbers say people should feel fine (~83). They feel near the worst ever recorded (~46).");
+s.addNotes("(40 s) Start with the economy. Unemployment is 4.2% — low; the long-run average is about 6. The economy is growing at a normal 2.2% pace. Inflation is about 3.4% — above the 2% goal but far below the 7% of 2022. Put those into a model trained on history and people 'should' feel around 83 on this scale, where 100 is 1966 and the 50s are very gloomy. They actually feel 46. That gap is twice the size of 2008, and May 2026 was the lowest reading ever. That's the mismatch we set out to explain.");
 
 // ================================================================ 3. THREE EXPLANATIONS
 pres.addSection({ title: "Approach" });
@@ -110,7 +118,7 @@ s.addText("First, we made sure the data was right", { placeholder: "title" });
   txt(s, body, { x: x + 1.35, y: y + 0.9, w: 4.4, h: 1.1, fontSize: 14, color: HEX.dk2 });
 });
 means(s, "Our rule: only use numbers that were actually available at the time — no hindsight.");
-s.addNotes("(30 s) Before analysing anything we checked the data and found four problems. The inflation column we were given left out food and gas — the things people notice most. It included a GDP number that hadn't been published yet. The 2025 shutdown left a month of jobs data missing. And the survey moved online, which makes answers gloomier by itself. We fixed all four.");
+s.addNotes("(20 s) Before analysing anything we checked the data and found four problems. The inflation column we were given left out food and gas — the things people notice most. It included a GDP number that hadn't been published yet. The 2025 shutdown left a month of jobs data missing. And the survey moved online, which makes answers gloomier by itself. We fixed all four.");
 
 // ================================================================ 5. WHO — AGE
 pres.addSection({ title: "Who" });
@@ -149,8 +157,29 @@ s.addChart(pres.charts.BAR, [
 means(s, "Every region and every income level lost about 40 points — a nationwide shock, not a local one.");
 s.addNotes("(30 s) Next we asked: is one region or one income group driving this? No. The Northeast, Midwest, South and West all fell by about 40 points. Low, middle and high earners all fell by about 40 points too. Since everyone fell together, the cause must be something national that hit everyone — which brings us to prices.");
 
-// ================================================================ 7. INFLATION
+// ================================================================ 7a. IN THEIR OWN WORDS
 pres.addSection({ title: "Why" });
+s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Why" });
+s.addText("In their own words: people say it's prices and borrowing costs", { placeholder: "title" });
+const RS = D.reasons;
+s.addChart(pres.charts.BAR, [
+  { name: "2019", labels: ["Worse off because of higher prices", "Bad time to buy a home: interest rates", "Bad time to buy big items: prices high"], values: [RS.pagorn_hp_all.y2019, RS.homrn_hr_all.y2019, RS.durrn_hp_all.y2019] },
+  { name: "2022 (inflation peak)", labels: ["Worse off because of higher prices", "Bad time to buy a home: interest rates", "Bad time to buy big items: prices high"], values: [RS.pagorn_hp_all.y2022, RS.homrn_hr_all.y2022, RS.durrn_hp_all.y2022] },
+  { name: "2025–26", labels: ["Worse off because of higher prices", "Bad time to buy a home: interest rates", "Bad time to buy big items: prices high"], values: [RS.pagorn_hp_all.now, RS.homrn_hr_all.now, RS.durrn_hp_all.now] },
+], { x: 0.6, y: 1.35, w: 7.6, h: 4.75, barDir: "col", barGrouping: "clustered", chartColors: ["C9D3E0", "F2B8B5", HEX.accent1], barGapWidthPct: 50,
+     dataLabelFormatCode: "0\"%\"", ...axis(), ...legendOn(), dataLabelFontSize: 11, catAxisLabelFontSize: 11.5,
+     ...chartTitle("% of Michigan respondents giving each reason (they answer in their own words)") });
+card(s, 8.5, 1.45, 4.2, 4.6);
+txt(s, [
+  { text: "It's about today, not the future", options: { bold: true, fontSize: 16, breakLine: true, paraSpaceAfter: 6 } },
+  { text: `The gap in how people rate their situation right now (${D.icc_ice_gap_2026.icc} points) is much bigger than in what they expect for the future (${D.icc_ice_gap_2026.ice}).`, options: { fontSize: 13.5, breakLine: true, paraSpaceAfter: 12 } },
+  { text: "Worse than 2022 — even though inflation was higher then", options: { bold: true, fontSize: 16, breakLine: true, paraSpaceAfter: 6 } },
+  { text: `${Math.round(RS.pagorn_hp_all.now)}% now blame higher prices vs ${Math.round(RS.pagorn_hp_all.y2022)}% at the 2022 peak. Expected inflation is ${RS.px1_med_all.now}% (2019: ${RS.px1_med_all.y2019}%).`, options: { fontSize: 13.5 } },
+], { x: 8.75, y: 1.65, w: 3.75, h: 4.3, color: HEX.dk1 });
+means(s, "People tell us directly what hurts: the cost of living today — and it hurts more now than at the 2022 peak.");
+s.addNotes("(35 s) Michigan doesn't just ask how people feel — it asks why, in their own words. In 2019, 7% said they were worse off because of higher prices. Today it's 45% — more than at the 2022 inflation peak. 44% say it's a bad time to buy a home because of interest rates, up from 8%. And the gap is mostly about today's situation, not the future. So people are telling us directly: it's the cost of living.");
+
+// ================================================================ 7. INFLATION
 s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Why" });
 s.addText("Why 'inflation is down' doesn't feel like it", { placeholder: "title" });
 card(s, 0.6, 1.45, 5.6, 4.6, "EAF2FC");
@@ -169,22 +198,24 @@ if (D.nec_full) s.addChart(pres.charts.BAR, [{ name: "% increase since January 2
 means(s, `Prices up ${D.nec.cpi}%, paychecks up ${D.nec.wages}% — people aren't imagining it.`);
 s.addNotes("(45 s) This is the key idea. Eggs were 2 dollars in 2021, 4 dollars in 2023. Today they rise slowly — 4 dollars 12 — so the government says inflation is low. But it measures how fast prices rise now, not whether they came back down; people remember 2 dollars. It also doesn't count loan costs — a 7% mortgage isn't 'inflation'. On the right: since 2021 prices rose 28%, rent and housing 32%, gas 68%, but paychecks only 26%. So people really are worse off.");
 
-// ================================================================ 8. WHAT EXPLAINS IT
+// ================================================================ 8. WHAT EXPLAINS IT (ranked)
 s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Why" });
 const total = Math.abs(D.actual_change);
-s.addText(`So what explains the ${Math.round(total)}-point drop since 2019?`, { placeholder: "title" });
-const decLabels = ["Jobs, inflation, growth (official numbers)", "Everyday costs: high prices, food, loans, job worries", "Survey moved online", "Fewer Republicans answering (estimate)", "Not explained"];
-s.addChart(pres.charts.BAR, [{ name: "Points of the drop", labels: decLabels, values: D.decomp.map(d => Math.abs(d[1])) }], {
-  x: 0.6, y: 1.35, w: 7.9, h: 4.75, barDir: "bar", chartColors: [HEX.accent5, HEX.accent1, HEX.accent2, HEX.accent6, "B8BEC8"], varyColors: true,
-  barGapWidthPct: 45, dataLabelFormatCode: "0", catAxisOrientation: "maxMin", ...axis(), catAxisLabelFontSize: 12.5,
-  ...chartTitle(`How many of the ${Math.round(total)} points each cause explains`),
+D.ranked = D.ranked.slice(0, 5).sort((a, b) => a[1] - b[1]).concat([D.ranked[5]]);
+s.addText(`What's causing the ${Math.round(total)}-point drop, ranked`, { placeholder: "title" });
+s.addChart(pres.charts.BAR, [{ name: "Points of the drop", labels: D.ranked.map(r => r[0]), values: D.ranked.map(r => Math.abs(r[1])) }], {
+  x: 0.6, y: 1.35, w: 7.9, h: 4.75, barDir: "bar", chartColors: [HEX.accent1, HEX.accent2, HEX.accent4, HEX.accent6, HEX.accent5, "C9CED6"], varyColors: true,
+  barGapWidthPct: 40, dataLabelFormatCode: "0.0", catAxisOrientation: "maxMin", ...axis(), catAxisLabelFontSize: 12.5,
+  ...chartTitle(`Points of the ${Math.round(total)}-point drop since 2019 explained by each cause`),
 });
 card(s, 8.8, 1.45, 3.9, 4.6);
-const sh = D.decomp.map(d => Math.round(100 * Math.abs(d[1]) / total));
-bullets(s, [`Official numbers: only ${sh[0]}% of the drop.`, `Everyday costs: the biggest piece (${sh[1]}%).`, `Survey change: ${sh[2]}%.`,
-            `The rest (~${Math.round(Math.abs(D.decomp[4][1]))} points) is the most the media could possibly explain.`], { x: 9.05, y: 1.65, w: 3.45, h: 4.3, fontSize: 14 });
-means(s, "Most of the drop is real everyday pain plus a change in how the survey is done.");
-s.addNotes("(40 s) Here we split the 41-point drop into pieces. The official numbers — jobs, inflation, growth — explain only about 5 points. Everyday costs — high prices, food, loans and job worries — explain about 15, the biggest piece. The survey moving online explains about 7. Fewer Republicans answering explains about 2. About 12 points are left unexplained — that's the most any media story could account for.");
+const sh = D.ranked.map(r => Math.round(100 * Math.abs(r[1]) / total));
+bullets(s, [`Prices & cost of living: the #1 cause (${sh[0]}% of the drop) — prices ~11% above normal, food, gas.`,
+            `The survey moving online: ${sh[1]}%.`, `Tariff and shutdown uncertainty: ${sh[2]}%.`,
+            `The official 'headline' numbers (jobs, growth) explain very little.`,
+            `About ${Math.round(Math.abs(D.ranked[5][1]))} points remain unexplained — we say so honestly.`], { x: 9.05, y: 1.6, w: 3.45, h: 4.4, fontSize: 13 });
+means(s, `High prices, the survey change and policy uncertainty: ${Math.round(Math.abs(D.ranked[0][1]+D.ranked[1][1]+D.ranked[2][1]))} of the ${Math.round(total-Math.abs(D.ranked[5][1]))} points we can explain.`);
+s.addNotes("(40 s) Now we rank the causes of the 41-point drop. Number one is the cost of living — prices about 11% above normal, plus food and gas — about 11 points. Number two is the survey moving online, about 7. Number three is uncertainty from tariffs and the shutdown, about 6. Jobs, income and growth explain only about 2 and a half, and the mix of who answers the survey politically about 2. Roughly 12 points we can't explain with any measure, and we report that honestly. One caution: the uncertainty index is built from newspapers, so it reflects real policy shocks as reported in the news.");
 
 // ================================================================ 9. WHY THE YOUNG
 s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Why" });
@@ -204,6 +235,25 @@ txt(s, [
 ], { x: 6.65, y: 1.65, w: 5.85, h: 4.3, color: HEX.dk1 });
 means(s, "Young people aren't irrational — they're learning from the only big inflation they've ever seen.");
 s.addNotes("(45 s) Why did young adults fall furthest? Economists have shown that people learn about inflation from what they've lived through. For a 26-year-old, two years of high inflation is a big chunk of their life; for a 66-year-old who remembers the 1970s, it's a blip. We measured this: the recent shock raised young adults' inflation memory about ten times more than older adults'. Young adults fell about 10 points more than people over 55 — and this effect explains about 8 of those 10 points, comparing groups in the same month so the news is identical for everyone.");
+
+// ================================================================ 9b. POLITICS
+s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Why" });
+s.addText("Party matters — but independents are gloomy too", { placeholder: "title" });
+if (D.transition) {
+  const PT = D.transition.party;
+  s.addChart(pres.charts.BAR, [
+    { name: "June 2022 (Biden)", labels: ["Democrats", "Independents", "Republicans"], values: [66.4, 48.5, 33.0] },
+    { name: "May 2026 (Trump)", labels: ["Democrats", "Independents", "Republicans"], values: [32.8, 40.6, 84.6] },
+  ], { x: 0.6, y: 1.35, w: 7.2, h: 4.75, barDir: "col", barGrouping: "clustered", chartColors: ["9EC5F4", HEX.accent1], barGapWidthPct: 50,
+       dataLabelFormatCode: "0", ...axis(), ...legendOn(), ...chartTitle("Sentiment by party at the two lowest points (University of Michigan reports)") });
+}
+card(s, 8.2, 1.45, 4.5, 4.6);
+bullets(s, ["People whose party holds the White House feel much better. This flips every election — Michigan has seen it since the 1980s.",
+            "Independents — the middle — are the best guide to the national mood. They are at 41: very gloomy too.",
+            "Since 2025, fewer people call themselves Republican in the survey. That alone lowers the national score by about 2 points."],
+        { x: 8.45, y: 1.65, w: 4.05, h: 4.3, fontSize: 13.5 });
+means(s, "Party colors how people judge the economy, but the gloom is real across the political middle.");
+s.addNotes("(35 s) Politics matters, as the brief warned. Michigan's own reports show that people whose party is in power feel much better — Democrats were at 66 in 2022 and are at 33 now; Republicans went from 33 to 85. That flips every election. But independents — the middle — track the national number, and they're at 41, very gloomy. And fewer people now identify as Republican in the survey, which lowers the headline by about 2 points. So politics changes who feels bad, but it doesn't make the gloom fake.");
 
 // ================================================================ 10. MEDIA — HOW WE CHECKED
 pres.addSection({ title: "Media" });
@@ -248,8 +298,26 @@ if (D.transition) {
   s.addNotes("(45 s) This is our own test. When the presidency changed in January 2025, sentiment fell another 14 and a half points. If the media were causing that, the news should have turned much more negative. It didn't: overall news tone barely moved — even in the worst case, that explains about one point of the fourteen-and-a-half. Right-leaning outlets did turn more positive, as they always do when their side is in power, but the total news mood stayed flat. So the news may amplify the mood, but it didn't cause the collapse.");
 }
 
-// ================================================================ 12. FOR INVESTORS
+// ================================================================ 11b. THE ANSWER
 pres.addSection({ title: "So what" });
+s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "So what" });
+s.addText("So what is causing the mismatch?", { placeholder: "title" });
+const R = D.ranked;
+const rv = k => Math.abs(R.find(r => r[0].startsWith(k))[1]);
+const realPts = rv("High prices") + rv("Policy") + rv("Jobs"), measPts = rv("Survey") + rv("Partisan");
+[["Real costs the headline numbers miss", `${Math.round(realPts)} points`, ["Prices ~11% above normal; paychecks behind", "Mortgage rates: 44% say it's a bad time to buy a home", "Tariff & shutdown uncertainty"], HEX.accent1],
+ ["How it's measured", `${Math.round(measPts)} points`, ["Survey moved from phone to online (−6.6)", "Fewer Republicans answering (−2.4)", "Old models never saw a shock like this"], HEX.accent2],
+ ["How people interpret it", "who is hit hardest", [`Young adults: first big inflation (~${D.experience ? D.experience.share : 78}% of their extra drop)`, "Party in power feels better", `Media: ~${D.magnitude ? D.magnitude.implied : 1} point — not the cause`], HEX.accent4]].forEach(([h, big, items, col], i) => {
+  const x = 0.6 + i * 4.1; card(s, x, 1.45, 3.85, 4.6);
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: x + 0.25, y: 1.65, w: 3.35, h: 0.55, rectRadius: 0.1, fill: { color: col }, line: { color: col } });
+  txt(s, h, { x: x + 0.35, y: 1.65, w: 3.15, h: 0.55, fontSize: 14, bold: true, color: C.background1, align: "center", valign: "middle" });
+  txt(s, big, { x: x + 0.3, y: 2.35, w: 3.3, h: 0.6, fontSize: 26, bold: true, fontFace: THEME.headFontFace, color: HEX.dk1 });
+  bullets(s, items, { x: x + 0.3, y: 3.05, w: 3.3, h: 2.9, fontSize: 15 });
+});
+means(s, `Of ${Math.round(total)} points: ~${Math.round(realPts)} real costs, ~${Math.round(measPts)} measurement, ~${Math.round(rv("Not explained"))} unexplained — and media explains about 1.`);
+s.addNotes("(35 s) Putting it all together. About 20 of the 41 points are real costs the headline numbers miss — prices, borrowing costs and policy uncertainty. About 9 points are how it's measured — the online survey and who answers. Then interpretation shapes who is hit hardest: young adults living through their first big inflation, and partisanship. The media explains about one point. Roughly 12 points remain unexplained, which we report rather than hide.");
+
+// ================================================================ 12. FOR INVESTORS
 s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "So what" });
 s.addText("What this means for investors and forecasters", { placeholder: "title" });
 if (D.spend) {
@@ -279,6 +347,34 @@ s.addText([
   { text: "Questions?", options: { bold: true, color: "CBD2DC", fontSize: 18 } },
 ], { placeholder: "body" });
 s.addNotes("(10 s) Thank you. The key takeaway: Americans aren't gloomy because of biased news — prices stayed high, the survey changed, and young people lived through their first big inflation. Happy to take questions.");
+
+// ================================================================ BACKUP 1: SIX QUESTIONS
+pres.addSection({ title: "Backup" });
+s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Backup" });
+s.addText("Backup: answers to the six required questions", { placeholder: "title" });
+const qa = [["1. How can we measure media bias?", "Against benchmarks: equal good vs bad news, the real data, the same month across outlets, official numbers. AI coder checked against 300 human labels (70% agreement)."],
+  ["2. Is bias depressing sentiment?", "No evidence: news adds no forecasting power; in 2025 tone barely changed while sentiment fell 14.5 points (~1 point explained)."],
+  ["3. How much do jobs, inflation, GDP explain?", "Only ~13% of the 41-point drop."],
+  ["4. Which mental biases can we measure?", "Anchoring to old prices and learning from lived inflation: yes. Partisanship: indirectly. Availability/confirmation bias in readers: no (no exposure data)."],
+  ["5. Does media data improve predictions?", "No — forecasts get ~25% worse; everyday-cost data makes them ~24% better."],
+  ["6. What would contradict a media story?", "Seven tests written in advance; most came out against it (see report Table 11)."]];
+s.addTable(qa.map(([q, a]) => [{ text: q, options: { bold: true } }, { text: a }]), { x: 0.6, y: 1.4, w: 12.1, colW: [3.6, 8.5], fontSize: 12.5, fontFace: THEME.bodyFontFace, color: HEX.dk1, border: { type: "solid", pt: 0.5, color: "D9DEE5" }, rowH: 0.72 });
+s.addNotes("Backup for questions: one-line answers to the six research questions the brief requires.");
+
+// ================================================================ BACKUP 2: CAUSE & LIMITS
+s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Backup" });
+s.addText("Backup: how we would prove cause — and our limits", { placeholder: "title" });
+card(s, 0.6, 1.45, 5.95, 4.6, "EAF2FC");
+bullets(s, ["Experiment (needs ethics approval): show 2,400 people the same inflation facts framed four ways — balanced, as a rate, as a price level, as household cost — and measure their sentiment.",
+            "Quasi-experiment: compare places that watch different TV channels (channel position is close to random), using survey data with locations.",
+            "Linking a lab result to the national number needs exposure data, matching the survey's population, and decay estimates."], { x: 0.85, y: 1.65, w: 5.5, h: 4.3, fontSize: 13.5 });
+card(s, 6.75, 1.45, 5.95, 4.6);
+bullets(s, ["One human labeler (re-check used instead of a second person).",
+            "AI coder reacts slightly to party names (7% of labels flip) — reported.",
+            "Google News ranking and short social-media history limit the corpus.",
+            "No data on what each survey respondent actually read.",
+            "About 12 points of the drop remain unexplained."], { x: 7.0, y: 1.65, w: 5.5, h: 4.3, fontSize: 13.5 });
+s.addNotes("Backup for questions: our causal-design proposal (the brief's third option) and the honest limits of the study.");
 
 (async () => {
   const out = path.join(__dirname, "Sentiment_Midterms_Summary.pptx");
