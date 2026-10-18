@@ -363,7 +363,7 @@ s.addNotes("Extra clarification for questions: one-line answers to the six resea
 
 // ================================================================ BACKUP 2: CAUSE & LIMITS
 s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Extra clarification" });
-s.addText("Extra clarification: how we would prove cause — and our limits", { placeholder: "title" });
+s.addText("Extra clarification: proving cause, and our limits", { placeholder: "title" });
 card(s, 0.6, 1.45, 5.95, 4.6, "EAF2FC");
 bullets(s, ["Experiment (needs ethics approval): show 2,400 people the same inflation facts framed four ways — balanced, as a rate, as a price level, as household cost — and measure their sentiment.",
             "Quasi-experiment: compare places that watch different TV channels (channel position is close to random), using survey data with locations.",
