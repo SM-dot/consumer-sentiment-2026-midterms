@@ -87,7 +87,7 @@ Status key: ✅ done · ◐ done with a stated deviation · ➕ beyond the brief
 | 10–12 page report separating findings from hypotheses | ✅ 12 pages; FINDING / HYPOTHESIS labels |
 | Reproducible package: provenance, prompts, code, labelling guide | ✅ `run_all.sh` |
 | Monitoring dashboard | ✅ |
-| 6–8 minute presentation with one practical implication | ✅ 16 slides + 2 backup (answers to the six questions; causal design & limits); implication = decompose sentiment before forecasting spending |
+| 6–8 minute presentation with one practical implication | ✅ 16 slides + 2 extra-clarification slides (answers to the six questions; causal design & limits); implication = decompose sentiment before forecasting spending |
 
 ## Beyond the brief (➕)
 

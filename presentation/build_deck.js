@@ -349,9 +349,9 @@ s.addText([
 s.addNotes("(10 s) Thank you. The key takeaway: Americans aren't gloomy because of biased news — prices stayed high, the survey changed, and young people lived through their first big inflation. Happy to take questions.");
 
 // ================================================================ BACKUP 1: SIX QUESTIONS
-pres.addSection({ title: "Backup" });
-s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Backup" });
-s.addText("Backup: answers to the six required questions", { placeholder: "title" });
+pres.addSection({ title: "Extra clarification" });
+s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Extra clarification" });
+s.addText("Extra clarification: answers to the six required questions", { placeholder: "title" });
 const qa = [["1. How can we measure media bias?", "Against benchmarks: equal good vs bad news, the real data, the same month across outlets, official numbers. AI coder checked against 300 human labels (70% agreement)."],
   ["2. Is bias depressing sentiment?", "No evidence: news adds no forecasting power; in 2025 tone barely changed while sentiment fell 14.5 points (~1 point explained)."],
   ["3. How much do jobs, inflation, GDP explain?", "Only ~13% of the 41-point drop."],
@@ -359,11 +359,11 @@ const qa = [["1. How can we measure media bias?", "Against benchmarks: equal goo
   ["5. Does media data improve predictions?", "No — forecasts get ~25% worse; everyday-cost data makes them ~24% better."],
   ["6. What would contradict a media story?", "Seven tests written in advance; most came out against it (see report Table 11)."]];
 s.addTable(qa.map(([q, a]) => [{ text: q, options: { bold: true } }, { text: a }]), { x: 0.6, y: 1.4, w: 12.1, colW: [3.6, 8.5], fontSize: 12.5, fontFace: THEME.bodyFontFace, color: HEX.dk1, border: { type: "solid", pt: 0.5, color: "D9DEE5" }, rowH: 0.72 });
-s.addNotes("Backup for questions: one-line answers to the six research questions the brief requires.");
+s.addNotes("Extra clarification for questions: one-line answers to the six research questions the brief requires.");
 
 // ================================================================ BACKUP 2: CAUSE & LIMITS
-s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Backup" });
-s.addText("Backup: how we would prove cause — and our limits", { placeholder: "title" });
+s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Extra clarification" });
+s.addText("Extra clarification: how we would prove cause — and our limits", { placeholder: "title" });
 card(s, 0.6, 1.45, 5.95, 4.6, "EAF2FC");
 bullets(s, ["Experiment (needs ethics approval): show 2,400 people the same inflation facts framed four ways — balanced, as a rate, as a price level, as household cost — and measure their sentiment.",
             "Quasi-experiment: compare places that watch different TV channels (channel position is close to random), using survey data with locations.",
@@ -374,7 +374,7 @@ bullets(s, ["One human labeler (re-check used instead of a second person).",
             "Google News ranking and short social-media history limit the corpus.",
             "No data on what each survey respondent actually read.",
             "About 12 points of the drop remain unexplained."], { x: 7.0, y: 1.65, w: 5.5, h: 4.3, fontSize: 13.5 });
-s.addNotes("Backup for questions: our causal-design proposal (the brief's third option) and the honest limits of the study.");
+s.addNotes("Extra clarification for questions: our causal-design proposal (the brief's third option) and the honest limits of the study.");
 
 (async () => {
   const out = path.join(__dirname, "Sentiment_Midterms_Summary.pptx");

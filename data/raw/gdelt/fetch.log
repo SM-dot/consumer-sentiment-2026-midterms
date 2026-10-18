@@ -111,3 +111,4 @@ done outlet apnews.com
   backoff 480s (out_reuters_com_timelinetone_all.csv)
   backoff 600s (out_reuters_com_timelinetone_all.csv)
   backoff 720s (out_reuters_com_timelinetone_all.csv)
+  backoff 840s (out_reuters_com_timelinetone_all.csv)
