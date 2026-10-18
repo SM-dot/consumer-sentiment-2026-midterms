@@ -179,6 +179,8 @@ def media_sections():
     if len(hr):
         h = hr[["target", "model", "n_oos", "rmse", "mean_error", "vs", "CW_p", "DM_p"]].copy()
         h["target"] = h.target.map({"ics": "ICS level", "gap": "M1 gap"})
+        short = {"M1 econ only": "M1 econ", "M2 + media": "M2 +media", "M3 + media + controls": "M3 full", "M3b econ + controls (no media)": "M3b no-media"}
+        h["model"] = h.model.replace(short); h["vs"] = h.vs.replace(short)
         h.columns = ["Target", "Model", "N (OOS)", "RMSE", "Mean error", "Nested vs", "Clark–West p", "DM p"]
         S.append(("tbl", h, "Table 9. Three-model comparison, expanding-window out-of-sample 2020–2026 (estimation from 2017).",
                   {"N (OOS)": "{:.0f}", "RMSE": "{:.2f}", "Mean error": "{:+.2f}", "Clark–West p": "{:.3f}", "DM p": "{:.3f}"},
