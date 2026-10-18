@@ -148,14 +148,17 @@ s = pres.addSlide({ masterName: "CONTENT", sectionTitle: "Who" });
 s.addText("It's not one part of the country or one income group", { placeholder: "title" });
 s.addChart(pres.charts.BAR, [
   { name: "2019", labels: L.region.labels, values: L.region.y2019 }, { name: "2025–26", labels: L.region.labels, values: L.region.now },
-], { x: 0.6, y: 1.35, w: 6.0, h: 4.75, barDir: "col", barGrouping: "clustered", chartColors: ["9EC5F4", HEX.accent2], barGapWidthPct: 50,
+], { x: 0.6, y: 1.35, w: 6.0, h: 4.3, barDir: "col", barGrouping: "clustered", chartColors: ["9EC5F4", HEX.accent2], barGapWidthPct: 50,
      dataLabelFormatCode: "0", ...axis(), ...legendOn(), valAxisMinVal: 0, ...chartTitle("By region: before vs now") });
 s.addChart(pres.charts.BAR, [
   { name: "2019", labels: L.income.labels, values: L.income.y2019 }, { name: "2025–26", labels: L.income.labels, values: L.income.now },
-], { x: 6.8, y: 1.35, w: 5.9, h: 4.75, barDir: "col", barGrouping: "clustered", chartColors: ["C9C2F0", HEX.accent6], barGapWidthPct: 50,
+], { x: 6.8, y: 1.35, w: 5.9, h: 4.3, barDir: "col", barGrouping: "clustered", chartColors: ["C9C2F0", HEX.accent6], barGapWidthPct: 50,
      dataLabelFormatCode: "0", ...axis(), ...legendOn(), valAxisMinVal: 0, ...chartTitle("By income: before vs now") });
+txt(s, [{ text: "Does party skew this? ", options: { bold: true } },
+         { text: "No — 2019 and 2025–26 are both under the same president, so party cancels out. (Biden vs Trump years: the Republican-leaning South fell ~7 points less — a small tilt, the same flip seen in 2017.)" }],
+    { x: 0.6, y: 5.68, w: 12.1, h: 0.45, fontSize: 12, color: HEX.dk2, italic: true });
 means(s, "Every region and every income level lost about 40 points — a nationwide shock, not a local one.");
-s.addNotes("(30 s) Next we asked: is one region or one income group driving this? No. The Northeast, Midwest, South and West all fell by about 40 points. Low, middle and high earners all fell by about 40 points too. Since everyone fell together, the cause must be something national that hit everyone — which brings us to prices.");
+s.addNotes("(30 s) Next we asked: is one region or one income group driving this? No. The Northeast, Midwest, South and West all fell by about 40 points. Low, middle and high earners all fell by about 40 points too. Since everyone fell together, the cause must be something national that hit everyone — which brings us to prices. And party doesn't skew this: 2019 and now are both under the same president. Comparing Biden years with Trump years, the Republican-leaning South fell about 7 points less than the coasts — the same flip happened in 2017 — but every region still fell.");
 
 // ================================================================ 7a. IN THEIR OWN WORDS
 pres.addSection({ title: "Why" });

@@ -114,3 +114,14 @@ done outlet apnews.com
   backoff 840s (out_reuters_com_timelinetone_all.csv)
 done outlet reuters.com
   backoff 120s (out_usatoday_com_timelinetone_all.csv)
+done outlet usatoday.com
+done outlet cnbc.com
+  backoff 120s (out_npr_org_timelinetone_all.csv)
+  backoff 240s (out_npr_org_timelinetone_all.csv)
+  backoff 360s (out_npr_org_timelinetone_all.csv)
+  error HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=90)
+  backoff 480s (out_npr_org_timelinetone_all.csv)
+  error HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Read timed out. (read timeout=90)
+  backoff 600s (out_npr_org_timelinetone_all.csv)
+  backoff 720s (out_npr_org_timelinetone_all.csv)
+  backoff 840s (out_npr_org_timelinetone_all.csv)
